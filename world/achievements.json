@@ -1,0 +1,33 @@
+{
+  "_comment": "成就＝廷议的衍生系统：每条成就对应一个廷议议题，开会时额外带一套核查数据。开始时由引擎判定开启条件；结束时由 AI 依据引擎给出的核查数据判定，判定通过即发科技点。check 键必须在 engine/achievements.py 的 CHECK_KINDS 里登记过。",
+  "achievements": [
+    {
+      "id": "education_reform",
+      "title": "教育改革",
+      "desc": "科举与国子监之制沿袭二百余年，所学非所用。朝议改革教育，另开养才之路。",
+      "start": {
+        "check": "tech_unlocked",
+        "tech": "kexue_fangfa",
+        "text": "拥有科技：科学方法"
+      },
+      "end": {
+        "check": "higher_edu_positive_modifier",
+        "exclude": ["北京国子监", "南京国子监"],
+        "text": "至少有一项受高等教育人口年增大于 0% 的修正，且不是北京国子监或南京国子监"
+      },
+      "reward_points": 3,
+      "data_checks": [
+        {"check": "tech_unlocked", "tech": "kexue_fangfa", "text": "科技 科学方法"},
+        {"check": "higher_edu_positive_modifier",
+         "exclude": ["北京国子监", "南京国子监"],
+         "text": "受高等教育人口年增为正且不属两京国子监的修正"},
+        {"check": "province_controlled", "province": "beizhili", "text": "明朝控制北直隶"},
+        {"check": "province_controlled", "province": "nanzhili", "text": "明朝控制南直隶"},
+        {"check": "metric_at_least", "metric": "higher_educated_pop", "value": 15.0,
+         "text": "受高等教育人口不低于 15 万"},
+        {"check": "metric_at_least", "metric": "local_educated_pop", "value": 185.0,
+         "text": "受教育人口不低于 185 万"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# ── 运行时与个人数据 ──
+config/llm.json
+config/ai_systems.json
+save.json
+save_test.json
+logs/
+db/*.db
+db/*.bak*
+
+# ── 美术资源：png/ 与 新建/ 入库，但排除可再生缓存与源文件 ──
+# png/.cache/det_rgba.bin 是地图判定层的像素缓存（约 600MB），首次运行自动重建
+png/.cache/
+*.psd
+*.bak
+*.bak-*
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# ── 临时与调试产物 ──
+.council.py
+.keji_texts.json
+_*.txt
+_*.json
+_*.py
+web/_*.js
+tools/_*.py
+*.log
+
+# ── 编辑器与系统 ──
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

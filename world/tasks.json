@@ -1,0 +1,113 @@
+{
+  "_comment": "任务＝一次性数值达标，完成后给科技点。数值是第一版草稿，玩家后续直接改这里即可（改数据不碰代码）。",
+  "tasks": [
+    {
+      "id": "t_fin_rate_20",
+      "name": "金融替代率达 20%",
+      "desc": "把金融替代率 f 推高到 20%，让市面存银更多转为可动用的信用。",
+      "metric": "financial_rate",
+      "op": ">=",
+      "value": 0.2,
+      "reward_points": 2
+    },
+    {
+      "id": "t_treasury_600",
+      "name": "太仓国库存银达 600 万两",
+      "desc": "太仓银库积存到 600 万两，朝廷手头不再处处掣肘。",
+      "metric": "treasury",
+      "op": ">=",
+      "value": 600.0,
+      "reward_points": 3
+    },
+    {
+      "id": "t_ming_province_24",
+      "name": "明属控制省份达 20 处",
+      "desc": "把在明朝控制下的省份数量从开局的 17 处增至 20 处，失地渐次恢复。",
+      "metric": "ming_province_count",
+      "op": ">=",
+      "value": 20,
+      "reward_points": 3
+    },
+    {
+      "id": "t_tech_30",
+      "name": "解锁科技达 30 条",
+      "desc": "科技树解锁三十条，学问铺开才有后劲。",
+      "metric": "tech_unlocked_count",
+      "op": ">=",
+      "value": 30,
+      "reward_points": 2
+    },
+    {
+      "id": "t_educated_220",
+      "name": "受教育人口达 220 万",
+      "desc": "全国受教育人口达 220 万。",
+      "metric": "local_educated_pop",
+      "op": ">=",
+      "value": 220.0,
+      "reward_points": 2
+    },
+    {
+      "id": "t_higher_educated_20",
+      "name": "受高等教育人口达 20 万",
+      "desc": "受高等教育人口达 20 万，朝中才有可用的实学之才。",
+      "metric": "higher_educated_pop",
+      "op": ">=",
+      "value": 20.0,
+      "reward_points": 2
+    },
+    {
+      "id": "t_liquidity_1",
+      "name": "货币健康度回到 1.00",
+      "desc": "货币健康度 g 回到 1.00，钱货相称。",
+      "metric": "liquidity_health",
+      "op": ">=",
+      "value": 1.0,
+      "reward_points": 3
+    },
+    {
+      "id": "t_central_corruption_50",
+      "name": "中央腐败程度降至 50",
+      "desc": "把中央腐败程度从开局的 82.5 压到 50（开局基础值）。",
+      "metric": "central_corruption",
+      "op": "<=",
+      "value": 50.0,
+      "reward_points": 3
+    },
+    {
+      "id": "t_prestige_80",
+      "name": "皇室威望达 80",
+      "desc": "皇室威望升到 80，诏令才有人当真。",
+      "metric": "prestige",
+      "op": ">=",
+      "value": 80.0,
+      "reward_points": 2
+    },
+    {
+      "id": "t_mining_60",
+      "name": "官办银矿年产达 60 万两",
+      "desc": "运营中的官办银矿年额合计达 60 万两。",
+      "metric": "mining_silver_annual",
+      "op": ">=",
+      "value": 60.0,
+      "reward_points": 2
+    },
+    {
+      "id": "t_arrears_clear",
+      "name": "全国军队欠饷清空",
+      "desc": "所有机动部队与镇军的欠饷清零。",
+      "metric": "army_arrears_total",
+      "op": "<=",
+      "value": 0.0,
+      "reward_points": 3
+    },
+    {
+      "id": "t_carrying_30000",
+      "name": "全国承载力达 30000 万",
+      "desc": "明属各省可承载人口合计从开局的 28286 万提到 30000 万。",
+      "metric": "carrying_total",
+      "op": ">=",
+      "value": 30000.0,
+      "reward_points": 3
+    }
+  ]
+}

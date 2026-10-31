@@ -1,0 +1,2020 @@
+{
+  "books": [
+    {
+      "id": "book_chudeng_shuxue",
+      "from_tech": "chudeng_shuxue",
+      "tech_name": "初等数学",
+      "name": "《算术四则》",
+      "desc": "《算术四则》，小学堂用的算术启蒙书，讲加减乘除、分数和简单图形，扉页上写着“凡算之始，先明此理”。",
+      "line": "数学"
+    },
+    {
+      "id": "book_kexue_fangfa",
+      "from_tech": "kexue_fangfa",
+      "tech_name": "科学方法",
+      "name": "《格物入门》",
+      "desc": "《格物入门》，讲观察、假设、实验、验证这四步，配十几个能动手做的小实验，是小学堂的科学启蒙读本。",
+      "line": "科学"
+    },
+    {
+      "id": "book_zhongdeng_shuxue",
+      "from_tech": "zhongdeng_shuxue",
+      "tech_name": "中等数学",
+      "name": "《中学数学》",
+      "desc": "《中学数学》，初高中六年用的课本，代数、几何、三角一起上，后面附了一千多道习题。",
+      "line": "数学"
+    },
+    {
+      "id": "book_gaodeng_shuxue",
+      "from_tech": "gaodeng_shuxue",
+      "tech_name": "高等数学",
+      "name": "《高等数学》",
+      "desc": "《高等数学》上册，同济大学数学系编，讲极限、导数、微分、积分和级数，工科学生的通用教材。",
+      "line": "数学"
+    },
+    {
+      "id": "book_xianxing_daishu",
+      "from_tech": "xianxing_daishu",
+      "tech_name": "线性代数",
+      "name": "《线性代数》",
+      "desc": "《线性代数》，同济大学编，讲行列式、矩阵、向量组和线性方程组，最后一章是特征值。",
+      "line": "数学"
+    },
+    {
+      "id": "book_gailv_tongji",
+      "from_tech": "gailv_tongji",
+      "tech_name": "概率论与数理统计",
+      "name": "《概率论与数理统计》",
+      "desc": "《概率论与数理统计》，盛骤等编，讲随机变量、常见分布、大数定律和参数估计。",
+      "line": "数学"
+    },
+    {
+      "id": "book_changweifen_fangcheng",
+      "from_tech": "changweifen_fangcheng",
+      "tech_name": "常微分方程",
+      "name": "《常微分方程》",
+      "desc": "《常微分方程》，王高雄等编，讲一阶方程、高阶线性方程和方程组的解法。",
+      "line": "数学"
+    },
+    {
+      "id": "book_fubian_hanshu",
+      "from_tech": "fubian_hanshu",
+      "tech_name": "复变函数",
+      "name": "《复变函数》",
+      "desc": "《复变函数》，钟玉泉编，讲解析函数、柯西积分、级数和留数。",
+      "line": "数学"
+    },
+    {
+      "id": "book_shuxue_wuli_fangfa",
+      "from_tech": "shuxue_wuli_fangfa",
+      "tech_name": "数学物理方法",
+      "name": "《数学物理方法》",
+      "desc": "《数学物理方法》，梁昆淼编，讲复变函数、积分变换和数理方程的定解问题。",
+      "line": "数学"
+    },
+    {
+      "id": "book_pianweifen_fangcheng",
+      "from_tech": "pianweifen_fangcheng",
+      "tech_name": "偏微分方程",
+      "name": "《偏微分方程》",
+      "desc": "《偏微分方程》，讲波动、热传导、拉普拉斯这三类方程的分离变量法和格林函数。",
+      "line": "数学"
+    },
+    {
+      "id": "book_weifen_jihe",
+      "from_tech": "weifen_jihe",
+      "tech_name": "微分几何",
+      "name": "《微分几何》",
+      "desc": "《微分几何》，梅向明编，讲曲线论和曲面论，重点是第一、第二基本形式。",
+      "line": "数学"
+    },
+    {
+      "id": "book_chouxiang_daishu",
+      "from_tech": "chouxiang_daishu",
+      "tech_name": "抽象代数",
+      "name": "《近世代数》",
+      "desc": "《近世代数》，讲群、环、域三章，从同态基本定理一路讲到伽罗瓦理论。",
+      "line": "数学"
+    },
+    {
+      "id": "book_shibian_hanshu",
+      "from_tech": "shibian_hanshu",
+      "tech_name": "实变函数",
+      "name": "《实变函数论》",
+      "desc": "《实变函数论》，讲测度、可测函数和勒贝格积分，一开篇就在算无穷多个点的和。",
+      "line": "数学"
+    },
+    {
+      "id": "book_fanhan_fenxi",
+      "from_tech": "fanhan_fenxi",
+      "tech_name": "泛函分析",
+      "name": "《泛函分析》",
+      "desc": "《泛函分析》，讲距离空间、巴拿赫空间和希尔伯特空间，最后收在算子谱论上。",
+      "line": "数学"
+    },
+    {
+      "id": "book_tuopuxue",
+      "from_tech": "tuopuxue",
+      "tech_name": "拓扑学",
+      "name": "《拓扑学》",
+      "desc": "《拓扑学》，讲拓扑空间、连通性、紧致性和基本群。这本书读完，方圆在你眼里就是同一回事了。",
+      "line": "数学"
+    },
+    {
+      "id": "book_zhongdeng_wuli",
+      "from_tech": "zhongdeng_wuli",
+      "tech_name": "中等物理",
+      "name": "《中学物理》",
+      "desc": "《中学物理》，初高中用书，力、热、电、光、声分成几册，配三十个实验。",
+      "line": "物理"
+    },
+    {
+      "id": "book_daxue_wuli",
+      "from_tech": "daxue_wuli",
+      "tech_name": "大学物理",
+      "name": "《大学物理学》",
+      "desc": "《大学物理学》，程守洙、江之永编，分力学、热学、电磁学、光学、原子物理五编。",
+      "line": "物理"
+    },
+    {
+      "id": "book_lixue",
+      "from_tech": "lixue",
+      "tech_name": "力学",
+      "name": "《力学》",
+      "desc": "《力学》，漆安慎、杜婵英编，讲质点运动、刚体转动、振动和波动，习题很看重建模。",
+      "line": "物理"
+    },
+    {
+      "id": "book_rexue",
+      "from_tech": "rexue",
+      "tech_name": "热学",
+      "name": "《热学》",
+      "desc": "《热学》，李椿编，讲温度、气体动理论和热力学第一、第二定律。",
+      "line": "物理"
+    },
+    {
+      "id": "book_diancixue",
+      "from_tech": "diancixue",
+      "tech_name": "电磁学",
+      "name": "《电磁学》",
+      "desc": "《电磁学》，赵凯华、陈熙谋编，讲静电场、稳恒磁场和电磁感应。",
+      "line": "物理"
+    },
+    {
+      "id": "book_guangxue",
+      "from_tech": "guangxue",
+      "tech_name": "光学",
+      "name": "《光学》",
+      "desc": "《光学》，赵凯华编，讲几何光学成像、干涉衍射和偏振，后面附了一点傅里叶光学。",
+      "line": "物理"
+    },
+    {
+      "id": "book_yuanzi_wuli",
+      "from_tech": "yuanzi_wuli",
+      "tech_name": "原子物理",
+      "name": "《原子物理学》",
+      "desc": "《原子物理学》，褚圣麟编，从汤姆孙模型一直讲到玻尔氢原子和光谱项，最后一章讲量子数。",
+      "line": "物理"
+    },
+    {
+      "id": "book_lilun_lixue",
+      "from_tech": "lilun_lixue",
+      "tech_name": "理论力学",
+      "name": "《理论力学》",
+      "desc": "《理论力学》，哈工大理论力学教研室编，分静力学、运动学、动力学三篇。",
+      "line": "物理"
+    },
+    {
+      "id": "book_diandong_lixue",
+      "from_tech": "diandong_lixue",
+      "tech_name": "电动力学",
+      "name": "《电动力学》",
+      "desc": "《电动力学》，郭硕鸿编，讲麦克斯韦方程、电磁波和狭义相对论。",
+      "line": "物理"
+    },
+    {
+      "id": "book_relixue_tongji_wuli",
+      "from_tech": "relixue_tongji_wuli",
+      "tech_name": "热力学与统计物理",
+      "name": "《热力学与统计物理》",
+      "desc": "《热力学与统计物理》，汪志诚编，讲热力学基本方程、相变，以及玻尔兹曼、玻色、费米三套统计。",
+      "line": "物理"
+    },
+    {
+      "id": "book_liangzi_lixue",
+      "from_tech": "liangzi_lixue",
+      "tech_name": "量子力学",
+      "name": "《量子力学教程》",
+      "desc": "《量子力学教程》，周世勋和陈灏先生所著的量子力学教材，全书包括绪论、波函数和薛定谔方程、量子力学中的力学量、态和力学量的表象、微扰理论、散射、自旋、全同粒子、量子力学若干进展九章。不过这个时代真有人能看得懂这些东西吗？",
+      "line": "物理"
+    },
+    {
+      "id": "book_guti_wuli",
+      "from_tech": "guti_wuli",
+      "tech_name": "固体物理",
+      "name": "《固体物理学》",
+      "desc": "《固体物理学》，黄昆编著，讲晶格振动、能带论、声子和半导体，材料类的功课都要从这里起步。",
+      "line": "物理"
+    },
+    {
+      "id": "book_liangzi_changlun",
+      "from_tech": "liangzi_changlun",
+      "tech_name": "量子场论",
+      "name": "《量子场论》",
+      "desc": "《量子场论》，讲场的量子化、费曼图和重整化，翻开第一页就是一堆算符代数。",
+      "line": "物理"
+    },
+    {
+      "id": "book_guangyi_xiangduilun",
+      "from_tech": "guangyi_xiangduilun",
+      "tech_name": "广义相对论",
+      "name": "《广义相对论》",
+      "desc": "《广义相对论》，讲等效原理、黎曼几何和爱因斯坦场方程，后面附了施瓦茨席尔德解和黑洞初步。",
+      "line": "物理"
+    },
+    {
+      "id": "book_tianti_wuli",
+      "from_tech": "tianti_wuli",
+      "tech_name": "天体物理",
+      "name": "《天体物理学》",
+      "desc": "《天体物理学》，讲恒星的结构与演化、致密星和宇宙学，书末附星表和常用物理常数。",
+      "line": "物理"
+    },
+    {
+      "id": "book_zhongdeng_huaxue",
+      "from_tech": "zhongdeng_huaxue",
+      "tech_name": "中等化学",
+      "name": "《中学化学》",
+      "desc": "《中学化学》，初高中用书，无机和有机一起讲，配四十个实验，还夹着一张元素周期表。",
+      "line": "化学"
+    },
+    {
+      "id": "book_wuji_huaxue",
+      "from_tech": "wuji_huaxue",
+      "tech_name": "无机化学",
+      "name": "《无机化学》",
+      "desc": "《无机化学》，武汉大学编，讲物质结构、化学平衡和元素化学。",
+      "line": "化学"
+    },
+    {
+      "id": "book_youji_huaxue",
+      "from_tech": "youji_huaxue",
+      "tech_name": "有机化学",
+      "name": "《有机化学》",
+      "desc": "《有机化学》，邢其毅等编，讲烃、卤代烃、醇醛酮酸，以及那一整套命名规则。",
+      "line": "化学"
+    },
+    {
+      "id": "book_fenxi_huaxue",
+      "from_tech": "fenxi_huaxue",
+      "tech_name": "分析化学",
+      "name": "《分析化学》",
+      "desc": "《分析化学》，武汉大学编，讲误差与数据处理、四大滴定和仪器分析入门。",
+      "line": "化学"
+    },
+    {
+      "id": "book_wuli_huaxue",
+      "from_tech": "wuli_huaxue",
+      "tech_name": "物理化学",
+      "name": "《物理化学》",
+      "desc": "《物理化学》，傅献彩等编，讲热力学、相平衡、电化学和化学动力学。",
+      "line": "化学"
+    },
+    {
+      "id": "book_jiegou_huaxue",
+      "from_tech": "jiegou_huaxue",
+      "tech_name": "结构化学",
+      "name": "《结构化学基础》",
+      "desc": "《结构化学基础》，周公度编，讲量子化学基础、分子对称性和晶体结构。",
+      "line": "化学"
+    },
+    {
+      "id": "book_liangzi_huaxue",
+      "from_tech": "liangzi_huaxue",
+      "tech_name": "量子化学",
+      "name": "《量子化学》",
+      "desc": "《量子化学》，讲从头算和半经验方法，前提是先学通量子力学，满纸都是算符。",
+      "line": "化学"
+    },
+    {
+      "id": "book_cailiao_huaxue",
+      "from_tech": "cailiao_huaxue",
+      "tech_name": "材料化学",
+      "name": "《材料化学》",
+      "desc": "《材料化学》，讲材料制备、结构与性能之间的关系，和固体物理互为表里，是想造新材料的入门书。",
+      "line": "化学"
+    },
+    {
+      "id": "book_zhongdeng_shengwu",
+      "from_tech": "zhongdeng_shengwu",
+      "tech_name": "中等生物",
+      "name": "《中学生物》",
+      "desc": "《中学生物》，初高中用书，动植物和人体生理一起讲，配了六百幅图。",
+      "line": "生物"
+    },
+    {
+      "id": "book_putong_shengwuxue",
+      "from_tech": "putong_shengwuxue",
+      "tech_name": "普通生物学",
+      "name": "《普通生物学》",
+      "desc": "《普通生物学》，陈阅增主编，从细胞、遗传一路讲到生态，把生物各门总说一遍，是后面各科的底子。",
+      "line": "生物"
+    },
+    {
+      "id": "book_shengwu_huaxue",
+      "from_tech": "shengwu_huaxue",
+      "tech_name": "生物化学",
+      "name": "《生物化学》",
+      "desc": "《生物化学》，王镜岩等编，讲蛋白质、酶、糖脂代谢和核酸，厚厚的两大册，公认难读。",
+      "line": "生物"
+    },
+    {
+      "id": "book_yichuanxue",
+      "from_tech": "yichuanxue",
+      "tech_name": "遗传学",
+      "name": "《遗传学》",
+      "desc": "《遗传学》，刘祖洞编，讲孟德尔定律、连锁互换和基因突变。",
+      "line": "生物"
+    },
+    {
+      "id": "book_xibao_shengwuxue",
+      "from_tech": "xibao_shengwuxue",
+      "tech_name": "细胞生物学",
+      "name": "《细胞生物学》",
+      "desc": "《细胞生物学》，翟中和等编，讲细胞膜、各种细胞器、信号转导和细胞周期。",
+      "line": "生物"
+    },
+    {
+      "id": "book_shengtaixue",
+      "from_tech": "shengtaixue",
+      "tech_name": "生态学",
+      "name": "《生态学》",
+      "desc": "《生态学》，李博主编，讲个体、种群、群落和生态系统，最后一章谈人和环境。",
+      "line": "生物"
+    },
+    {
+      "id": "book_jinhua_shengwuxue",
+      "from_tech": "jinhua_shengwuxue",
+      "tech_name": "进化生物学",
+      "name": "《进化生物学》",
+      "desc": "《进化生物学》，讲自然选择、物种形成和分子进化，顺便把达尔文以来的各家争论梳理了一遍。",
+      "line": "生物"
+    },
+    {
+      "id": "book_shenjing_kexue",
+      "from_tech": "shenjing_kexue",
+      "tech_name": "神经科学",
+      "name": "《神经科学》",
+      "desc": "《神经科学》，讲神经元、突触、脑区功能和常见损伤，附一册解剖图谱。",
+      "line": "生物"
+    },
+    {
+      "id": "book_zhongdeng_dili",
+      "from_tech": "zhongdeng_dili",
+      "tech_name": "中等地理",
+      "name": "《中学地理》",
+      "desc": "《中学地理》，初高中用书，自然地理和人文地理两编，附地图册和一张中国地形挂图。",
+      "line": "地理"
+    },
+    {
+      "id": "book_ziran_dilixue",
+      "from_tech": "ziran_dilixue",
+      "tech_name": "自然地理学",
+      "name": "《自然地理学》",
+      "desc": "《自然地理学》，伍光和等编，讲气候、水文、地貌、土壤和植被。",
+      "line": "地理"
+    },
+    {
+      "id": "book_renwen_dilixue",
+      "from_tech": "renwen_dilixue",
+      "tech_name": "人文地理学",
+      "name": "《人文地理学》",
+      "desc": "《人文地理学》，王恩涌等编，讲人口、文化、经济和政治地理，着眼点是人地关系。",
+      "line": "地理"
+    },
+    {
+      "id": "book_putong_dizhixue",
+      "from_tech": "putong_dizhixue",
+      "tech_name": "普通地质学",
+      "name": "《普通地质学》",
+      "desc": "《普通地质学》，讲矿物岩石、地质构造和内外动力地质作用，是地质学的第一册入门书。",
+      "line": "地理"
+    },
+    {
+      "id": "book_jiejingxue",
+      "from_tech": "jiejingxue",
+      "tech_name": "结晶学",
+      "name": "《结晶学及矿物学》",
+      "desc": "《结晶学及矿物学》，潘兆橹编，讲晶系、对称要素和晶体化学，附晶体模型图。",
+      "line": "地理"
+    },
+    {
+      "id": "book_kuangwuxue",
+      "from_tech": "kuangwuxue",
+      "tech_name": "矿物学",
+      "name": "《矿物学》",
+      "desc": "《矿物学》，讲矿物的化学成分、晶体结构和鉴定方法，后面附了标本图版。",
+      "line": "地理"
+    },
+    {
+      "id": "book_yanshixue",
+      "from_tech": "yanshixue",
+      "tech_name": "岩石学",
+      "name": "《岩石学》",
+      "desc": "《岩石学》，桑隆康等编，讲岩浆岩、沉积岩和变质岩三大类。",
+      "line": "地理"
+    },
+    {
+      "id": "book_kuangchuangxue",
+      "from_tech": "kuangchuangxue",
+      "tech_name": "矿床学",
+      "name": "《矿床学》",
+      "desc": "《矿床学》，翟裕生等编，讲内生成矿、外生成矿和各类矿床的特征。",
+      "line": "地理"
+    },
+    {
+      "id": "book_diqiu_huaxue",
+      "from_tech": "diqiu_huaxue",
+      "tech_name": "地球化学",
+      "name": "《地球化学》",
+      "desc": "《地球化学》，讲元素在地壳中的分布、同位素和成矿作用，读之前得先学通无机化学。",
+      "line": "地理"
+    },
+    {
+      "id": "book_chenjixue",
+      "from_tech": "chenjixue",
+      "tech_name": "沉积学",
+      "name": "《沉积岩石学》",
+      "desc": "《沉积岩石学》，姜在兴编，讲沉积相、成岩作用和层序地层，里面野外剖面图很多。",
+      "line": "地理"
+    },
+    {
+      "id": "book_turang_dilixue",
+      "from_tech": "turang_dilixue",
+      "tech_name": "土壤地理学",
+      "name": "《土壤地理学》",
+      "desc": "《土壤地理学》，讲成土因素、土壤剖面、土壤类型和分布规律，附一张中国土壤图。",
+      "line": "地理"
+    },
+    {
+      "id": "book_dimaxue",
+      "from_tech": "dimaxue",
+      "tech_name": "地貌学",
+      "name": "《地貌学》",
+      "desc": "《地貌学》，杨景春编，讲流水、冰川、风沙和海岸地貌，也谈地貌是怎么演变的。",
+      "line": "地理"
+    },
+    {
+      "id": "book_disiji_dizhixue",
+      "from_tech": "disiji_dizhixue",
+      "tech_name": "第四纪地质学",
+      "name": "《第四纪地质学》",
+      "desc": "《第四纪地质学》，曹伯勋主编，讲第四纪的气候、地层和新构造运动。",
+      "line": "地理"
+    },
+    {
+      "id": "book_qixiang_qihouxue",
+      "from_tech": "qixiang_qihouxue",
+      "tech_name": "气象与气候学",
+      "name": "《气象学与气候学》",
+      "desc": "《气象学与气候学》，周淑贞主编，讲大气环流、天气系统和气候分类。",
+      "line": "地理"
+    },
+    {
+      "id": "book_shuiwenxue",
+      "from_tech": "shuiwenxue",
+      "tech_name": "水文学",
+      "name": "《水文学》",
+      "desc": "《水文学》，黄锡荃编，讲降水、蒸发、径流和流域汇流，附水文测验与预报。",
+      "line": "地理"
+    },
+    {
+      "id": "book_haiyang_dilixue",
+      "from_tech": "haiyang_dilixue",
+      "tech_name": "海洋地理学",
+      "name": "《海洋地理学》",
+      "desc": "《海洋地理学》，讲海盆地形、洋流、潮汐和海岸带，顺带谈谈海权和近海资源。",
+      "line": "地理"
+    },
+    {
+      "id": "book_zaihaixue",
+      "from_tech": "zaihaixue",
+      "tech_name": "灾害学",
+      "name": "《灾害学》",
+      "desc": "《灾害学》，讲灾害的成因、灾情评估和防灾减灾，分自然灾害与人为灾害两编。",
+      "line": "地理"
+    },
+    {
+      "id": "book_jingji_dilixue",
+      "from_tech": "jingji_dilixue",
+      "tech_name": "经济地理学",
+      "name": "《经济地理学》",
+      "desc": "《经济地理学》，李小建主编，讲区位论、产业布局和区域发展，附中国产业地图。",
+      "line": "地理"
+    },
+    {
+      "id": "book_chengshi_dilixue",
+      "from_tech": "chengshi_dilixue",
+      "tech_name": "城市地理学",
+      "name": "《城市地理学》",
+      "desc": "《城市地理学》，许学强等编，讲城市化、城镇体系和城市内部结构。",
+      "line": "地理"
+    },
+    {
+      "id": "book_renkou_dilixue",
+      "from_tech": "renkou_dilixue",
+      "tech_name": "人口地理学",
+      "name": "《人口地理学》",
+      "desc": "《人口地理学》，讲人口的分布、迁移和城镇化，附历代户口数字和近世的人口统计。",
+      "line": "地理"
+    },
+    {
+      "id": "book_wenhua_dilixue",
+      "from_tech": "wenhua_dilixue",
+      "tech_name": "文化地理学",
+      "name": "《文化地理学》",
+      "desc": "《文化地理学》，讲文化区、文化扩散和文化景观，方言和宗教地理也占了一章。",
+      "line": "地理"
+    },
+    {
+      "id": "book_quyu_jingjixue",
+      "from_tech": "quyu_jingjixue",
+      "tech_name": "区域经济学",
+      "name": "《区域经济学》",
+      "desc": "《区域经济学》，讲区域增长、空间结构和区域政策，是治国理财的一条参考路子。",
+      "line": "地理"
+    },
+    {
+      "id": "book_chengxiang_guihua",
+      "from_tech": "chengxiang_guihua",
+      "tech_name": "城乡规划",
+      "name": "《城乡规划原理》",
+      "desc": "《城乡规划原理》，讲总体规划、详细规划和城市设计，附城镇道路与排水的图则。",
+      "line": "地理"
+    },
+    {
+      "id": "book_huanjing_kexue",
+      "from_tech": "huanjing_kexue",
+      "tech_name": "环境科学",
+      "name": "《环境科学概论》",
+      "desc": "《环境科学概论》，讲环境要素、环境污染和环境评价，也老实讲了治理的难处和代价。",
+      "line": "地理"
+    },
+    {
+      "id": "book_ziyuan_dilixue",
+      "from_tech": "ziyuan_dilixue",
+      "tech_name": "资源地理学",
+      "name": "《资源地理学》",
+      "desc": "《资源地理学》，讲自然资源的分类、评价、开发和利用，顺带讨论资源枯竭这件事。",
+      "line": "地理"
+    },
+    {
+      "id": "book_gongcheng_zhitu",
+      "from_tech": "gongcheng_zhitu",
+      "tech_name": "工程制图",
+      "name": "《工程制图》",
+      "desc": "《工程制图》，讲投影法、三视图和零件图，配一套铅笔圆规，必须亲手画才学得会。",
+      "line": "工学"
+    },
+    {
+      "id": "book_cailiao_lixue",
+      "from_tech": "cailiao_lixue",
+      "tech_name": "材料力学",
+      "name": "《材料力学》",
+      "desc": "《材料力学》，孙训方等编，讲拉压、剪切、扭转和弯曲，核心是强度、刚度、稳定性三件事。",
+      "line": "工学"
+    },
+    {
+      "id": "book_liuti_lixue",
+      "from_tech": "liuti_lixue",
+      "tech_name": "流体力学",
+      "name": "《流体力学》",
+      "desc": "《流体力学》，吴望一编，讲流体静力学、伯努利方程和边界层。",
+      "line": "工学"
+    },
+    {
+      "id": "book_chuanrexue",
+      "from_tech": "chuanrexue",
+      "tech_name": "传热学",
+      "name": "《传热学》",
+      "desc": "《传热学》，杨世铭编，讲导热、对流和辐射，最后一章算换热器。",
+      "line": "工学"
+    },
+    {
+      "id": "book_jixie_yuanli",
+      "from_tech": "jixie_yuanli",
+      "tech_name": "机械原理",
+      "name": "《机械原理》",
+      "desc": "《机械原理》，孙桓等编，讲机构的运动分析，以及四连杆、凸轮、齿轮这些常见机构。",
+      "line": "工学"
+    },
+    {
+      "id": "book_jixie_sheji",
+      "from_tech": "jixie_sheji",
+      "tech_name": "机械设计",
+      "name": "《机械设计》",
+      "desc": "《机械设计》，濮良贵编，讲齿轮、轴承、联轴器和强度校核，算是造机器的总账。",
+      "line": "工学"
+    },
+    {
+      "id": "book_jiegou_lixue",
+      "from_tech": "jiegou_lixue",
+      "tech_name": "结构力学",
+      "name": "《结构力学》",
+      "desc": "《结构力学》，龙驭球等编，讲静定和超静定结构的内力与位移。",
+      "line": "工学"
+    },
+    {
+      "id": "book_hunningtu_jiegou",
+      "from_tech": "hunningtu_jiegou",
+      "tech_name": "混凝土结构",
+      "name": "《混凝土结构设计原理》",
+      "desc": "《混凝土结构设计原理》，讲受弯、受剪的计算和配筋构造，附梁板柱的构造详图。",
+      "line": "工学"
+    },
+    {
+      "id": "book_tu_lixue",
+      "from_tech": "tu_lixue",
+      "tech_name": "土力学",
+      "name": "《土力学》",
+      "desc": "《土力学》，讲土的物理性质、渗透、压缩和地基承载力，附土工试验。",
+      "line": "工学"
+    },
+    {
+      "id": "book_huagong_yuanli",
+      "from_tech": "huagong_yuanli",
+      "tech_name": "化工原理",
+      "name": "《化工原理》",
+      "desc": "《化工原理》，谭天恩等编，讲流体输送、传热、蒸馏和吸收，是化工坊的总纲。",
+      "line": "工学"
+    },
+    {
+      "id": "book_cailiao_kexue_jichu",
+      "from_tech": "cailiao_kexue_jichu",
+      "tech_name": "材料科学基础",
+      "name": "《材料科学基础》",
+      "desc": "《材料科学基础》，胡赓祥等编，讲晶体结构、相图和扩散，是材料各门的总论。",
+      "line": "工学"
+    },
+    {
+      "id": "book_ranshaoxue",
+      "from_tech": "ranshaoxue",
+      "tech_name": "燃烧学",
+      "name": "《燃烧学》",
+      "desc": "《燃烧学》，讲燃烧反应、火焰传播和工业炉，火药和炉火的事也顺手讲了。",
+      "line": "工学"
+    },
+    {
+      "id": "book_huanjing_gongcheng",
+      "from_tech": "huanjing_gongcheng",
+      "tech_name": "环境工程",
+      "name": "《环境工程学》",
+      "desc": "《环境工程学》，讲水、气、固废的治理工艺，附各法的造价和效果比较。",
+      "line": "工学"
+    },
+    {
+      "id": "book_xitong_jiepouxue",
+      "from_tech": "xitong_jiepouxue",
+      "tech_name": "系统解剖学",
+      "name": "《系统解剖学》",
+      "desc": "《系统解剖学》，人民卫生出版社，讲运动、消化、呼吸、循环、神经等各个系统。",
+      "line": "医学"
+    },
+    {
+      "id": "book_zuzhixue_yu_peitaixue",
+      "from_tech": "zuzhixue_yu_peitaixue",
+      "tech_name": "组织学与胚胎学",
+      "name": "《组织学与胚胎学》",
+      "desc": "《组织学与胚胎学》，邹仲之主编，上编讲四大基本组织，下编讲胚胎发生和畸形。",
+      "line": "医学"
+    },
+    {
+      "id": "book_shenglixue",
+      "from_tech": "shenglixue",
+      "tech_name": "生理学",
+      "name": "《生理学》",
+      "desc": "《生理学》，人民卫生出版社，讲细胞、血液、循环、呼吸、消化和神经生理。",
+      "line": "医学"
+    },
+    {
+      "id": "book_yixue_weishengwuxue",
+      "from_tech": "yixue_weishengwuxue",
+      "tech_name": "医学微生物学",
+      "name": "《医学微生物学》",
+      "desc": "《医学微生物学》，李凡主编，讲细菌、病毒和真菌各论，附消毒灭菌与生物安全。",
+      "line": "医学"
+    },
+    {
+      "id": "book_yixue_mianyixue",
+      "from_tech": "yixue_mianyixue",
+      "tech_name": "医学免疫学",
+      "name": "《医学免疫学》",
+      "desc": "《医学免疫学》，曹雪涛主编，讲抗原、抗体、补体和免疫应答，最后一章讲超敏反应和移植。",
+      "line": "医学"
+    },
+    {
+      "id": "book_binglixue",
+      "from_tech": "binglixue",
+      "tech_name": "病理学",
+      "name": "《病理学》",
+      "desc": "《病理学》，李玉林主编，讲损伤、炎症、肿瘤和各系统的病变。",
+      "line": "医学"
+    },
+    {
+      "id": "book_bingli_shenglixue",
+      "from_tech": "bingli_shenglixue",
+      "tech_name": "病理生理学",
+      "name": "《病理生理学》",
+      "desc": "《病理生理学》，金惠铭主编，讲水电解质、酸碱平衡、缺氧和休克这些基本病理过程。",
+      "line": "医学"
+    },
+    {
+      "id": "book_yaolixue",
+      "from_tech": "yaolixue",
+      "tech_name": "药理学",
+      "name": "《药理学》",
+      "desc": "《药理学》，杨宝峰主编，讲受体、传出神经药和化疗药，附常用药剂量表。",
+      "line": "医学"
+    },
+    {
+      "id": "book_yixue_tongjixue",
+      "from_tech": "yixue_tongjixue",
+      "tech_name": "医学统计学",
+      "name": "《医学统计学》",
+      "desc": "《医学统计学》，孙振球主编，讲t检验、方差分析和回归，附统计表和软件用法。",
+      "line": "医学"
+    },
+    {
+      "id": "book_liuxingbingxue",
+      "from_tech": "liuxingbingxue",
+      "tech_name": "流行病学",
+      "name": "《流行病学》",
+      "desc": "《流行病学》，李立明主编，讲现况研究、病例对照研究和队列研究。",
+      "line": "医学"
+    },
+    {
+      "id": "book_zhenduanxue",
+      "from_tech": "zhenduanxue",
+      "tech_name": "诊断学",
+      "name": "《诊断学》",
+      "desc": "《诊断学》，陈文彬主编，讲问诊、体格检查和实验诊断，附病历书写范例。",
+      "line": "医学"
+    },
+    {
+      "id": "book_yufang_yixue",
+      "from_tech": "yufang_yixue",
+      "tech_name": "预防医学",
+      "name": "《预防医学》",
+      "desc": "《预防医学》，傅华主编，讲环境、营养、职业卫生和防疫，也谈疫病怎么防。",
+      "line": "医学"
+    },
+    {
+      "id": "book_neikexue",
+      "from_tech": "neikexue",
+      "tech_name": "内科学",
+      "name": "《内科学》",
+      "desc": "《内科学》，葛均波等主编，讲呼吸、循环、消化、泌尿各系统的疾病。",
+      "line": "医学"
+    },
+    {
+      "id": "book_waikexue",
+      "from_tech": "waikexue",
+      "tech_name": "外科学",
+      "name": "《外科学》",
+      "desc": "《外科学》，陈孝平主编，讲无菌术、麻醉、休克和各科手术。",
+      "line": "医学"
+    },
+    {
+      "id": "book_fuchankexue",
+      "from_tech": "fuchankexue",
+      "tech_name": "妇产科学",
+      "name": "《妇产科学》",
+      "desc": "《妇产科学》，谢幸主编，讲妊娠、分娩和妇科疾病，附产程图与手术式。",
+      "line": "医学"
+    },
+    {
+      "id": "book_erkexue",
+      "from_tech": "erkexue",
+      "tech_name": "儿科学",
+      "name": "《儿科学》",
+      "desc": "《儿科学》，王卫平主编，讲生长发育、喂养和新生儿疾病，附儿童用药折算。",
+      "line": "医学"
+    },
+    {
+      "id": "book_shenjingbingxue",
+      "from_tech": "shenjingbingxue",
+      "tech_name": "神经病学",
+      "name": "《神经病学》",
+      "desc": "《神经病学》，贾建平主编，讲定位诊断和脑血管病，附神经系统查体法。",
+      "line": "医学"
+    },
+    {
+      "id": "book_jingshenbingxue",
+      "from_tech": "jingshenbingxue",
+      "tech_name": "精神病学",
+      "name": "《精神病学》",
+      "desc": "《精神病学》，郝伟主编，讲精神症状学和常见精神障碍，也谈了癫、狂、痫怎么分辨。",
+      "line": "医学"
+    },
+    {
+      "id": "book_gukexue",
+      "from_tech": "gukexue",
+      "tech_name": "骨科学",
+      "name": "《骨科学》",
+      "desc": "《骨科学》，讲骨折、脱位、关节病和整复手法，附夹板与牵引图式。",
+      "line": "医学"
+    },
+    {
+      "id": "book_mazuixue",
+      "from_tech": "mazuixue",
+      "tech_name": "麻醉学",
+      "name": "《麻醉学》",
+      "desc": "《麻醉学》，讲麻醉药、气道管理和术中监测，附意外的处置办法。",
+      "line": "医学"
+    },
+    {
+      "id": "book_yixue_yingxiangxue",
+      "from_tech": "yixue_yingxiangxue",
+      "tech_name": "医学影像学",
+      "name": "《医学影像学》",
+      "desc": "《医学影像学》，白人驹主编，讲X线、CT和磁共振读片，附正常解剖影像对照。",
+      "line": "医学"
+    },
+    {
+      "id": "book_jianyan_yixue",
+      "from_tech": "jianyan_yixue",
+      "tech_name": "检验医学",
+      "name": "《临床检验基础》",
+      "desc": "《临床检验基础》，讲血液、生化和免疫检验，附标本采集与常见误差。",
+      "line": "医学"
+    },
+    {
+      "id": "book_xinxueguanbingxue",
+      "from_tech": "xinxueguanbingxue",
+      "tech_name": "心血管病学",
+      "name": "《心血管内科学》",
+      "desc": "《心血管内科学》，讲高血压、冠心病和心力衰竭，附心电图读法。",
+      "line": "医学"
+    },
+    {
+      "id": "book_huxibingxue",
+      "from_tech": "huxibingxue",
+      "tech_name": "呼吸病学",
+      "name": "《呼吸病学》",
+      "desc": "《呼吸病学》，讲肺炎、慢阻肺和支气管哮喘，附胸片与肺功能。",
+      "line": "医学"
+    },
+    {
+      "id": "book_xiaohuabingxue",
+      "from_tech": "xiaohuabingxue",
+      "tech_name": "消化病学",
+      "name": "《消化病学》",
+      "desc": "《消化病学》，讲消化性溃疡、肝硬化和胰腺炎，附内镜所见。",
+      "line": "医学"
+    },
+    {
+      "id": "book_neifenmixue",
+      "from_tech": "neifenmixue",
+      "tech_name": "内分泌学",
+      "name": "《内分泌学》",
+      "desc": "《内分泌学》，讲糖尿病、甲亢和垂体疾病，附激素测定。",
+      "line": "医学"
+    },
+    {
+      "id": "book_shenzangbingxue",
+      "from_tech": "shenzangbingxue",
+      "tech_name": "肾脏病学",
+      "name": "《肾脏病学》",
+      "desc": "《肾脏病学》，讲肾炎、肾病综合征和肾功能衰竭，附透析原理。",
+      "line": "医学"
+    },
+    {
+      "id": "book_xueyebingxue",
+      "from_tech": "xueyebingxue",
+      "tech_name": "血液病学",
+      "name": "《血液病学》",
+      "desc": "《血液病学》，讲贫血、白血病和出血性疾病，附血象与骨髓片。",
+      "line": "医学"
+    },
+    {
+      "id": "book_ganranbingxue",
+      "from_tech": "ganranbingxue",
+      "tech_name": "感染病学",
+      "name": "《感染病学》",
+      "desc": "《感染病学》，讲病毒性肝炎、结核和发热待查，也讲疫病流行与隔离。",
+      "line": "医学"
+    },
+    {
+      "id": "book_zhongzheng_yixue",
+      "from_tech": "zhongzheng_yixue",
+      "tech_name": "重症医学",
+      "name": "《重症医学》",
+      "desc": "《重症医学》，讲休克、呼吸衰竭和多器官功能障碍，附监护与抢救流程。",
+      "line": "医学"
+    },
+    {
+      "id": "book_linchuang_yaolixue",
+      "from_tech": "linchuang_yaolixue",
+      "tech_name": "临床药理学",
+      "name": "《临床药理学》",
+      "desc": "《临床药理学》，讲药动学、药效学和合理用药，附药物相互作用表。",
+      "line": "医学"
+    },
+    {
+      "id": "book_yaowu_huaxue",
+      "from_tech": "yaowu_huaxue",
+      "tech_name": "药物化学",
+      "name": "《药物化学》",
+      "desc": "《药物化学》，尤启冬主编，讲药物结构和构效关系，附常用药物的合成路线。",
+      "line": "化学"
+    },
+    {
+      "id": "book_yaojixue",
+      "from_tech": "yaojixue",
+      "tech_name": "药剂学",
+      "name": "《药剂学》",
+      "desc": "《药剂学》，方亮主编，讲剂型、制剂和生物药剂学，最后把丸散膏丹也做成了新剂型。",
+      "line": "化学"
+    },
+    {
+      "id": "book_tongjixue",
+      "from_tech": "tongjixue",
+      "tech_name": "统计学",
+      "name": "《统计讲义》",
+      "desc": "《统计讲义》，讲怎么把一堆杂乱数字整理成表、算出均数与涨落，官府测量户口田亩全靠着它。",
+      "line": "数学"
+    },
+    {
+      "id": "book_youhua_fangfa",
+      "from_tech": "youhua_fangfa",
+      "tech_name": "最优化方法",
+      "name": "《求极值法》",
+      "desc": "《求极值法》，讲在给定条件下怎么找出最省工、最省料、最省时的办法，算学馆里新编的课程。",
+      "line": "数学"
+    },
+    {
+      "id": "book_yunchouxue",
+      "from_tech": "yunchouxue",
+      "tech_name": "运筹学",
+      "name": "《筹算要略》",
+      "desc": "《筹算要略》，讲怎么把人力、粮饷、路程排布得当，用最少的耗费办成最多的事。",
+      "line": "数学"
+    },
+    {
+      "id": "book_guanlixue_yuanli",
+      "from_tech": "guanlixue_yuanli",
+      "tech_name": "管理学原理",
+      "name": "《治事纲要》",
+      "desc": "《治事纲要》，讲设官分职、定规立程、考课赏罚的道理，把官吏治事之法讲成一套可学的学问。",
+      "line": "管理学"
+    },
+    {
+      "id": "book_zuzhi_xingweixue",
+      "from_tech": "zuzhi_xingweixue",
+      "tech_name": "组织行为学",
+      "name": "《群治论》",
+      "desc": "《群治论》，讲一群人凑在一起会怎么做事、怎么互相牵制、怎么才能同心协力。",
+      "line": "管理学"
+    },
+    {
+      "id": "book_shichang_yingxiao",
+      "from_tech": "shichang_yingxiao",
+      "tech_name": "市场营销",
+      "name": "《货殖新论》",
+      "desc": "《货殖新论》，讲货物往哪里卖、什么时节卖、怎么让买主愿意掏钱，商帮行会的经验之谈。",
+      "line": "管理学"
+    },
+    {
+      "id": "book_caiwu_guanli",
+      "from_tech": "caiwu_guanli",
+      "tech_name": "财务管理",
+      "name": "《理财须知》",
+      "desc": "《理财须知》，讲怎么记账、怎么核算本利、怎么周转银钱而不至于周转不开。",
+      "line": "管理学"
+    },
+    {
+      "id": "book_renli_ziyuanguanli",
+      "from_tech": "renli_ziyuanguanli",
+      "tech_name": "人力资源管理",
+      "name": "《用人要术》",
+      "desc": "《用人要术》，讲怎么挑人、怎么派活、怎么赏罚才能让人肯尽力又不生怨。",
+      "line": "管理学"
+    },
+    {
+      "id": "book_yunying_guanli",
+      "from_tech": "yunying_guanli",
+      "tech_name": "运营管理",
+      "name": "《作场调度》",
+      "desc": "《作场调度》，讲作坊与工场怎么排工、怎么备料、怎么算一日的产出与耗费。",
+      "line": "管理学"
+    },
+    {
+      "id": "book_zhanlue_guanli",
+      "from_tech": "zhanlue_guanli",
+      "tech_name": "战略管理",
+      "name": "《庙算》",
+      "desc": "《庙算》，讲大处着眼：先定方向、再定取舍，把人力财力压在最要紧的去处。",
+      "line": "管理学"
+    },
+    {
+      "id": "book_gongyinglian_guanli",
+      "from_tech": "gongyinglian_guanli",
+      "tech_name": "供应链管理",
+      "name": "《转运综理》",
+      "desc": "《转运综理》，讲从采买、转运、存仓到发放的整条路子怎么接得上、不断档、不积压。",
+      "line": "管理学"
+    },
+    {
+      "id": "book_jingjixue_yuanli",
+      "from_tech": "jingjixue_yuanli",
+      "tech_name": "经济学原理",
+      "name": "《经济学初编》",
+      "desc": "《经济学初编》，讲供给与需求、成本与价格这些最根本的道理，入门第一本。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_weiguan_jingjixue",
+      "from_tech": "weiguan_jingjixue",
+      "tech_name": "微观经济学",
+      "name": "《微观经济论》",
+      "desc": "《微观经济论》，讲一家一户、一厂一店怎么定价、怎么买卖、怎么在竞争里活下去。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_hongguan_jingjixue",
+      "from_tech": "hongguan_jingjixue",
+      "tech_name": "宏观经济学",
+      "name": "《宏观经济论》",
+      "desc": "《宏观经济论》，讲一国的总产出、总需求、物价与就业，财政与钱法如何搅动全局。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_shuli_jingjixue",
+      "from_tech": "shuli_jingjixue",
+      "tech_name": "数理经济学",
+      "name": "《经济算学》",
+      "desc": "《经济算学》，用算式讲经济：把供需写成函数，把均衡解成方程。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_boyilun",
+      "from_tech": "boyilun",
+      "tech_name": "博弈论",
+      "name": "《对局论》",
+      "desc": "《对局论》，讲两方各打算盘时如何取舍，谁先动、谁后动、谁的底牌更硬。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_jiliang_jingjixue",
+      "from_tech": "jiliang_jingjixue",
+      "tech_name": "计量经济学",
+      "name": "《经济计量》",
+      "desc": "《经济计量》，讲用实际数据检验经济道理：先立假设，再算相关，后看是否可信。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_zhidu_jingjixue",
+      "from_tech": "zhidu_jingjixue",
+      "tech_name": "制度经济学",
+      "name": "《制度与交易》",
+      "desc": "《制度与交易》，讲律例、行规、契约这些制度怎么决定交易能不能做成、成本高不高。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_kuaijixue",
+      "from_tech": "kuaijixue",
+      "tech_name": "会计学",
+      "name": "《账法入门》",
+      "desc": "《账法入门》，讲怎么记账：收支两栏、四柱结算法，以及如何查账、对账、防弊。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_huobi_yinhangxue",
+      "from_tech": "huobi_yinhangxue",
+      "tech_name": "货币银行学",
+      "name": "《钱法与银行》",
+      "desc": "《钱法与银行》，讲白银铜钱的流通、钱庄票号的存放汇兑，以及银根松紧的因果。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_jinrongxue",
+      "from_tech": "jinrongxue",
+      "tech_name": "金融学",
+      "name": "《金融通论》",
+      "desc": "《金融通论》，讲资金的聚散、利息的高低、信用的扩张与收缩，及其对市面的影响。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_gongsi_jinrong",
+      "from_tech": "gongsi_jinrong",
+      "tech_name": "公司金融",
+      "name": "《商号理财》",
+      "desc": "《商号理财》，讲一家商号怎么筹本、怎么用钱、怎么分红，以及该不该举债扩张。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_touzixue",
+      "from_tech": "touzixue",
+      "tech_name": "投资学",
+      "name": "《投资指南》",
+      "desc": "《投资指南》，讲把钱投到哪里、怎么估收益与风险，以及怎么分散才不至于一并赔光。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_guoji_jinrong",
+      "from_tech": "guoji_jinrong",
+      "tech_name": "国际金融",
+      "name": "《国际汇兑》",
+      "desc": "《国际汇兑》，讲各国银钱比价、汇兑行市与金银出入对一国财政的影响。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_caizhengxue",
+      "from_tech": "caizhengxue",
+      "tech_name": "财政学",
+      "name": "《国用论》",
+      "desc": "《国用论》，讲一国收支：赋税从哪来、官俸军饷往哪去，量入为出还是量出为入。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_shuishouxue",
+      "from_tech": "shuishouxue",
+      "tech_name": "税收学",
+      "name": "《赋税考》",
+      "desc": "《赋税考》，讲税目的设置、征期与税率，以及怎么征税才不至于逼反百姓。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_guoji_jingjixue",
+      "from_tech": "guoji_jingjixue",
+      "tech_name": "国际经济学",
+      "name": "《国际贸易总论》",
+      "desc": "《国际贸易总论》，讲国与国之间为什么做买卖、各自的比较优势何在、关税会带来什么后果。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_guoji_maoyi",
+      "from_tech": "guoji_maoyi",
+      "tech_name": "国际贸易",
+      "name": "《通商实务》",
+      "desc": "《通商实务》，讲进出口的具体门道：货样、契约、保险、结算与争端。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_chanye_jingjixue",
+      "from_tech": "chanye_jingjixue",
+      "tech_name": "产业经济学",
+      "name": "《产业论》",
+      "desc": "《产业论》，讲一业的兴衰：家数多寡、成本高低、垄断与竞争，以及官府该不该插手。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_chengshi_jingjixue",
+      "from_tech": "chengshi_jingjixue",
+      "tech_name": "城市经济学",
+      "name": "《城市经济论》",
+      "desc": "《城市经济论》，讲城里的地价、房租、商市与人口聚散，以及城市为何越滚越大。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_laodong_jingjixue",
+      "from_tech": "laodong_jingjixue",
+      "tech_name": "劳动经济学",
+      "name": "《工价论》",
+      "desc": "《工价论》，讲工钱高低由什么决定：人手多寡、技艺粗细、农忙农闲。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_fazhan_jingjixue",
+      "from_tech": "fazhan_jingjixue",
+      "tech_name": "发展经济学",
+      "name": "《富国后论》",
+      "desc": "《富国后论》，讲穷地方怎么变富：先修路、再兴工、还是先办学，各家的主张。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_huanjing_jingjixue",
+      "from_tech": "huanjing_jingjixue",
+      "tech_name": "环境经济学",
+      "name": "《环境与经济》",
+      "desc": "《环境与经济》，讲清浊水气之苦该算谁头上：污染、治理与代价如何折成银钱。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_ziyuan_jingjixue",
+      "from_tech": "ziyuan_jingjixue",
+      "tech_name": "资源经济学",
+      "name": "《资源论》",
+      "desc": "《资源论》，讲矿、林、水、土这些有限之物怎么开采、怎么定价、怎么留给后人。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_nongye_jingjixue",
+      "from_tech": "nongye_jingjixue",
+      "tech_name": "农业经济学",
+      "name": "《农政经济》",
+      "desc": "《农政经济》，讲田亩产出、租佃关系、粮价与仓储，以及灾年如何调剂。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_jiaoyu_jingjixue",
+      "from_tech": "jiaoyu_jingjixue",
+      "tech_name": "教育经济学",
+      "name": "《兴学经济》",
+      "desc": "《兴学经济》，讲办学的花销与回报：养士之费能否换来人才与税源。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_jingji_zhengce",
+      "from_tech": "jingji_zhengce",
+      "tech_name": "经济政策",
+      "name": "《经济政策议》",
+      "desc": "《经济政策议》，讲朝廷该用什么手段调经济：税、债、钱法、官营与放权。",
+      "line": "经济学"
+    },
+    {
+      "id": "book_ind_01",
+      "from_tech": "ind_01",
+      "tech_name": "炼钢基础",
+      "name": "《炼钢基础》",
+      "desc": "《炼钢基础》，讲炼钢基础的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_02",
+      "from_tech": "ind_02",
+      "tech_name": "高炉",
+      "name": "《高炉》",
+      "desc": "《高炉》，讲高炉的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_03",
+      "from_tech": "ind_03",
+      "tech_name": "焦炭高炉",
+      "name": "《焦炭高炉》",
+      "desc": "《焦炭高炉》，讲焦炭高炉的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_04",
+      "from_tech": "ind_04",
+      "tech_name": "高铝砖",
+      "name": "《高铝砖》",
+      "desc": "《高铝砖》，讲高铝砖的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_05",
+      "from_tech": "ind_05",
+      "tech_name": "大型高炉",
+      "name": "《大型高炉》",
+      "desc": "《大型高炉》，讲大型高炉的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_06",
+      "from_tech": "ind_06",
+      "tech_name": "鼓风",
+      "name": "《鼓风》",
+      "desc": "《鼓风》，讲鼓风的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_07",
+      "from_tech": "ind_07",
+      "tech_name": "自然动力鼓风",
+      "name": "《自然动力鼓风》",
+      "desc": "《自然动力鼓风》，讲自然动力鼓风的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_08",
+      "from_tech": "ind_08",
+      "tech_name": "蒸汽鼓风",
+      "name": "《蒸汽鼓风》",
+      "desc": "《蒸汽鼓风》，讲蒸汽鼓风的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_09",
+      "from_tech": "ind_09",
+      "tech_name": "热风鼓风",
+      "name": "《热风鼓风》",
+      "desc": "《热风鼓风》，讲热风鼓风的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_10",
+      "from_tech": "ind_10",
+      "tech_name": "渗碳法",
+      "name": "《渗碳法》",
+      "desc": "《渗碳法》，讲渗碳法的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_11",
+      "from_tech": "ind_11",
+      "tech_name": "石墨坩埚",
+      "name": "《石墨坩埚》",
+      "desc": "《石墨坩埚》，讲石墨坩埚的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_12",
+      "from_tech": "ind_12",
+      "tech_name": "坩埚钢",
+      "name": "《坩埚钢》",
+      "desc": "《坩埚钢》，讲坩埚钢的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_13",
+      "from_tech": "ind_13",
+      "tech_name": "先进锅炉",
+      "name": "《先进锅炉》",
+      "desc": "《先进锅炉》，讲先进锅炉的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_14",
+      "from_tech": "ind_14",
+      "tech_name": "硅砖",
+      "name": "《硅砖》",
+      "desc": "《硅砖》，讲硅砖的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_15",
+      "from_tech": "ind_15",
+      "tech_name": "贝塞麦转炉钢",
+      "name": "《贝塞麦转炉钢》",
+      "desc": "《贝塞麦转炉钢》，讲贝塞麦转炉钢的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_16",
+      "from_tech": "ind_16",
+      "tech_name": "机械结构基础",
+      "name": "《机械结构基础》",
+      "desc": "《机械结构基础》，讲机械结构基础的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_17",
+      "from_tech": "ind_17",
+      "tech_name": "精密黄铜加工",
+      "name": "《精密黄铜加工》",
+      "desc": "《精密黄铜加工》，讲精密黄铜加工的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_18",
+      "from_tech": "ind_18",
+      "tech_name": "钟表车床",
+      "name": "《钟表车床》",
+      "desc": "《钟表车床》，讲钟表车床的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_19",
+      "from_tech": "ind_19",
+      "tech_name": "精密工具制造",
+      "name": "《精密工具制造》",
+      "desc": "《精密工具制造》，讲精密工具制造的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_20",
+      "from_tech": "ind_20",
+      "tech_name": "航海钟",
+      "name": "《航海钟》",
+      "desc": "《航海钟》，讲航海钟的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_21",
+      "from_tech": "ind_21",
+      "tech_name": "重型机械基础",
+      "name": "《重型机械基础》",
+      "desc": "《重型机械基础》，讲重型机械基础的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_22",
+      "from_tech": "ind_22",
+      "tech_name": "威尔金森镗床",
+      "name": "《威尔金森镗床》",
+      "desc": "《威尔金森镗床》，讲威尔金森镗床的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_23",
+      "from_tech": "ind_23",
+      "tech_name": "莫兹利机床",
+      "name": "《莫兹利机床》",
+      "desc": "《莫兹利机床》，讲莫兹利机床的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_24",
+      "from_tech": "ind_24",
+      "tech_name": "采矿机械",
+      "name": "《采矿机械》",
+      "desc": "《采矿机械》，讲采矿机械的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_25",
+      "from_tech": "ind_25",
+      "tech_name": "蒸汽采矿机械",
+      "name": "《蒸汽采矿机械》",
+      "desc": "《蒸汽采矿机械》，讲蒸汽采矿机械的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_26",
+      "from_tech": "ind_26",
+      "tech_name": "惠特尼铣床",
+      "name": "《惠特尼铣床》",
+      "desc": "《惠特尼铣床》，讲惠特尼铣床的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_27",
+      "from_tech": "ind_27",
+      "tech_name": "罗伯茨刨床",
+      "name": "《罗伯茨刨床》",
+      "desc": "《罗伯茨刨床》，讲罗伯茨刨床的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_28",
+      "from_tech": "ind_28",
+      "tech_name": "互换零件",
+      "name": "《互换零件》",
+      "desc": "《互换零件》，讲互换零件的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_29",
+      "from_tech": "ind_29",
+      "tech_name": "试制纽科门机",
+      "name": "《试制纽科门机》",
+      "desc": "《试制纽科门机》，讲试制纽科门机的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_30",
+      "from_tech": "ind_30",
+      "tech_name": "纽科门机",
+      "name": "《纽科门机》",
+      "desc": "《纽科门机》，讲纽科门机的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_31",
+      "from_tech": "ind_31",
+      "tech_name": "试制蒸汽机",
+      "name": "《试制蒸汽机》",
+      "desc": "《试制蒸汽机》，讲试制蒸汽机的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_32",
+      "from_tech": "ind_32",
+      "tech_name": "基础蒸汽机",
+      "name": "《基础蒸汽机》",
+      "desc": "《基础蒸汽机》，讲基础蒸汽机的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_33",
+      "from_tech": "ind_33",
+      "tech_name": "改进蒸汽机",
+      "name": "《改进蒸汽机》",
+      "desc": "《改进蒸汽机》，讲改进蒸汽机的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_34",
+      "from_tech": "ind_34",
+      "tech_name": "试制蒸汽机车",
+      "name": "《试制蒸汽机车》",
+      "desc": "《试制蒸汽机车》，讲试制蒸汽机车的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_35",
+      "from_tech": "ind_35",
+      "tech_name": "蒸汽机车",
+      "name": "《蒸汽机车》",
+      "desc": "《蒸汽机车》，讲蒸汽机车的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_36",
+      "from_tech": "ind_36",
+      "tech_name": "熟铁轨",
+      "name": "《熟铁轨》",
+      "desc": "《熟铁轨》，讲熟铁轨的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_37",
+      "from_tech": "ind_37",
+      "tech_name": "铸铁轨",
+      "name": "《铸铁轨》",
+      "desc": "《铸铁轨》，讲铸铁轨的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_38",
+      "from_tech": "ind_38",
+      "tech_name": "钢轨",
+      "name": "《钢轨》",
+      "desc": "《钢轨》，讲钢轨的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_39",
+      "from_tech": "ind_39",
+      "tech_name": "明轮蒸汽船",
+      "name": "《明轮蒸汽船》",
+      "desc": "《明轮蒸汽船》，讲明轮蒸汽船的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_40",
+      "from_tech": "ind_40",
+      "tech_name": "先进蒸汽机",
+      "name": "《先进蒸汽机》",
+      "desc": "《先进蒸汽机》，讲先进蒸汽机的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_41",
+      "from_tech": "ind_41",
+      "tech_name": "蒸汽船",
+      "name": "《蒸汽船》",
+      "desc": "《蒸汽船》，讲蒸汽船的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_42",
+      "from_tech": "ind_42",
+      "tech_name": "自然动力机械",
+      "name": "《自然动力机械》",
+      "desc": "《自然动力机械》，讲自然动力机械的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_43",
+      "from_tech": "ind_43",
+      "tech_name": "哈格里夫珍妮机",
+      "name": "《哈格里夫珍妮机》",
+      "desc": "《哈格里夫珍妮机》，讲哈格里夫珍妮机的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_44",
+      "from_tech": "ind_44",
+      "tech_name": "凯伊飞梭",
+      "name": "《凯伊飞梭》",
+      "desc": "《凯伊飞梭》，讲凯伊飞梭的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_45",
+      "from_tech": "ind_45",
+      "tech_name": "阿克莱特水力纺纱机",
+      "name": "《阿克莱特水力纺纱机》",
+      "desc": "《阿克莱特水力纺纱机》，讲阿克莱特水力纺纱机的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_46",
+      "from_tech": "ind_46",
+      "tech_name": "克朗普顿骡机",
+      "name": "《克朗普顿骡机》",
+      "desc": "《克朗普顿骡机》，讲克朗普顿骡机的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_47",
+      "from_tech": "ind_47",
+      "tech_name": "卡莱特动力织机",
+      "name": "《卡莱特动力织机》",
+      "desc": "《卡莱特动力织机》，讲卡莱特动力织机的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_48",
+      "from_tech": "ind_48",
+      "tech_name": "蒸汽织机",
+      "name": "《蒸汽织机》",
+      "desc": "《蒸汽织机》，讲蒸汽织机的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_49",
+      "from_tech": "ind_49",
+      "tech_name": "地理测绘基础",
+      "name": "《地理测绘基础》",
+      "desc": "《地理测绘基础》，讲地理测绘基础的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_50",
+      "from_tech": "ind_50",
+      "tech_name": "地质勘探",
+      "name": "《地质勘探》",
+      "desc": "《地质勘探》，讲地质勘探的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_51",
+      "from_tech": "ind_51",
+      "tech_name": "大规模石灰石开采",
+      "name": "《大规模石灰石开采》",
+      "desc": "《大规模石灰石开采》，讲大规模石灰石开采的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_52",
+      "from_tech": "ind_52",
+      "tech_name": "波特兰水泥",
+      "name": "《波特兰水泥》",
+      "desc": "《波特兰水泥》，讲波特兰水泥的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_53",
+      "from_tech": "ind_53",
+      "tech_name": "水力磨盘",
+      "name": "《水力磨盘》",
+      "desc": "《水力磨盘》，讲水力磨盘的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_54",
+      "from_tech": "ind_54",
+      "tech_name": "蒸汽磨盘",
+      "name": "《蒸汽磨盘》",
+      "desc": "《蒸汽磨盘》，讲蒸汽磨盘的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_55",
+      "from_tech": "ind_55",
+      "tech_name": "钢筋混凝土",
+      "name": "《钢筋混凝土》",
+      "desc": "《钢筋混凝土》，讲钢筋混凝土的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_56",
+      "from_tech": "ind_56",
+      "tech_name": "先进纸张制造",
+      "name": "《先进纸张制造》",
+      "desc": "《先进纸张制造》，讲先进纸张制造的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_57",
+      "from_tech": "ind_57",
+      "tech_name": "勒布朗制碱法",
+      "name": "《勒布朗制碱法》",
+      "desc": "《勒布朗制碱法》，讲勒布朗制碱法的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_58",
+      "from_tech": "ind_58",
+      "tech_name": "肥皂制造",
+      "name": "《肥皂制造》",
+      "desc": "《肥皂制造》，讲肥皂制造的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_59",
+      "from_tech": "ind_59",
+      "tech_name": "玻璃制造",
+      "name": "《玻璃制造》",
+      "desc": "《玻璃制造》，讲玻璃制造的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_60",
+      "from_tech": "ind_60",
+      "tech_name": "实验室玻璃仪器",
+      "name": "《实验室玻璃仪器》",
+      "desc": "《实验室玻璃仪器》，讲实验室玻璃仪器的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_61",
+      "from_tech": "ind_61",
+      "tech_name": "光学玻璃制造",
+      "name": "《光学玻璃制造》",
+      "desc": "《光学玻璃制造》，讲光学玻璃制造的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_62",
+      "from_tech": "ind_62",
+      "tech_name": "六分仪",
+      "name": "《六分仪》",
+      "desc": "《六分仪》，讲六分仪的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_63",
+      "from_tech": "ind_63",
+      "tech_name": "显微镜",
+      "name": "《显微镜》",
+      "desc": "《显微镜》，讲显微镜的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_64",
+      "from_tech": "ind_64",
+      "tech_name": "望远镜",
+      "name": "《望远镜》",
+      "desc": "《望远镜》，讲望远镜的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_65",
+      "from_tech": "ind_65",
+      "tech_name": "商品玻璃",
+      "name": "《商品玻璃》",
+      "desc": "《商品玻璃》，讲商品玻璃的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_66",
+      "from_tech": "ind_66",
+      "tech_name": "高级商品玻璃",
+      "name": "《高级商品玻璃》",
+      "desc": "《高级商品玻璃》，讲高级商品玻璃的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_67",
+      "from_tech": "ind_67",
+      "tech_name": "铅室法治硫酸",
+      "name": "《铅室法治硫酸》",
+      "desc": "《铅室法治硫酸》，讲铅室法治硫酸的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_68",
+      "from_tech": "ind_68",
+      "tech_name": "水蒸汽改进",
+      "name": "《水蒸汽改进》",
+      "desc": "《水蒸汽改进》，讲水蒸汽改进的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_69",
+      "from_tech": "ind_69",
+      "tech_name": "盖吕萨克塔",
+      "name": "《盖吕萨克塔》",
+      "desc": "《盖吕萨克塔》，讲盖吕萨克塔的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_70",
+      "from_tech": "ind_70",
+      "tech_name": "格劳夫塔",
+      "name": "《格劳夫塔》",
+      "desc": "《格劳夫塔》，讲格劳夫塔的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_71",
+      "from_tech": "ind_71",
+      "tech_name": "过磷酸化肥",
+      "name": "《过磷酸化肥》",
+      "desc": "《过磷酸化肥》，讲过磷酸化肥的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_72",
+      "from_tech": "ind_72",
+      "tech_name": "大规模煤炭开采",
+      "name": "《大规模煤炭开采》",
+      "desc": "《大规模煤炭开采》，讲大规模煤炭开采的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_73",
+      "from_tech": "ind_73",
+      "tech_name": "蜂巢焦炉",
+      "name": "《蜂巢焦炉》",
+      "desc": "《蜂巢焦炉》，讲蜂巢焦炉的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_74",
+      "from_tech": "ind_74",
+      "tech_name": "长堆焦炉",
+      "name": "《长堆焦炉》",
+      "desc": "《长堆焦炉》，讲长堆焦炉的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_75",
+      "from_tech": "ind_75",
+      "tech_name": "氨制造",
+      "name": "《氨制造》",
+      "desc": "《氨制造》，讲氨制造的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_76",
+      "from_tech": "ind_76",
+      "tech_name": "先进焦炉",
+      "name": "《先进焦炉》",
+      "desc": "《先进焦炉》，讲先进焦炉的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_77",
+      "from_tech": "ind_77",
+      "tech_name": "煤气",
+      "name": "《煤气》",
+      "desc": "《煤气》，讲煤气的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_78",
+      "from_tech": "ind_78",
+      "tech_name": "煤焦油",
+      "name": "《煤焦油》",
+      "desc": "《煤焦油》，讲煤焦油的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_79",
+      "from_tech": "ind_79",
+      "tech_name": "煤灯",
+      "name": "《煤灯》",
+      "desc": "《煤灯》，讲煤灯的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_80",
+      "from_tech": "ind_80",
+      "tech_name": "钾盐矿",
+      "name": "《钾盐矿》",
+      "desc": "《钾盐矿》，讲钾盐矿的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_81",
+      "from_tech": "ind_81",
+      "tech_name": "钾盐化肥",
+      "name": "《钾盐化肥》",
+      "desc": "《钾盐化肥》，讲钾盐化肥的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_82",
+      "from_tech": "ind_82",
+      "tech_name": "软锰矿",
+      "name": "《软锰矿》",
+      "desc": "《软锰矿》，讲软锰矿的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_83",
+      "from_tech": "ind_83",
+      "tech_name": "实验室氯气生产",
+      "name": "《实验室氯气生产》",
+      "desc": "《实验室氯气生产》，讲实验室氯气生产的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_84",
+      "from_tech": "ind_84",
+      "tech_name": "武器化氯气",
+      "name": "《武器化氯气》",
+      "desc": "《武器化氯气》，讲武器化氯气的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_85",
+      "from_tech": "ind_85",
+      "tech_name": "精确地图",
+      "name": "《精确地图》",
+      "desc": "《精确地图》，讲精确地图的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_86",
+      "from_tech": "ind_86",
+      "tech_name": "土地勘探",
+      "name": "《土地勘探》",
+      "desc": "《土地勘探》，讲土地勘探的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_87",
+      "from_tech": "ind_87",
+      "tech_name": "先进给排水工程",
+      "name": "《先进给排水工程》",
+      "desc": "《先进给排水工程》，讲先进给排水工程的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_88",
+      "from_tech": "ind_88",
+      "tech_name": "农业给排水",
+      "name": "《农业给排水》",
+      "desc": "《农业给排水》，讲农业给排水的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_89",
+      "from_tech": "ind_89",
+      "tech_name": "城市给排水",
+      "name": "《城市给排水》",
+      "desc": "《城市给排水》，讲城市给排水的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_90",
+      "from_tech": "ind_90",
+      "tech_name": "酸土改良",
+      "name": "《酸土改良》",
+      "desc": "《酸土改良》，讲酸土改良的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_91",
+      "from_tech": "ind_91",
+      "tech_name": "碱土改良",
+      "name": "《碱土改良》",
+      "desc": "《碱土改良》，讲碱土改良的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_92",
+      "from_tech": "ind_92",
+      "tech_name": "法式硝石种植",
+      "name": "《法式硝石种植》",
+      "desc": "《法式硝石种植》，讲法式硝石种植的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_93",
+      "from_tech": "ind_93",
+      "tech_name": "先进硝酸精炼",
+      "name": "《先进硝酸精炼》",
+      "desc": "《先进硝酸精炼》，讲先进硝酸精炼的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_94",
+      "from_tech": "ind_94",
+      "tech_name": "原料精制工艺",
+      "name": "《原料精制工艺》",
+      "desc": "《原料精制工艺》，讲原料精制工艺的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_95",
+      "from_tech": "ind_95",
+      "tech_name": "优质黑火药",
+      "name": "《优质黑火药》",
+      "desc": "《优质黑火药》，讲优质黑火药的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_96",
+      "from_tech": "ind_96",
+      "tech_name": "火药重结晶技术",
+      "name": "《火药重结晶技术》",
+      "desc": "《火药重结晶技术》，讲火药重结晶技术的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_97",
+      "from_tech": "ind_97",
+      "tech_name": "火药造粒技术",
+      "name": "《火药造粒技术》",
+      "desc": "《火药造粒技术》，讲火药造粒技术的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    },
+    {
+      "id": "book_ind_98",
+      "from_tech": "ind_98",
+      "tech_name": "先进黑火药",
+      "name": "《先进黑火药》",
+      "desc": "《先进黑火药》，讲先进黑火药的做法与要诀：用料、火候、尺寸与工序一步步写清，工匠与学堂都照它办事。",
+      "line": "工业"
+    }
+  ]
+}

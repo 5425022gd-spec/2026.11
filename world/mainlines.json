@@ -1,0 +1,105 @@
+{
+  "_comment": "要紧事物（主线）。每条写：id / title / desc / end（结束条件）/ reward_points（科技点奖励）。end.check 必须是 engine/mainline_script.py 的 END_CHECKS 里登记过的键；前端直接显示 end.text 与 reward_points。",
+  "mainlines": [
+    {
+      "id": "europe_war",
+      "title": "欧洲三十年战争",
+      "desc": "只见村庄遭劫，少女受辱，教堂垮塌，目光所及之处尽是炼狱般的景象。",
+      "end": {
+        "check": "diplomacy_peace",
+        "target": "奥地利",
+        "text": "奥地利处于和平",
+        "note": "外交系统尚未实现，此项仅留设计，当前不可能达成"
+      },
+      "reward_points": 20
+    },
+    {
+      "id": "army_pay",
+      "title": "军饷筹措",
+      "desc": "各军始犹典衣卖箭，今则鬻子出妻；始犹沿街乞食，今则离伍潜逃；始犹沙中偶语，今则公然噪喊矣。",
+      "end": {
+        "check": "arrears_cleared",
+        "text": "所有机动部队和镇军欠饷不大于0",
+        "note": "开局机动部队欠饷六个月，镇军欠饷三十六个月"
+      },
+      "reward_points": 10
+    },
+    {
+      "id": "fiscal_deficit",
+      "title": "财政积弊",
+      "desc": "财犹泉也，必无以汨焉徐清，无以扰焉徐生。甃而渫之，犹惧不继。今也不徒酌之以中衢之尊，而且归之于沃焦之泄，其日相寻以底于尽，何怪乎圣天子中兴锐意安攘。",
+      "end": {
+        "check": "liquidity_health_above",
+        "value": 0.5,
+        "text": "货币健康度大于 0.5"
+      },
+      "reward_points": 3
+    },
+    {
+      "id": "northwest_famine",
+      "title": "西北大灾",
+      "desc": "延安、庆阳、平凉旱，岁大饥，东事孔棘，有司维顾军兴，征督如故。民不能供，道殣相望，或群取富者粟，惧捕，如聚为盗。盗起，饥益甚，连年赤地，斗米千钱不能得，人相食，从乱如归，饥民为盗由此而始。",
+      "end": {
+        "check": "date_after_gregorian",
+        "value": "1644-01-01",
+        "text": "时间超过公历1644年1月1日"
+      },
+      "reward_points": 20,
+      "phases": [
+        {
+          "phase": 1,
+          "from": 1627,
+          "to": 1630,
+          "modifiers": [
+            {"province": "shaanxi", "name": "陕西大旱", "penalty": 0.30, "temp": 3.5, "precip": 0.45,
+             "desc": "连年赤地，禾苗焦枯，民力已尽"}
+          ]
+        },
+        {
+          "phase": 2,
+          "from": 1631,
+          "to": 1635,
+          "modifiers": [
+            {"province": "shaanxi", "name": "陕西大旱", "penalty": 0.60, "temp": 4.0, "precip": 0.25,
+             "desc": "旱势加重，赤地千里，斗米千钱"},
+            {"province": "shanxi", "name": "山西大旱", "penalty": 0.20, "temp": 1.5, "precip": 0.75,
+             "desc": "亢旱少雨，收成歉薄"}
+          ]
+        },
+        {
+          "phase": 3,
+          "from": 1636,
+          "to": 1640,
+          "modifiers": [
+            {"province": "shaanxi", "name": "陕西大旱", "penalty": 0.90, "temp": 4.5, "precip": 0.05,
+             "desc": "终岁不雨，人相食，从乱如归"},
+            {"province": "shanxi", "name": "山西大旱", "penalty": 0.30, "temp": 2.5, "precip": 0.55,
+             "desc": "旱魃为虐，粟贵民流"},
+            {"province": "henan", "name": "河南大旱", "penalty": 0.20, "temp": 1.5, "precip": 0.75,
+             "desc": "雨泽愆期，田畴失种"}
+          ]
+        },
+        {
+          "phase": 4,
+          "from": 1641,
+          "to": 1644,
+          "modifiers": [
+            {"province": "shaanxi", "name": "陕西大旱", "penalty": 0.30, "temp": 3.5, "precip": 0.45,
+             "desc": "灾气稍杀，然地荒民散，元气未复"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "she_an_rebellion",
+      "title": "奢安之乱",
+      "desc": "蜀自奢酋倡乱，蹂躏几遍。渝城既陷，全蜀震动。继以安酋合谋，川南川东，所在焚劫。今虽恢复，而户口流亡，田土荒芜，疮痍未起，非数年休养不能复旧。",
+      "end": {
+        "check": "units_absent",
+        "units": ["奢寅部叛军", "安位部叛军"],
+        "text": "奢寅部叛军与安位部叛军均不存在"
+      },
+      "reward_points": 5
+    }
+  ]
+}

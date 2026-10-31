@@ -1,0 +1,183 @@
+# 大明王朝 1627 · 事件系统与提示词变量规范文档
+
+> **【现行口径 · v0.6.2 核对】**
+> 提示词里只剩**提示词与数据变量**（形如 `{{xxx}}` 的填充物）。目录、规范、固定字段的返回、
+> 多步任务都不再由提示词承担：
+> - 目录与规范类输入 → **AI 工具**，模型按需自取（说明写在各自的 `description` 里）；
+> - 固定字段的返回 → **交卷工具**（字段进 `parameters`）；
+> - 多步任务 → **工作流**（`engine/ai_workflow.py`，工具内核 `engine/ai_tools.py`）。
+>
+> 下表按代码逐条核对过（`grep -o "{{[^}]*}}" Prompt/*.txt` 对 `engine/*.py` 的填充点）：
+>
+> | 提示词 | 数据变量 | 工具 |
+> |---|---|---|
+> | `meeting_pizou_free.txt` | topic, context_data, conversation, history_12, members, book, report | `search_database`、`list_database_items`、`finish_script` |
+> | `meeting_pizou_replan.txt` | 同上 + history_phases_summary, toolA | 同上 |
+> | `zhixian.txt` | timestamp, count | `list_variations`、`get_variation_scope`、`get_reward_rules`、`finish_memorial` |
+> | `war.txt` | military, enemy forces, architecture, nature, timestamp, local_weather, local_classes, history_12 | `finish_battle` |
+> | `meeting_2.txt` | topic, conversation, members | `finish_minutes` |
+> | `create_person.txt` | char_name, char_title, char_location, char_faction | `finish_person_card` |
+> | `silijian_ai.txt` | player_command | `get_operation_rules`、`try_operation`、`finish_command` |
+> | `zhongzhi_2.txt` | player_command | `finish_command` |
+> | `conference_2.txt` | topic, context_data, conversation, history, members, random_selection, **书籍** | `query_data`、`finish_speeches` |
+> | `diguo_ai.txt` | ai, timestamp, context_ai, history_ai_12, history_12 | `get_faction_rules`、`try_faction_operation`、`submit_quarter_plan` |
+> | `attendant_talk.txt` | members, random_selection, conversation, timestamp, context_data, history_1/6/12, book | `query_data`、`list_database_items`、`search_database`、`submit_speeches` |
+> | `script_dialogue.txt` | 同上 + script | 同上 |
+> | `zongjie.txt` | council_summaries, event_tree_records, monthly_variations, current_world_overview, history_12 | `submit_monthly_summary` |
+>
+> **几个容易踩的点**：
+> - `{{书籍}}` 与 `{{book}}` 是两套并存但各自闭环的写法：`conference_2.txt` 由
+>   `engine/council.py` 填 `{{书籍}}`，`meeting_pizou_*.txt` 由 `engine/script_workflow.py` 填 `{{book}}`。
+>   两边都能跑，**不要只改一边**。
+> - `{{ report}}`（带前导空格）是历史写法，`script_workflow` 两种都替换。
+> - `{{toolA}}` 由 `script_workflow` 填（有计划数值硬判定时为空），不是死变量。
+> - `{{enemy forces}}`（带空格）由 `engine/battle.py` 填。
+> - `diguo_ai.txt` 的 `{{operation_ai}}` 已删除：指令清单改由 `get_faction_rules` 工具现取，
+>   写完可用 `try_faction_operation` 试跑并拿到失败回执。
+> - `zongjie.txt` 的 `{{history_12}}` 曾无人替换，v0.6.0 已补。
+>
+> 下面各节记录的是**改造前的旧契约**，保留作历史对照；实现以代码与工具说明为准。
+
+## 一、标准展示方式清单 (`{{output}}`)
+
+在主线剧本的事件器（`events`）中，AI 必须通过定义合法的展示方式将剧情展示给玩家。每个展示条目必须且只能以 `display_type` 字段为基础进行对齐：
+
+### 1. 章奏渠道 (`display_type: "memorial"`)
+通过内阁/通政司正式向皇帝呈递题本、奏本或塘报。
+
+**返回字段规范**：
+- `event_id`: 事件唯一标识（如 `"pe-1-1"`）
+- `trigger`: 事件触发时间与机制（选自以下两类之一）：
+  - `"在阶段开始后XX天触发"`（用于阶段内的第一个或起始事件，如 `"在阶段开始后3天触发"`）
+  - `"在XX事件结束后触发"`（用于后续事件链关联，如 `"在pe-1-1事件结束后触发"`）
+- `display_type`: 固定填 `"memorial"`
+- `title`: 章奏标题（如 `"题本 · 苏州府阻挠清丈抗税疏"`）
+- `category_label`: 选自 `"题本" / "奏本" / "表" / "揭帖" / "塘报" / "露布"`
+- `content_label`: 选自 `"钱粮类" / "人事类" / "刑名类" / "军务类" / "工程类" / "灾异奏报" / "边情塘报" / "弹劾疏" / "规谏疏"`
+- `location`: 事发地点（精确到府级，如 `"南直隶苏州府"`）
+- `full_text`: 正式章奏公文正文（不少于100字，半文半白）
+- `draft`: 内阁票拟
+- `reward`: 票拟执行效果说明
+- `impact`: 事件引发的底层数值/修正影响（即时触发/延时触发，可留空）
+
+**示例**：
+```json
+{
+  "event_id": "pe-1-1",
+  "trigger": "在阶段开始后3天触发",
+  "display_type": "memorial",
+  "title": "题本 · 奏报延安府亢旱异常疏",
+  "category_label": "题本",
+  "content_label": "灾异奏报",
+  "location": "陕西延安府",
+  "full_text": "臣陕西巡抚胡廷宴谨题，为延安府属亢旱特甚事。入夏以来赤日当空，井泉皆涸，禾苗焦枯。小民嗷嗷待哺，亟待赈济。伏乞敕下户部酌议蠲免，以活灾黎。臣谨题请旨。",
+  "draft": "据奏灾情深重，著户部即行查对蠲免，动支太仓存银三万两赈恤。",
+  "reward": "发仓平粜：缓和民怨，耗支库储",
+  "impact": "即时触发：减少国库银两到地方窖藏 陕西 3.0"
+}
+```
+
+---
+
+## 二、事件影响与触发规则清单 (`{{impact}}`)
+
+每个事件的 `impact` 字段用于定义该事件引发的实际系统状态变动。所有效果均必须基于超控指令编写，分为以下两种时间触发渠道：
+
+### 1. 事件发生时即时触发 (`type: "immediate"`)
+当该事件在游戏中正式发生/曝光时，立即执行对应的超控指令。
+
+**语法格式**：
+`即时触发：<超控指令>`
+（例如：`即时触发：创建修正 陕西 延安平粜安民 本省 全国所有阶级产能+5% 开仓平粜`，或 `即时触发：拨付国库到地方 陕西 3.0`）
+
+### 2. 事件后 xx 天延时触发 (`type: "delayed"`)
+当该事件发生后，经过指定的物理天数，由逻辑引擎自动触发后续的超控指令。
+
+**语法格式**：
+`事件后XX天触发：<超控指令>`
+（例如：`事件后15天触发：降低地方各阶级态度 陕西 农民 5.0`，或 `事件后30天触发：增加地方腐败 陕西 2.0`）
+
+---
+
+## 三、历史剧本定义 (`{{history_phases_summary}}`)
+
+定义 `{{history_phases_summary}}` 为：
+**包括本阶段之前每个剧本中未被修改且已实际发生的事件，以及玩家在历次廷议中做出的实际干预动作与敕命决议。**
+这两个要素按时间顺序组合成本阶段完整的、实际发生过的历史剧本。未实际发生的预设事件绝不包含。
+
+---
+
+## 四、事件四类体系概览
+
+游戏中的事件与章奏分为以下四类：
+
+| 事件类别 | 来源标识 (`source`) | ID 命名规则 | 产生与流转机制 |
+| :--- | :--- | :--- | :--- |
+| **一类：主要事件** | `mainline` | `l-1`, `l-2` … | 围绕要紧事物，由剧本发生器（AI 三轮工具工作流）撰写，按事件自己的 trigger 曝光。 |
+| **二类：次要事件** | `side` | `m-1`, `m-2` … | 从变化池抽取数据变化事件点，由 AI 模型（`Prompt/zhixian.txt`）思考生成。 |
+| **三类：不重要事件** | `filler` | `n-1`, `n-2` … | 由逻辑引擎根据模板文本（`engine/unzhixian_data.py`）与随机数生成，零 LLM。 |
+| **四类：玩家发起事件** | `player_origin` | `m-x` / `n-x` | 玩家主动发起中旨，经司礼监 AI 转化后进入系统。 |
+
+注：章奏回复一侧的 AI（六科封驳、续报推演、召对批奏）已全部删除；
+章奏打字批阅现在只作记录。AI 事件改由自由廷议与中旨负责。
+
+---
+
+## 五、各 Prompt 文件与变量详细说明
+
+### 1. `Prompt/zhixian.txt` —— 次要事件（m 层）生成
+- **变量说明**：
+  - `{{event_point}}`：从变化池抽取的数据变化事件点清单。
+  - `{{formula}}`：系统奖励规则包接口说明。
+- **期望返回**：JSONL 单行，包含 `variation_id`, `title`, `category_label`, `content_label`, `Location`, `full_text`, `draft_processed`, `draft_unprocessed`, `reward_processed`, `reward_unprocessed`。
+
+### 2. `Prompt/silijian_ai.txt` —— 司礼监中旨转化
+- **变量说明**：
+  - `{{operation}}`：全域系统超控指令清单。
+  - `{{player_command}}`：玩家输入的中旨口谕。
+- **期望返回**：JSONL 单行，包含 `command_line`。
+
+### 3. `Prompt/conference_2.txt` —— 廷议大典发言
+- **变量说明**：
+  - `{{topic}}`：当前要紧事物议题（成就廷议时为成就名＋引擎算好的核查数据）。
+  - `{{context_data}}`：随堂开启调阅的六部/各省/全国宏观实录数据。
+  - `{{书籍}}`：随堂调阅的文华殿藏书条目（只列已经收录进文华殿的书）。
+  - `{{members}}`：参会群臣名录。
+  - `{{history}}`：朝局历史大盘。
+  - `{{conversation}}`：本次廷议历史辩论实录。
+  - `{{random_selection}}`：本轮指定发言大臣资料卡。
+
+### 6. 廷议剧本两套提示词（`meeting_pizou_free.txt` / `meeting_pizou_replan.txt`）
+- **不再分阶段**：首次撰写走 free，玩家干预后改写走 replan。
+- **AI 三轮工具工作流**（见 `engine/script_workflow.py`）：第一轮只发搜索工具
+  （`search_database` / `list_database_items`），第二轮补发剧情大纲规则（`get_outline_rules`），
+  第三轮补发事件展示规则（`get_event_rules`）、系统超控规则（`get_operation_rules`）
+  与「确信并完成」（`finish_script`）。调用 `finish_script` 后不再调用模型，
+  其返回的剧情名称、剧情介绍、剧情大纲、展示事件落库到该要紧事物。
+- **变量**：
+  - `{{topic}}`：当前廷议议题。
+  - `{{history_12}}`：过去 12 个月的历史剧情总括。
+  - `{{history_phases_summary}}`：截止当前已实际发生且未被修改的剧本事件与干预决议。
+  - `{{context_data}}`：调阅的国家实录数据。
+  - `{{members}}`：参会群臣名单。
+  - `{{conversation}}`：廷议对话实录。
+  - `{{book}}`：调阅的文华殿藏书（原 `{{书籍}}` 改名）。
+  - `{{report}}`：调阅的战报（廷议界面「输入战报」勾选，取自战报归档）。
+- **不再有** output / impact / operation / opinion_param 这四个变量：
+  它们已改成第三轮发给 AI 的函数工具（展示规则 / 超控规则），并随分阶段机制一并废除。
+- **事件落库与展示**：AI 返回的展示事件写在该要紧事物的 `events` 上，
+  由 `GameSession._tick_mainline_events` 按触发条件曝光；`trigger` 写
+  「在剧本开始后XX天触发」或「在XX事件结束后XX天触发」；`impact` 支持
+  「即时触发：＜超控指令＞」与「事件后XX天触发：＜超控指令＞」两个通道。
+- **事件树**：整段工作流对话（输入提示词、三轮工具包、工具往返、最终剧本）
+  记进 `session.script_sessions`，在前端「对话记录 → 事件树」查看。
+
+## 六、任务与成就（不计入提示词变量）
+
+- 任务：数值达标即得科技点（`world/tasks.json` + `engine/tasks.py`），
+  指标登记在 `engine/tasks.py` 的 `METRICS`，不再有第二处算法。
+- 成就：廷议的衍生系统（`world/achievements.json` + `engine/achievements.py`）。
+  开会时把核查数据（科技是否解锁、地块是否控制、数值是否达标）交 AI，
+  由 AI 判定结束条件，判定通过由引擎发科技点。
+- 科技效果：`world/tech_effects.json` + `engine/tech_effects.py`；
+  科技界面的「效果」由结构化效果现渲染，`techs.json` 的 `effect` 字段不再另写一份。

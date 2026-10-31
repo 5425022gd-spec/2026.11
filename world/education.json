@@ -1,0 +1,60 @@
+{
+  "exams": [
+    {
+      "id": "xiangshi",
+      "name": "乡试",
+      "interval_years": 3,
+      "lunar_month": 8,
+      "lunar_day": 9,
+      "subjects": "四书义、五经义、策论、判语",
+      "note": "三年一科，逢子午卯酉年秋闱，本省取中者为举人"
+    },
+    {
+      "id": "huishi",
+      "name": "会试",
+      "interval_years": 3,
+      "lunar_month": 2,
+      "lunar_day": 9,
+      "subjects": "四书义、五经义、策论、表",
+      "note": "乡试次年春闱，礼部主之，取中者为贡士"
+    },
+    {
+      "id": "dianshi",
+      "name": "殿试",
+      "interval_years": 3,
+      "lunar_month": 3,
+      "lunar_day": 15,
+      "subjects": "策问",
+      "note": "会试之后御殿亲策，赐进士及第出身有差"
+    }
+  ],
+  "local_edu_modifiers": [
+    {
+      "name": "教育腐败",
+      "pct_mod": -0.12,
+      "desc": "学政教官克扣廪米、考试舞弊，受教者虚增而实学减"
+    },
+    {
+      "name": "考试僵化",
+      "pct_mod": -0.08,
+      "desc": "专以八股取士，士子不读有用之书"
+    }
+  ],
+  "higher_edu_modifiers": [
+    {
+      "name": "北京国子监",
+      "pct_mod": 0.08,
+      "desc": "北监在京师，祭酒司业督课，南北监并为养士之地"
+    },
+    {
+      "name": "南京国子监",
+      "pct_mod": 0.05,
+      "desc": "南监在留都，典籍犹存而士风稍弛"
+    },
+    {
+      "name": "捐纳泛滥",
+      "pct_mod": -0.06,
+      "desc": "纳粟入监者众，监生之名益轻"
+    }
+  ]
+}

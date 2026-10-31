@@ -1,0 +1,3188 @@
+[
+ {
+  "name": "黄立极",
+  "title": "内阁首辅、武英殿大学士",
+  "province": "京师",
+  "level": "capital",
+  "start": "1624-01",
+  "end": null,
+  "location": "北直隶"
+ },
+ {
+  "name": "施凤来",
+  "title": "内阁大学士、建极殿大学士",
+  "province": "京师",
+  "level": "capital",
+  "start": "1624-01",
+  "end": null,
+  "location": "北直隶"
+ },
+ {
+  "name": "张瑞图",
+  "title": "内阁大学士、中极殿大学士",
+  "province": "京师",
+  "level": "capital",
+  "start": "1624-01",
+  "end": null,
+  "location": "北直隶"
+ },
+ {
+  "name": "李国𣚴",
+  "title": "内阁大学士、文渊阁大学士",
+  "province": "京师",
+  "level": "capital",
+  "start": "1624-01",
+  "end": null,
+  "location": "北直隶"
+ },
+ {
+  "name": "秦子龙",
+  "title": "东阁大学士",
+  "province": "京师",
+  "level": "capital",
+  "start": "1624-01",
+  "end": null,
+  "location": "北直隶"
+ },
+ {
+  "name": "方奉孝",
+  "title": "中书舍人",
+  "province": "京师",
+  "level": "capital",
+  "start": "1624-01",
+  "end": null,
+  "location": "北直隶"
+ },
+ {
+  "name": "来宗道",
+  "title": "礼部尚书",
+  "province": "京师",
+  "level": "capital",
+  "start": "1624-01",
+  "end": null,
+  "location": "北直隶"
+ },
+ {
+  "name": "王永光",
+  "title": "吏部尚书",
+  "province": "京师",
+  "level": "capital",
+  "start": "1624-01",
+  "end": null,
+  "location": "北直隶"
+ },
+ {
+  "name": "郭允厚",
+  "title": "户部尚书",
+  "province": "京师",
+  "level": "capital",
+  "start": "1624-01",
+  "end": null,
+  "location": "北直隶"
+ },
+ {
+  "name": "王在晋",
+  "title": "兵部尚书",
+  "province": "京师",
+  "level": "capital",
+  "start": "1624-01",
+  "end": null,
+  "location": "北直隶"
+ },
+ {
+  "name": "薛贞",
+  "title": "刑部尚书",
+  "province": "京师",
+  "level": "capital",
+  "start": "1624-01",
+  "end": null,
+  "location": "北直隶"
+ },
+ {
+  "name": "崔呈秀",
+  "title": "工部尚书",
+  "province": "京师",
+  "level": "capital",
+  "start": "1624-01",
+  "end": null,
+  "location": "北直隶"
+ },
+ {
+  "name": "曹思诚",
+  "title": "左都御史",
+  "province": "京师",
+  "level": "capital",
+  "start": "1624-01",
+  "end": null,
+  "location": "北直隶"
+ },
+ {
+  "name": "魏忠贤",
+  "title": "司礼监掌印太监",
+  "province": "京师",
+  "level": "capital",
+  "start": "1624-01",
+  "end": null,
+  "location": "北直隶"
+ },
+ {
+  "name": "王体乾",
+  "title": "司礼监秉笔太监",
+  "province": "京师",
+  "level": "capital",
+  "start": "1624-01",
+  "end": null,
+  "location": "北直隶"
+ },
+ {
+  "name": "王之臣",
+  "title": "经略辽东",
+  "province": "辽东",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "辽东"
+ },
+ {
+  "name": "袁崇焕",
+  "title": "辽东巡抚",
+  "province": "辽东",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "辽东"
+ },
+ {
+  "name": "满桂",
+  "title": "总兵官（宁远）",
+  "province": "辽东",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "辽东"
+ },
+ {
+  "name": "赵率教",
+  "title": "总兵官（锦州）",
+  "province": "辽东",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "辽东"
+ },
+ {
+  "name": "祖大寿",
+  "title": "副总兵官（锦州）",
+  "province": "辽东",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "辽东"
+ },
+ {
+  "name": "毛文龙",
+  "title": "东江总兵官",
+  "province": "辽东",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "辽东"
+ },
+ {
+  "name": "苏德信",
+  "title": "辽东都指挥使",
+  "province": "辽东",
+  "level": "province",
+  "start": "1621-07",
+  "end": "1632-02",
+  "location": "辽东"
+ },
+ {
+  "name": "曾子实",
+  "title": "宁前兵备道",
+  "province": "辽东",
+  "level": "province",
+  "start": "1621-08",
+  "end": "1632-07",
+  "location": "辽东"
+ },
+ {
+  "name": "方景升",
+  "title": "广宁分巡道",
+  "province": "辽东",
+  "level": "province",
+  "start": "1625-05",
+  "end": "1630-06",
+  "location": "辽东"
+ },
+ {
+  "name": "余幼平",
+  "title": "辽海东宁分巡道",
+  "province": "辽东",
+  "level": "province",
+  "start": "1625-05",
+  "end": "1631-08",
+  "location": "辽东"
+ },
+ {
+  "name": "阎鸣泰",
+  "title": "蓟辽总督",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "北直隶"
+ },
+ {
+  "name": "曹元化",
+  "title": "顺天巡抚",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1626-01",
+  "end": "1629-01",
+  "location": "北直隶"
+ },
+ {
+  "name": "陆德润",
+  "title": "保定巡抚",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1621-02",
+  "end": "1632-01",
+  "location": "北直隶"
+ },
+ {
+  "name": "易奉孝",
+  "title": "天津巡抚",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1623-05",
+  "end": "1630-10",
+  "location": "北直隶"
+ },
+ {
+  "name": "白仲谋",
+  "title": "顺天府尹",
+  "province": "北直隶",
+  "level": "capital",
+  "start": "1625-03",
+  "end": "1629-08",
+  "location": "北直隶"
+ },
+ {
+  "name": "任孝直",
+  "title": "蓟镇总兵官",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1626-01",
+  "end": "1630-05",
+  "location": "北直隶"
+ },
+ {
+  "name": "武元直",
+  "title": "宣府总兵官",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1623-10",
+  "end": "1631-08",
+  "location": "北直隶"
+ },
+ {
+  "name": "蒋德谋",
+  "title": "昌平总兵官",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1621-03",
+  "end": "1631-03",
+  "location": "北直隶"
+ },
+ {
+  "name": "雷伯约",
+  "title": "密云总兵官",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1623-03",
+  "end": "1630-07",
+  "location": "北直隶"
+ },
+ {
+  "name": "萧文远",
+  "title": "山海关总兵官",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1621-09",
+  "end": "1630-12",
+  "location": "北直隶"
+ },
+ {
+  "name": "马子敬",
+  "title": "天津总兵官",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1626-04",
+  "end": "1633-03",
+  "location": "北直隶"
+ },
+ {
+  "name": "万德信",
+  "title": "保定总兵官",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1622-10",
+  "end": "1632-04",
+  "location": "北直隶"
+ },
+ {
+  "name": "谢汉升",
+  "title": "密云兵备道",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1626-10",
+  "end": "1631-08",
+  "location": "北直隶"
+ },
+ {
+  "name": "王公休",
+  "title": "昌平兵备道",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1624-02",
+  "end": "1630-07",
+  "location": "北直隶"
+ },
+ {
+  "name": "卢幼平",
+  "title": "蓟州兵备道",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1623-08",
+  "end": "1632-05",
+  "location": "北直隶"
+ },
+ {
+  "name": "邱公谨",
+  "title": "天津兵备道",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1623-05",
+  "end": "1629-02",
+  "location": "北直隶"
+ },
+ {
+  "name": "钟本初",
+  "title": "易州兵备道",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1622-09",
+  "end": "1629-11",
+  "location": "北直隶"
+ },
+ {
+  "name": "郭仲谋",
+  "title": "真定分守道",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1621-05",
+  "end": "1629-08",
+  "location": "北直隶"
+ },
+ {
+  "name": "张元让",
+  "title": "长芦都转运盐运使",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1624-04",
+  "end": "1631-12",
+  "location": "北直隶"
+ },
+ {
+  "name": "田仲康",
+  "title": "保定府知府",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1624-03",
+  "end": "1629-07",
+  "location": "北直隶"
+ },
+ {
+  "name": "蒋公休",
+  "title": "真定府知府",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1623-05",
+  "end": "1629-04",
+  "location": "北直隶"
+ },
+ {
+  "name": "贺奉孝",
+  "title": "顺德府知府",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1621-12",
+  "end": "1629-07",
+  "location": "北直隶"
+ },
+ {
+  "name": "江公绩",
+  "title": "广平府知府",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1624-08",
+  "end": "1629-05",
+  "location": "北直隶"
+ },
+ {
+  "name": "崔德谋",
+  "title": "大名府知府",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1626-10",
+  "end": "1632-06",
+  "location": "北直隶"
+ },
+ {
+  "name": "于文若",
+  "title": "永平府知府",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1623-11",
+  "end": "1630-09",
+  "location": "北直隶"
+ },
+ {
+  "name": "张伯安",
+  "title": "河间府知府",
+  "province": "北直隶",
+  "level": "province",
+  "start": "1623-11",
+  "end": "1631-07",
+  "location": "北直隶"
+ },
+ {
+  "name": "崔文则",
+  "title": "漕运总督",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1626-10",
+  "end": "1631-12",
+  "location": "南直隶"
+ },
+ {
+  "name": "宋统殷",
+  "title": "凤阳巡抚",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "南直隶"
+ },
+ {
+  "name": "尹子初",
+  "title": "应天府尹",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1623-09",
+  "end": "1632-09",
+  "location": "南直隶"
+ },
+ {
+  "name": "顾承宗",
+  "title": "两淮都转运盐运使",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1621-08",
+  "end": "1630-09",
+  "location": "南直隶"
+ },
+ {
+  "name": "何孟起",
+  "title": "江南总兵官",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1625-08",
+  "end": "1629-05",
+  "location": "南直隶"
+ },
+ {
+  "name": "龙休穆",
+  "title": "狼山总兵官",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1626-12",
+  "end": "1634-06",
+  "location": "南直隶"
+ },
+ {
+  "name": "廖汉升",
+  "title": "淮安总兵官",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1625-12",
+  "end": "1629-07",
+  "location": "南直隶"
+ },
+ {
+  "name": "钟元化",
+  "title": "苏松兵备道",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1625-06",
+  "end": "1631-03",
+  "location": "南直隶"
+ },
+ {
+  "name": "丁伯言",
+  "title": "常镇兵备道",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1624-03",
+  "end": "1632-01",
+  "location": "南直隶"
+ },
+ {
+  "name": "姜仲达",
+  "title": "淮扬兵备道",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1621-04",
+  "end": "1631-01",
+  "location": "南直隶"
+ },
+ {
+  "name": "罗文长",
+  "title": "徽宁兵备道",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1623-12",
+  "end": "1629-10",
+  "location": "南直隶"
+ },
+ {
+  "name": "陆公瑾",
+  "title": "庐凤兵备道",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1622-01",
+  "end": "1630-05",
+  "location": "南直隶"
+ },
+ {
+  "name": "袁子山",
+  "title": "苏州府知府",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1621-05",
+  "end": "1629-03",
+  "location": "南直隶"
+ },
+ {
+  "name": "贾仲谋",
+  "title": "松江府知府",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1625-10",
+  "end": "1629-05",
+  "location": "南直隶"
+ },
+ {
+  "name": "赵伯约",
+  "title": "常州府知府",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1626-06",
+  "end": "1631-09",
+  "location": "南直隶"
+ },
+ {
+  "name": "叶子衡",
+  "title": "镇江府知府",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1626-06",
+  "end": "1631-09",
+  "location": "南直隶"
+ },
+ {
+  "name": "冯公瑾",
+  "title": "扬州府知府",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1625-06",
+  "end": "1629-02",
+  "location": "南直隶"
+ },
+ {
+  "name": "雷承宗",
+  "title": "淮安府知府",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1625-08",
+  "end": "1629-03",
+  "location": "南直隶"
+ },
+ {
+  "name": "孔本初",
+  "title": "庐州府知府",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1621-06",
+  "end": "1632-10",
+  "location": "南直隶"
+ },
+ {
+  "name": "孙子敬",
+  "title": "安庆府知府",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1622-11",
+  "end": "1632-06",
+  "location": "南直隶"
+ },
+ {
+  "name": "马公台",
+  "title": "太平府知府",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1622-10",
+  "end": "1632-12",
+  "location": "南直隶"
+ },
+ {
+  "name": "范用宾",
+  "title": "池州府知府",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1624-05",
+  "end": "1629-05",
+  "location": "南直隶"
+ },
+ {
+  "name": "邵孝直",
+  "title": "宁国府知府",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1626-01",
+  "end": "1630-05",
+  "location": "南直隶"
+ },
+ {
+  "name": "张元直",
+  "title": "徽州府知府",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1623-08",
+  "end": "1629-07",
+  "location": "南直隶"
+ },
+ {
+  "name": "乔元俭",
+  "title": "凤阳府知府",
+  "province": "南直隶",
+  "level": "province",
+  "start": "1623-04",
+  "end": "1629-09",
+  "location": "南直隶"
+ },
+ {
+  "name": "李精白",
+  "title": "山东巡抚",
+  "province": "山东",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "山东"
+ },
+ {
+  "name": "李从心",
+  "title": "河道总督",
+  "province": "山东",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "山东"
+ },
+ {
+  "name": "侯士季",
+  "title": "山东布政使司左布政使",
+  "province": "山东",
+  "level": "province",
+  "start": "1626-01",
+  "end": "1633-03",
+  "location": "山东"
+ },
+ {
+  "name": "乔文若",
+  "title": "山东布政使司右布政使",
+  "province": "山东",
+  "level": "province",
+  "start": "1625-12",
+  "end": "1631-07",
+  "location": "山东"
+ },
+ {
+  "name": "赖公达",
+  "title": "山东按察使",
+  "province": "山东",
+  "level": "province",
+  "start": "1624-12",
+  "end": "1631-10",
+  "location": "山东"
+ },
+ {
+  "name": "雷子实",
+  "title": "登莱总兵官",
+  "province": "山东",
+  "level": "province",
+  "start": "1623-07",
+  "end": "1630-04",
+  "location": "山东"
+ },
+ {
+  "name": "徐公瑾",
+  "title": "山东都指挥使",
+  "province": "山东",
+  "level": "province",
+  "start": "1624-09",
+  "end": "1630-06",
+  "location": "山东"
+ },
+ {
+  "name": "袁公明",
+  "title": "山东都转运盐运使",
+  "province": "山东",
+  "level": "province",
+  "start": "1625-07",
+  "end": "1632-03",
+  "location": "山东"
+ },
+ {
+  "name": "史承渊",
+  "title": "济南兵备道",
+  "province": "山东",
+  "level": "province",
+  "start": "1626-09",
+  "end": "1633-08",
+  "location": "山东"
+ },
+ {
+  "name": "钟文和",
+  "title": "临清兵备道",
+  "province": "山东",
+  "level": "province",
+  "start": "1622-09",
+  "end": "1629-06",
+  "location": "山东"
+ },
+ {
+  "name": "郑文则",
+  "title": "登莱兵备道",
+  "province": "山东",
+  "level": "province",
+  "start": "1622-06",
+  "end": "1629-12",
+  "location": "山东"
+ },
+ {
+  "name": "梁子初",
+  "title": "青州分守道",
+  "province": "山东",
+  "level": "province",
+  "start": "1622-02",
+  "end": "1631-10",
+  "location": "山东"
+ },
+ {
+  "name": "秦德润",
+  "title": "山东提学道",
+  "province": "山东",
+  "level": "province",
+  "start": "1621-11",
+  "end": "1629-06",
+  "location": "山东"
+ },
+ {
+  "name": "贾子实",
+  "title": "济南府知府",
+  "province": "山东",
+  "level": "province",
+  "start": "1621-08",
+  "end": "1631-08",
+  "location": "山东"
+ },
+ {
+  "name": "张子山",
+  "title": "兖州府知府",
+  "province": "山东",
+  "level": "province",
+  "start": "1621-12",
+  "end": "1629-02",
+  "location": "山东"
+ },
+ {
+  "name": "毛景和",
+  "title": "东昌府知府",
+  "province": "山东",
+  "level": "province",
+  "start": "1623-09",
+  "end": "1629-10",
+  "location": "山东"
+ },
+ {
+  "name": "秦德谋",
+  "title": "青州府知府",
+  "province": "山东",
+  "level": "province",
+  "start": "1626-03",
+  "end": "1633-05",
+  "location": "山东"
+ },
+ {
+  "name": "冯本初",
+  "title": "登州府知府",
+  "province": "山东",
+  "level": "province",
+  "start": "1624-12",
+  "end": "1632-08",
+  "location": "山东"
+ },
+ {
+  "name": "陆元放",
+  "title": "莱州府知府",
+  "province": "山东",
+  "level": "province",
+  "start": "1622-02",
+  "end": "1631-03",
+  "location": "山东"
+ },
+ {
+  "name": "罗仲谋",
+  "title": "宣大总督",
+  "province": "山西",
+  "level": "province",
+  "start": "1624-08",
+  "end": "1629-10",
+  "location": "山西"
+ },
+ {
+  "name": "牟志夔",
+  "title": "山西巡抚",
+  "province": "山西",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "山西"
+ },
+ {
+  "name": "何元化",
+  "title": "山西布政使司左布政使",
+  "province": "山西",
+  "level": "province",
+  "start": "1625-11",
+  "end": "1630-02",
+  "location": "山西"
+ },
+ {
+  "name": "孙文鸯",
+  "title": "山西布政使司右布政使",
+  "province": "山西",
+  "level": "province",
+  "start": "1625-12",
+  "end": "1633-05",
+  "location": "山西"
+ },
+ {
+  "name": "姜公休",
+  "title": "山西按察使",
+  "province": "山西",
+  "level": "province",
+  "start": "1623-06",
+  "end": "1629-11",
+  "location": "山西"
+ },
+ {
+  "name": "陈元化",
+  "title": "大同总兵官",
+  "province": "山西",
+  "level": "province",
+  "start": "1622-05",
+  "end": "1629-09",
+  "location": "山西"
+ },
+ {
+  "name": "赖公绩",
+  "title": "山西总兵官",
+  "province": "山西",
+  "level": "province",
+  "start": "1623-01",
+  "end": "1631-01",
+  "location": "山西"
+ },
+ {
+  "name": "林伯符",
+  "title": "山西都指挥使",
+  "province": "山西",
+  "level": "province",
+  "start": "1626-09",
+  "end": "1631-11",
+  "location": "山西"
+ },
+ {
+  "name": "韩公瑾",
+  "title": "河东都转运盐运使",
+  "province": "山西",
+  "level": "province",
+  "start": "1621-07",
+  "end": "1631-11",
+  "location": "山西"
+ },
+ {
+  "name": "赵文则",
+  "title": "雁平兵备道",
+  "province": "山西",
+  "level": "province",
+  "start": "1624-03",
+  "end": "1629-04",
+  "location": "山西"
+ },
+ {
+  "name": "郑公明",
+  "title": "宁武兵备道",
+  "province": "山西",
+  "level": "province",
+  "start": "1624-11",
+  "end": "1629-09",
+  "location": "山西"
+ },
+ {
+  "name": "汤文若",
+  "title": "河东分守道",
+  "province": "山西",
+  "level": "province",
+  "start": "1622-03",
+  "end": "1632-10",
+  "location": "山西"
+ },
+ {
+  "name": "杨公达",
+  "title": "山西提学道",
+  "province": "山西",
+  "level": "province",
+  "start": "1626-04",
+  "end": "1630-07",
+  "location": "山西"
+ },
+ {
+  "name": "吴子衡",
+  "title": "太原府知府",
+  "province": "山西",
+  "level": "province",
+  "start": "1623-07",
+  "end": "1632-06",
+  "location": "山西"
+ },
+ {
+  "name": "毛仲达",
+  "title": "平阳府知府",
+  "province": "山西",
+  "level": "province",
+  "start": "1626-07",
+  "end": "1632-03",
+  "location": "山西"
+ },
+ {
+  "name": "卢景升",
+  "title": "大同府知府",
+  "province": "山西",
+  "level": "province",
+  "start": "1626-12",
+  "end": "1632-08",
+  "location": "山西"
+ },
+ {
+  "name": "任景升",
+  "title": "潞安府知府",
+  "province": "山西",
+  "level": "province",
+  "start": "1626-05",
+  "end": "1630-11",
+  "location": "山西"
+ },
+ {
+  "name": "熊奉孝",
+  "title": "汾州府知府",
+  "province": "山西",
+  "level": "province",
+  "start": "1621-04",
+  "end": "1630-04",
+  "location": "山西"
+ },
+ {
+  "name": "郭增光",
+  "title": "河南巡抚",
+  "province": "河南",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "河南"
+ },
+ {
+  "name": "何本初",
+  "title": "河南布政使司左布政使",
+  "province": "河南",
+  "level": "province",
+  "start": "1625-09",
+  "end": "1633-06",
+  "location": "河南"
+ },
+ {
+  "name": "文文则",
+  "title": "河南布政使司右布政使",
+  "province": "河南",
+  "level": "province",
+  "start": "1625-01",
+  "end": "1630-03",
+  "location": "河南"
+ },
+ {
+  "name": "汪子实",
+  "title": "河南按察使",
+  "province": "河南",
+  "level": "province",
+  "start": "1624-04",
+  "end": "1630-02",
+  "location": "河南"
+ },
+ {
+  "name": "毛本初",
+  "title": "河南总兵官",
+  "province": "河南",
+  "level": "province",
+  "start": "1621-12",
+  "end": "1629-10",
+  "location": "河南"
+ },
+ {
+  "name": "卢元让",
+  "title": "河南都指挥使",
+  "province": "河南",
+  "level": "province",
+  "start": "1624-07",
+  "end": "1630-12",
+  "location": "河南"
+ },
+ {
+  "name": "贾承渊",
+  "title": "大梁兵备道",
+  "province": "河南",
+  "level": "province",
+  "start": "1625-06",
+  "end": "1630-12",
+  "location": "河南"
+ },
+ {
+  "name": "邓孟起",
+  "title": "河南分守道",
+  "province": "河南",
+  "level": "province",
+  "start": "1623-03",
+  "end": "1630-09",
+  "location": "河南"
+ },
+ {
+  "name": "胡伯言",
+  "title": "汝南兵备道",
+  "province": "河南",
+  "level": "province",
+  "start": "1622-08",
+  "end": "1629-05",
+  "location": "河南"
+ },
+ {
+  "name": "宋仲康",
+  "title": "睢陈兵备道",
+  "province": "河南",
+  "level": "province",
+  "start": "1626-12",
+  "end": "1630-06",
+  "location": "河南"
+ },
+ {
+  "name": "贺元化",
+  "title": "河南提学道",
+  "province": "河南",
+  "level": "province",
+  "start": "1621-02",
+  "end": "1631-01",
+  "location": "河南"
+ },
+ {
+  "name": "武元放",
+  "title": "开封府知府",
+  "province": "河南",
+  "level": "province",
+  "start": "1623-11",
+  "end": "1631-06",
+  "location": "河南"
+ },
+ {
+  "name": "王奉孝",
+  "title": "河南府知府",
+  "province": "河南",
+  "level": "province",
+  "start": "1622-02",
+  "end": "1629-03",
+  "location": "河南"
+ },
+ {
+  "name": "萧文虎",
+  "title": "归德府知府",
+  "province": "河南",
+  "level": "province",
+  "start": "1621-01",
+  "end": "1631-07",
+  "location": "河南"
+ },
+ {
+  "name": "阎奉孝",
+  "title": "汝宁府知府",
+  "province": "河南",
+  "level": "province",
+  "start": "1622-05",
+  "end": "1630-12",
+  "location": "河南"
+ },
+ {
+  "name": "雷元让",
+  "title": "南阳府知府",
+  "province": "河南",
+  "level": "province",
+  "start": "1626-11",
+  "end": "1633-09",
+  "location": "河南"
+ },
+ {
+  "name": "陆元直",
+  "title": "怀庆府知府",
+  "province": "河南",
+  "level": "province",
+  "start": "1624-10",
+  "end": "1629-12",
+  "location": "河南"
+ },
+ {
+  "name": "吴子初",
+  "title": "卫辉府知府",
+  "province": "河南",
+  "level": "province",
+  "start": "1624-09",
+  "end": "1631-06",
+  "location": "河南"
+ },
+ {
+  "name": "邓孝先",
+  "title": "彰德府知府",
+  "province": "河南",
+  "level": "province",
+  "start": "1624-12",
+  "end": "1629-05",
+  "location": "河南"
+ },
+ {
+  "name": "赵文虎",
+  "title": "陕西三边总督",
+  "province": "陕西",
+  "level": "province",
+  "start": "1621-12",
+  "end": "1629-02",
+  "location": "陕西"
+ },
+ {
+  "name": "胡廷宴",
+  "title": "陕西巡抚",
+  "province": "陕西",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "陕西"
+ },
+ {
+  "name": "岳骏声",
+  "title": "延绥巡抚",
+  "province": "陕西",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "陕西"
+ },
+ {
+  "name": "焦馨",
+  "title": "宁夏巡抚",
+  "province": "陕西",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "陕西"
+ },
+ {
+  "name": "张三杰",
+  "title": "甘肃巡抚",
+  "province": "陕西",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "陕西"
+ },
+ {
+  "name": "袁文远",
+  "title": "陕西布政使司左布政使",
+  "province": "陕西",
+  "level": "province",
+  "start": "1624-05",
+  "end": "1631-08",
+  "location": "陕西"
+ },
+ {
+  "name": "郝文鸯",
+  "title": "陕西布政使司右布政使",
+  "province": "陕西",
+  "level": "province",
+  "start": "1623-07",
+  "end": "1631-06",
+  "location": "陕西"
+ },
+ {
+  "name": "杜伯安",
+  "title": "陕西按察使",
+  "province": "陕西",
+  "level": "province",
+  "start": "1625-02",
+  "end": "1629-05",
+  "location": "陕西"
+ },
+ {
+  "name": "郑公谨",
+  "title": "延绥总兵官",
+  "province": "陕西",
+  "level": "province",
+  "start": "1623-03",
+  "end": "1629-03",
+  "location": "陕西"
+ },
+ {
+  "name": "谭士季",
+  "title": "宁夏总兵官",
+  "province": "陕西",
+  "level": "province",
+  "start": "1622-11",
+  "end": "1631-10",
+  "location": "陕西"
+ },
+ {
+  "name": "尹德润",
+  "title": "甘肃总兵官",
+  "province": "陕西",
+  "level": "province",
+  "start": "1622-02",
+  "end": "1632-09",
+  "location": "陕西"
+ },
+ {
+  "name": "汤公达",
+  "title": "固原总兵官",
+  "province": "陕西",
+  "level": "province",
+  "start": "1622-01",
+  "end": "1629-06",
+  "location": "陕西"
+ },
+ {
+  "name": "常仲达",
+  "title": "临洮总兵官",
+  "province": "陕西",
+  "level": "province",
+  "start": "1625-12",
+  "end": "1632-09",
+  "location": "陕西"
+ },
+ {
+  "name": "彭文若",
+  "title": "陕西都指挥使",
+  "province": "陕西",
+  "level": "province",
+  "start": "1623-11",
+  "end": "1632-07",
+  "location": "陕西"
+ },
+ {
+  "name": "文子义",
+  "title": "关内分守道",
+  "province": "陕西",
+  "level": "province",
+  "start": "1621-11",
+  "end": "1630-12",
+  "location": "陕西"
+ },
+ {
+  "name": "邱公台",
+  "title": "关西分守道",
+  "province": "陕西",
+  "level": "province",
+  "start": "1625-10",
+  "end": "1629-06",
+  "location": "陕西"
+ },
+ {
+  "name": "顾休穆",
+  "title": "榆林兵备道",
+  "province": "陕西",
+  "level": "province",
+  "start": "1626-06",
+  "end": "1630-02",
+  "location": "陕西"
+ },
+ {
+  "name": "沈本初",
+  "title": "汉中兵备道",
+  "province": "陕西",
+  "level": "province",
+  "start": "1622-03",
+  "end": "1629-07",
+  "location": "陕西"
+ },
+ {
+  "name": "雷子明",
+  "title": "陕西提学道",
+  "province": "陕西",
+  "level": "province",
+  "start": "1621-03",
+  "end": "1631-01",
+  "location": "陕西"
+ },
+ {
+  "name": "孔季常",
+  "title": "西安府知府",
+  "province": "陕西",
+  "level": "province",
+  "start": "1625-09",
+  "end": "1633-03",
+  "location": "陕西"
+ },
+ {
+  "name": "杨景升",
+  "title": "凤翔府知府",
+  "province": "陕西",
+  "level": "province",
+  "start": "1624-02",
+  "end": "1630-02",
+  "location": "陕西"
+ },
+ {
+  "name": "任子实",
+  "title": "汉中府知府",
+  "province": "陕西",
+  "level": "province",
+  "start": "1622-03",
+  "end": "1631-09",
+  "location": "陕西"
+ },
+ {
+  "name": "林公明",
+  "title": "延安府知府",
+  "province": "陕西",
+  "level": "province",
+  "start": "1624-08",
+  "end": "1630-07",
+  "location": "陕西"
+ },
+ {
+  "name": "朱燮元",
+  "title": "川湖云贵总督",
+  "province": "四川",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "四川"
+ },
+ {
+  "name": "赵孝先",
+  "title": "四川巡抚",
+  "province": "四川",
+  "level": "province",
+  "start": "1621-02",
+  "end": "1629-02",
+  "location": "四川"
+ },
+ {
+  "name": "朱公达",
+  "title": "四川布政使司左布政使",
+  "province": "四川",
+  "level": "province",
+  "start": "1621-08",
+  "end": "1629-06",
+  "location": "四川"
+ },
+ {
+  "name": "江景和",
+  "title": "四川布政使司右布政使",
+  "province": "四川",
+  "level": "province",
+  "start": "1622-01",
+  "end": "1629-09",
+  "location": "四川"
+ },
+ {
+  "name": "苏季常",
+  "title": "四川按察使",
+  "province": "四川",
+  "level": "province",
+  "start": "1626-06",
+  "end": "1632-06",
+  "location": "四川"
+ },
+ {
+  "name": "沈文虎",
+  "title": "四川总兵官",
+  "province": "四川",
+  "level": "province",
+  "start": "1623-08",
+  "end": "1631-10",
+  "location": "四川"
+ },
+ {
+  "name": "秦良玉",
+  "title": "石砫宣抚使",
+  "province": "四川",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "四川"
+ },
+ {
+  "name": "廖仲康",
+  "title": "四川都指挥使",
+  "province": "四川",
+  "level": "province",
+  "start": "1621-09",
+  "end": "1630-07",
+  "location": "四川"
+ },
+ {
+  "name": "许德谋",
+  "title": "川西分守道",
+  "province": "四川",
+  "level": "province",
+  "start": "1623-05",
+  "end": "1632-01",
+  "location": "四川"
+ },
+ {
+  "name": "蒋文和",
+  "title": "川东兵备道",
+  "province": "四川",
+  "level": "province",
+  "start": "1624-06",
+  "end": "1630-12",
+  "location": "四川"
+ },
+ {
+  "name": "郭奉孝",
+  "title": "川北分巡道",
+  "province": "四川",
+  "level": "province",
+  "start": "1626-12",
+  "end": "1631-01",
+  "location": "四川"
+ },
+ {
+  "name": "傅文虎",
+  "title": "建昌兵备道",
+  "province": "四川",
+  "level": "province",
+  "start": "1624-01",
+  "end": "1630-08",
+  "location": "四川"
+ },
+ {
+  "name": "吕元让",
+  "title": "四川提学道",
+  "province": "四川",
+  "level": "province",
+  "start": "1624-07",
+  "end": "1631-05",
+  "location": "四川"
+ },
+ {
+  "name": "萧文若",
+  "title": "成都府知府",
+  "province": "四川",
+  "level": "province",
+  "start": "1621-12",
+  "end": "1630-12",
+  "location": "四川"
+ },
+ {
+  "name": "陈用宾",
+  "title": "重庆府知府",
+  "province": "四川",
+  "level": "province",
+  "start": "1623-11",
+  "end": "1630-10",
+  "location": "四川"
+ },
+ {
+  "name": "郝文则",
+  "title": "保宁府知府",
+  "province": "四川",
+  "level": "province",
+  "start": "1626-11",
+  "end": "1630-07",
+  "location": "四川"
+ },
+ {
+  "name": "王景升",
+  "title": "顺庆府知府",
+  "province": "四川",
+  "level": "province",
+  "start": "1624-11",
+  "end": "1630-11",
+  "location": "四川"
+ },
+ {
+  "name": "罗幼常",
+  "title": "夔州府知府",
+  "province": "四川",
+  "level": "province",
+  "start": "1625-06",
+  "end": "1629-10",
+  "location": "四川"
+ },
+ {
+  "name": "萧仲谋",
+  "title": "叙州府知府",
+  "province": "四川",
+  "level": "province",
+  "start": "1625-08",
+  "end": "1633-06",
+  "location": "四川"
+ },
+ {
+  "name": "邹公瑾",
+  "title": "龙安府知府",
+  "province": "四川",
+  "level": "province",
+  "start": "1622-02",
+  "end": "1629-06",
+  "location": "四川"
+ },
+ {
+  "name": "孔仲达",
+  "title": "遵义府知府",
+  "province": "四川",
+  "level": "province",
+  "start": "1625-03",
+  "end": "1632-04",
+  "location": "四川"
+ },
+ {
+  "name": "李栖凤",
+  "title": "湖广巡抚",
+  "province": "湖广",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "湖广"
+ },
+ {
+  "name": "梁应泽",
+  "title": "郧阳巡抚",
+  "province": "湖广",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "湖广"
+ },
+ {
+  "name": "蔡文和",
+  "title": "湖广布政使司左布政使",
+  "province": "湖广",
+  "level": "province",
+  "start": "1623-11",
+  "end": "1632-10",
+  "location": "湖广"
+ },
+ {
+  "name": "林休穆",
+  "title": "湖广布政使司右布政使",
+  "province": "湖广",
+  "level": "province",
+  "start": "1626-01",
+  "end": "1630-01",
+  "location": "湖广"
+ },
+ {
+  "name": "吴德润",
+  "title": "湖广按察使",
+  "province": "湖广",
+  "level": "province",
+  "start": "1622-12",
+  "end": "1630-11",
+  "location": "湖广"
+ },
+ {
+  "name": "贾孝直",
+  "title": "湖广总兵官",
+  "province": "湖广",
+  "level": "province",
+  "start": "1623-04",
+  "end": "1629-03",
+  "location": "湖广"
+ },
+ {
+  "name": "沈元直",
+  "title": "郧阳总兵官",
+  "province": "湖广",
+  "level": "province",
+  "start": "1624-08",
+  "end": "1631-10",
+  "location": "湖广"
+ },
+ {
+  "name": "沈元放",
+  "title": "湖广都指挥使",
+  "province": "湖广",
+  "level": "province",
+  "start": "1621-09",
+  "end": "1629-07",
+  "location": "湖广"
+ },
+ {
+  "name": "刘公台",
+  "title": "武昌兵备道",
+  "province": "湖广",
+  "level": "province",
+  "start": "1622-01",
+  "end": "1631-08",
+  "location": "湖广"
+ },
+ {
+  "name": "段子敬",
+  "title": "荆襄分守道",
+  "province": "湖广",
+  "level": "province",
+  "start": "1625-10",
+  "end": "1630-11",
+  "location": "湖广"
+ },
+ {
+  "name": "廖子实",
+  "title": "湖南分巡道",
+  "province": "湖广",
+  "level": "province",
+  "start": "1622-12",
+  "end": "1629-09",
+  "location": "湖广"
+ },
+ {
+  "name": "冯文远",
+  "title": "郧阳分守道",
+  "province": "湖广",
+  "level": "province",
+  "start": "1622-11",
+  "end": "1629-02",
+  "location": "湖广"
+ },
+ {
+  "name": "金伯安",
+  "title": "湖广提学道",
+  "province": "湖广",
+  "level": "province",
+  "start": "1621-10",
+  "end": "1629-02",
+  "location": "湖广"
+ },
+ {
+  "name": "林汉升",
+  "title": "武昌府知府",
+  "province": "湖广",
+  "level": "province",
+  "start": "1622-03",
+  "end": "1629-01",
+  "location": "湖广"
+ },
+ {
+  "name": "丁元让",
+  "title": "汉阳府知府",
+  "province": "湖广",
+  "level": "province",
+  "start": "1622-03",
+  "end": "1629-07",
+  "location": "湖广"
+ },
+ {
+  "name": "谭子敬",
+  "title": "黄州府知府",
+  "province": "湖广",
+  "level": "province",
+  "start": "1624-03",
+  "end": "1630-05",
+  "location": "湖广"
+ },
+ {
+  "name": "崔仲达",
+  "title": "承天府知府",
+  "province": "湖广",
+  "level": "province",
+  "start": "1622-12",
+  "end": "1629-11",
+  "location": "湖广"
+ },
+ {
+  "name": "毛孝直",
+  "title": "德安府知府",
+  "province": "湖广",
+  "level": "province",
+  "start": "1625-06",
+  "end": "1631-08",
+  "location": "湖广"
+ },
+ {
+  "name": "熊孝先",
+  "title": "荆州府知府",
+  "province": "湖广",
+  "level": "province",
+  "start": "1625-07",
+  "end": "1629-04",
+  "location": "湖广"
+ },
+ {
+  "name": "叶公达",
+  "title": "岳州府知府",
+  "province": "湖广",
+  "level": "province",
+  "start": "1624-06",
+  "end": "1631-04",
+  "location": "湖广"
+ },
+ {
+  "name": "萧德信",
+  "title": "长沙府知府",
+  "province": "湖广",
+  "level": "province",
+  "start": "1624-11",
+  "end": "1631-11",
+  "location": "湖广"
+ },
+ {
+  "name": "黎文若",
+  "title": "宝庆府知府",
+  "province": "湖广",
+  "level": "province",
+  "start": "1625-08",
+  "end": "1632-03",
+  "location": "湖广"
+ },
+ {
+  "name": "蒋伯安",
+  "title": "衡州府知府",
+  "province": "湖广",
+  "level": "province",
+  "start": "1625-03",
+  "end": "1631-03",
+  "location": "湖广"
+ },
+ {
+  "name": "杨孝先",
+  "title": "常德府知府",
+  "province": "湖广",
+  "level": "province",
+  "start": "1625-08",
+  "end": "1632-04",
+  "location": "湖广"
+ },
+ {
+  "name": "林子实",
+  "title": "辰州府知府",
+  "province": "湖广",
+  "level": "province",
+  "start": "1623-05",
+  "end": "1629-02",
+  "location": "湖广"
+ },
+ {
+  "name": "万休穆",
+  "title": "永州府知府",
+  "province": "湖广",
+  "level": "province",
+  "start": "1624-11",
+  "end": "1631-10",
+  "location": "湖广"
+ },
+ {
+  "name": "秦文长",
+  "title": "郧阳府知府",
+  "province": "湖广",
+  "level": "province",
+  "start": "1623-10",
+  "end": "1630-12",
+  "location": "湖广"
+ },
+ {
+  "name": "杨邦宪",
+  "title": "江西巡抚",
+  "province": "江西",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "江西"
+ },
+ {
+  "name": "孔公达",
+  "title": "江西布政使司左布政使",
+  "province": "江西",
+  "level": "province",
+  "start": "1623-04",
+  "end": "1630-11",
+  "location": "江西"
+ },
+ {
+  "name": "常元放",
+  "title": "江西布政使司右布政使",
+  "province": "江西",
+  "level": "province",
+  "start": "1626-04",
+  "end": "1630-09",
+  "location": "江西"
+ },
+ {
+  "name": "孔妙才",
+  "title": "江西按察使",
+  "province": "江西",
+  "level": "province",
+  "start": "1626-12",
+  "end": "1630-05",
+  "location": "江西"
+ },
+ {
+  "name": "武文鸯",
+  "title": "江西总兵官",
+  "province": "江西",
+  "level": "province",
+  "start": "1624-03",
+  "end": "1631-05",
+  "location": "江西"
+ },
+ {
+  "name": "郝公谨",
+  "title": "江西都指挥使",
+  "province": "江西",
+  "level": "province",
+  "start": "1624-04",
+  "end": "1632-06",
+  "location": "江西"
+ },
+ {
+  "name": "姜休穆",
+  "title": "南昌分守道",
+  "province": "江西",
+  "level": "province",
+  "start": "1623-09",
+  "end": "1631-05",
+  "location": "江西"
+ },
+ {
+  "name": "唐公明",
+  "title": "赣南兵备道",
+  "province": "江西",
+  "level": "province",
+  "start": "1626-05",
+  "end": "1633-06",
+  "location": "江西"
+ },
+ {
+  "name": "刘子山",
+  "title": "九江兵备道",
+  "province": "江西",
+  "level": "province",
+  "start": "1625-07",
+  "end": "1631-05",
+  "location": "江西"
+ },
+ {
+  "name": "常奉孝",
+  "title": "湖东分巡道",
+  "province": "江西",
+  "level": "province",
+  "start": "1623-03",
+  "end": "1630-02",
+  "location": "江西"
+ },
+ {
+  "name": "高公谨",
+  "title": "江西提学道",
+  "province": "江西",
+  "level": "province",
+  "start": "1626-03",
+  "end": "1631-02",
+  "location": "江西"
+ },
+ {
+  "name": "康子山",
+  "title": "南昌府知府",
+  "province": "江西",
+  "level": "province",
+  "start": "1622-02",
+  "end": "1629-09",
+  "location": "江西"
+ },
+ {
+  "name": "任元放",
+  "title": "九江府知府",
+  "province": "江西",
+  "level": "province",
+  "start": "1626-01",
+  "end": "1630-10",
+  "location": "江西"
+ },
+ {
+  "name": "魏汉升",
+  "title": "南康府知府",
+  "province": "江西",
+  "level": "province",
+  "start": "1625-06",
+  "end": "1630-04",
+  "location": "江西"
+ },
+ {
+  "name": "唐子明",
+  "title": "饶州府知府",
+  "province": "江西",
+  "level": "province",
+  "start": "1623-08",
+  "end": "1630-08",
+  "location": "江西"
+ },
+ {
+  "name": "石元让",
+  "title": "广信府知府",
+  "province": "江西",
+  "level": "province",
+  "start": "1623-05",
+  "end": "1632-02",
+  "location": "江西"
+ },
+ {
+  "name": "钱德信",
+  "title": "建昌府知府",
+  "province": "江西",
+  "level": "province",
+  "start": "1622-07",
+  "end": "1630-11",
+  "location": "江西"
+ },
+ {
+  "name": "史子山",
+  "title": "抚州府知府",
+  "province": "江西",
+  "level": "province",
+  "start": "1623-12",
+  "end": "1629-06",
+  "location": "江西"
+ },
+ {
+  "name": "朱用宾",
+  "title": "临江府知府",
+  "province": "江西",
+  "level": "province",
+  "start": "1621-06",
+  "end": "1629-12",
+  "location": "江西"
+ },
+ {
+  "name": "康文虎",
+  "title": "吉安府知府",
+  "province": "江西",
+  "level": "province",
+  "start": "1625-05",
+  "end": "1630-08",
+  "location": "江西"
+ },
+ {
+  "name": "孙元放",
+  "title": "瑞州府知府",
+  "province": "江西",
+  "level": "province",
+  "start": "1623-07",
+  "end": "1631-06",
+  "location": "江西"
+ },
+ {
+  "name": "谭伯符",
+  "title": "袁州府知府",
+  "province": "江西",
+  "level": "province",
+  "start": "1625-07",
+  "end": "1632-10",
+  "location": "江西"
+ },
+ {
+  "name": "周景和",
+  "title": "赣州府知府",
+  "province": "江西",
+  "level": "province",
+  "start": "1623-04",
+  "end": "1631-02",
+  "location": "江西"
+ },
+ {
+  "name": "胡幼常",
+  "title": "南安府知府",
+  "province": "江西",
+  "level": "province",
+  "start": "1626-08",
+  "end": "1629-10",
+  "location": "江西"
+ },
+ {
+  "name": "张延登",
+  "title": "浙江巡抚",
+  "province": "浙江",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "浙江"
+ },
+ {
+  "name": "孙国桢",
+  "title": "登莱巡抚",
+  "province": "浙江",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "浙江"
+ },
+ {
+  "name": "孟仲达",
+  "title": "浙江布政使司左布政使",
+  "province": "浙江",
+  "level": "province",
+  "start": "1621-06",
+  "end": "1631-04",
+  "location": "浙江"
+ },
+ {
+  "name": "董景和",
+  "title": "浙江布政使司右布政使",
+  "province": "浙江",
+  "level": "province",
+  "start": "1622-10",
+  "end": "1629-11",
+  "location": "浙江"
+ },
+ {
+  "name": "胡子衡",
+  "title": "浙江按察使",
+  "province": "浙江",
+  "level": "province",
+  "start": "1625-07",
+  "end": "1632-09",
+  "location": "浙江"
+ },
+ {
+  "name": "史仲康",
+  "title": "浙江总兵官",
+  "province": "浙江",
+  "level": "province",
+  "start": "1622-07",
+  "end": "1630-01",
+  "location": "浙江"
+ },
+ {
+  "name": "文文远",
+  "title": "浙江都指挥使",
+  "province": "浙江",
+  "level": "province",
+  "start": "1622-08",
+  "end": "1630-10",
+  "location": "浙江"
+ },
+ {
+  "name": "任子山",
+  "title": "两浙都转运盐运使",
+  "province": "浙江",
+  "level": "province",
+  "start": "1623-02",
+  "end": "1629-04",
+  "location": "浙江"
+ },
+ {
+  "name": "乔本初",
+  "title": "杭严兵备道",
+  "province": "浙江",
+  "level": "province",
+  "start": "1624-12",
+  "end": "1632-01",
+  "location": "浙江"
+ },
+ {
+  "name": "吕公瑾",
+  "title": "嘉湖分巡道",
+  "province": "浙江",
+  "level": "province",
+  "start": "1626-03",
+  "end": "1629-05",
+  "location": "浙江"
+ },
+ {
+  "name": "龙汉升",
+  "title": "宁绍分守道",
+  "province": "浙江",
+  "level": "province",
+  "start": "1625-09",
+  "end": "1632-11",
+  "location": "浙江"
+ },
+ {
+  "name": "毛士元",
+  "title": "温处兵备道",
+  "province": "浙江",
+  "level": "province",
+  "start": "1626-01",
+  "end": "1632-08",
+  "location": "浙江"
+ },
+ {
+  "name": "任幼常",
+  "title": "浙江提学道",
+  "province": "浙江",
+  "level": "province",
+  "start": "1622-04",
+  "end": "1632-01",
+  "location": "浙江"
+ },
+ {
+  "name": "孙公休",
+  "title": "杭州府知府",
+  "province": "浙江",
+  "level": "province",
+  "start": "1626-10",
+  "end": "1632-11",
+  "location": "浙江"
+ },
+ {
+  "name": "苏元化",
+  "title": "嘉兴府知府",
+  "province": "浙江",
+  "level": "province",
+  "start": "1625-03",
+  "end": "1629-09",
+  "location": "浙江"
+ },
+ {
+  "name": "何景升",
+  "title": "湖州府知府",
+  "province": "浙江",
+  "level": "province",
+  "start": "1624-11",
+  "end": "1632-10",
+  "location": "浙江"
+ },
+ {
+  "name": "石本初",
+  "title": "宁波府知府",
+  "province": "浙江",
+  "level": "province",
+  "start": "1622-01",
+  "end": "1629-12",
+  "location": "浙江"
+ },
+ {
+  "name": "曹妙才",
+  "title": "绍兴府知府",
+  "province": "浙江",
+  "level": "province",
+  "start": "1623-10",
+  "end": "1629-02",
+  "location": "浙江"
+ },
+ {
+  "name": "钟奉孝",
+  "title": "台州府知府",
+  "province": "浙江",
+  "level": "province",
+  "start": "1624-08",
+  "end": "1629-08",
+  "location": "浙江"
+ },
+ {
+  "name": "吕伯符",
+  "title": "金华府知府",
+  "province": "浙江",
+  "level": "province",
+  "start": "1621-12",
+  "end": "1629-01",
+  "location": "浙江"
+ },
+ {
+  "name": "郭文则",
+  "title": "衢州府知府",
+  "province": "浙江",
+  "level": "province",
+  "start": "1622-03",
+  "end": "1629-09",
+  "location": "浙江"
+ },
+ {
+  "name": "丁景和",
+  "title": "严州府知府",
+  "province": "浙江",
+  "level": "province",
+  "start": "1621-08",
+  "end": "1632-09",
+  "location": "浙江"
+ },
+ {
+  "name": "吕子龙",
+  "title": "温州府知府",
+  "province": "浙江",
+  "level": "province",
+  "start": "1623-12",
+  "end": "1632-08",
+  "location": "浙江"
+ },
+ {
+  "name": "蔡德润",
+  "title": "处州府知府",
+  "province": "浙江",
+  "level": "province",
+  "start": "1621-03",
+  "end": "1630-02",
+  "location": "浙江"
+ },
+ {
+  "name": "朱一冯",
+  "title": "福建巡抚",
+  "province": "福建",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "福建"
+ },
+ {
+  "name": "方文鸯",
+  "title": "福建布政使司左布政使",
+  "province": "福建",
+  "level": "province",
+  "start": "1621-07",
+  "end": "1630-01",
+  "location": "福建"
+ },
+ {
+  "name": "邱文长",
+  "title": "福建布政使司右布政使",
+  "province": "福建",
+  "level": "province",
+  "start": "1625-04",
+  "end": "1631-03",
+  "location": "福建"
+ },
+ {
+  "name": "孙公明",
+  "title": "福建按察使",
+  "province": "福建",
+  "level": "province",
+  "start": "1626-04",
+  "end": "1634-03",
+  "location": "福建"
+ },
+ {
+  "name": "周德谋",
+  "title": "福建总兵官",
+  "province": "福建",
+  "level": "province",
+  "start": "1622-02",
+  "end": "1631-08",
+  "location": "福建"
+ },
+ {
+  "name": "郑芝龙",
+  "title": "中左所游击",
+  "province": "福建",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "福建"
+ },
+ {
+  "name": "钱元放",
+  "title": "福建都指挥使",
+  "province": "福建",
+  "level": "province",
+  "start": "1625-11",
+  "end": "1633-10",
+  "location": "福建"
+ },
+ {
+  "name": "苏元直",
+  "title": "福建都转运盐运使",
+  "province": "福建",
+  "level": "province",
+  "start": "1623-08",
+  "end": "1631-01",
+  "location": "福建"
+ },
+ {
+  "name": "苏景和",
+  "title": "福宁兵备道",
+  "province": "福建",
+  "level": "province",
+  "start": "1622-12",
+  "end": "1632-08",
+  "location": "福建"
+ },
+ {
+  "name": "蔡景和",
+  "title": "兴泉兵备道",
+  "province": "福建",
+  "level": "province",
+  "start": "1625-05",
+  "end": "1629-05",
+  "location": "福建"
+ },
+ {
+  "name": "曹元放",
+  "title": "漳南兵备道",
+  "province": "福建",
+  "level": "province",
+  "start": "1622-12",
+  "end": "1632-02",
+  "location": "福建"
+ },
+ {
+  "name": "胡仲谋",
+  "title": "建延分守道",
+  "province": "福建",
+  "level": "province",
+  "start": "1622-10",
+  "end": "1630-07",
+  "location": "福建"
+ },
+ {
+  "name": "尹承宗",
+  "title": "福建提学道",
+  "province": "福建",
+  "level": "province",
+  "start": "1626-07",
+  "end": "1633-07",
+  "location": "福建"
+ },
+ {
+  "name": "徐文远",
+  "title": "福州府知府",
+  "province": "福建",
+  "level": "province",
+  "start": "1626-04",
+  "end": "1630-11",
+  "location": "福建"
+ },
+ {
+  "name": "万子龙",
+  "title": "泉州府知府",
+  "province": "福建",
+  "level": "province",
+  "start": "1625-12",
+  "end": "1629-09",
+  "location": "福建"
+ },
+ {
+  "name": "秦元让",
+  "title": "漳州府知府",
+  "province": "福建",
+  "level": "province",
+  "start": "1621-04",
+  "end": "1629-02",
+  "location": "福建"
+ },
+ {
+  "name": "汤伯约",
+  "title": "建宁府知府",
+  "province": "福建",
+  "level": "province",
+  "start": "1622-05",
+  "end": "1629-09",
+  "location": "福建"
+ },
+ {
+  "name": "冯元直",
+  "title": "延平府知府",
+  "province": "福建",
+  "level": "province",
+  "start": "1625-11",
+  "end": "1630-08",
+  "location": "福建"
+ },
+ {
+  "name": "王承渊",
+  "title": "汀州府知府",
+  "province": "福建",
+  "level": "province",
+  "start": "1626-04",
+  "end": "1631-07",
+  "location": "福建"
+ },
+ {
+  "name": "卢文长",
+  "title": "邵武府知府",
+  "province": "福建",
+  "level": "province",
+  "start": "1623-07",
+  "end": "1629-09",
+  "location": "福建"
+ },
+ {
+  "name": "冯文若",
+  "title": "兴化府知府",
+  "province": "福建",
+  "level": "province",
+  "start": "1625-09",
+  "end": "1632-10",
+  "location": "福建"
+ },
+ {
+  "name": "廖公达",
+  "title": "两广总督",
+  "province": "广东",
+  "level": "province",
+  "start": "1623-06",
+  "end": "1629-03",
+  "location": "广东"
+ },
+ {
+  "name": "王尊德",
+  "title": "广东巡抚",
+  "province": "广东",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "广东"
+ },
+ {
+  "name": "田公明",
+  "title": "广东布政使司左布政使",
+  "province": "广东",
+  "level": "province",
+  "start": "1621-02",
+  "end": "1629-06",
+  "location": "广东"
+ },
+ {
+  "name": "侯子实",
+  "title": "广东布政使司右布政使",
+  "province": "广东",
+  "level": "province",
+  "start": "1623-06",
+  "end": "1629-09",
+  "location": "广东"
+ },
+ {
+  "name": "武用宾",
+  "title": "广东按察使",
+  "province": "广东",
+  "level": "province",
+  "start": "1621-11",
+  "end": "1631-01",
+  "location": "广东"
+ },
+ {
+  "name": "贾文虎",
+  "title": "广东总兵官",
+  "province": "广东",
+  "level": "province",
+  "start": "1621-08",
+  "end": "1630-04",
+  "location": "广东"
+ },
+ {
+  "name": "毛元让",
+  "title": "南澳副总兵",
+  "province": "广东",
+  "level": "province",
+  "start": "1623-08",
+  "end": "1631-04",
+  "location": "广东"
+ },
+ {
+  "name": "文景和",
+  "title": "广东都指挥使",
+  "province": "广东",
+  "level": "province",
+  "start": "1622-01",
+  "end": "1630-01",
+  "location": "广东"
+ },
+ {
+  "name": "戴元让",
+  "title": "广东都转运盐运使",
+  "province": "广东",
+  "level": "province",
+  "start": "1621-12",
+  "end": "1631-04",
+  "location": "广东"
+ },
+ {
+  "name": "张德谋",
+  "title": "岭南分守道",
+  "province": "广东",
+  "level": "province",
+  "start": "1626-10",
+  "end": "1633-06",
+  "location": "广东"
+ },
+ {
+  "name": "戴公瑾",
+  "title": "岭西兵备道",
+  "province": "广东",
+  "level": "province",
+  "start": "1623-07",
+  "end": "1631-07",
+  "location": "广东"
+ },
+ {
+  "name": "贺妙才",
+  "title": "岭东兵备道",
+  "province": "广东",
+  "level": "province",
+  "start": "1622-12",
+  "end": "1629-07",
+  "location": "广东"
+ },
+ {
+  "name": "夏孝直",
+  "title": "海北分巡道",
+  "province": "广东",
+  "level": "province",
+  "start": "1621-03",
+  "end": "1632-03",
+  "location": "广东"
+ },
+ {
+  "name": "汪景升",
+  "title": "广东提学道",
+  "province": "广东",
+  "level": "province",
+  "start": "1621-05",
+  "end": "1631-07",
+  "location": "广东"
+ },
+ {
+  "name": "杨元放",
+  "title": "广州府知府",
+  "province": "广东",
+  "level": "province",
+  "start": "1621-08",
+  "end": "1629-02",
+  "location": "广东"
+ },
+ {
+  "name": "崔文鸯",
+  "title": "韶州府知府",
+  "province": "广东",
+  "level": "province",
+  "start": "1625-11",
+  "end": "1632-05",
+  "location": "广东"
+ },
+ {
+  "name": "乔伯言",
+  "title": "惠州府知府",
+  "province": "广东",
+  "level": "province",
+  "start": "1623-02",
+  "end": "1632-12",
+  "location": "广东"
+ },
+ {
+  "name": "李士季",
+  "title": "潮州府知府",
+  "province": "广东",
+  "level": "province",
+  "start": "1623-03",
+  "end": "1630-08",
+  "location": "广东"
+ },
+ {
+  "name": "邹孝先",
+  "title": "肇庆府知府",
+  "province": "广东",
+  "level": "province",
+  "start": "1622-12",
+  "end": "1631-05",
+  "location": "广东"
+ },
+ {
+  "name": "黄子山",
+  "title": "高州府知府",
+  "province": "广东",
+  "level": "province",
+  "start": "1622-09",
+  "end": "1630-05",
+  "location": "广东"
+ },
+ {
+  "name": "陆子初",
+  "title": "廉州府知府",
+  "province": "广东",
+  "level": "province",
+  "start": "1624-01",
+  "end": "1630-03",
+  "location": "广东"
+ },
+ {
+  "name": "侯子初",
+  "title": "雷州府知府",
+  "province": "广东",
+  "level": "province",
+  "start": "1625-09",
+  "end": "1632-08",
+  "location": "广东"
+ },
+ {
+  "name": "邓公绩",
+  "title": "琼州府知府",
+  "province": "广东",
+  "level": "province",
+  "start": "1626-02",
+  "end": "1632-09",
+  "location": "广东"
+ },
+ {
+  "name": "林一柱",
+  "title": "广西巡抚",
+  "province": "广西",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "广西"
+ },
+ {
+  "name": "常兴霸",
+  "title": "广西布政使司左布政使",
+  "province": "广西",
+  "level": "province",
+  "start": "1624-10",
+  "end": "1630-12",
+  "location": "广西"
+ },
+ {
+  "name": "罗伯符",
+  "title": "广西布政使司右布政使",
+  "province": "广西",
+  "level": "province",
+  "start": "1623-03",
+  "end": "1631-02",
+  "location": "广西"
+ },
+ {
+  "name": "沈公休",
+  "title": "广西按察使",
+  "province": "广西",
+  "level": "province",
+  "start": "1622-08",
+  "end": "1631-02",
+  "location": "广西"
+ },
+ {
+  "name": "邱妙才",
+  "title": "广西总兵官",
+  "province": "广西",
+  "level": "province",
+  "start": "1622-05",
+  "end": "1629-11",
+  "location": "广西"
+ },
+ {
+  "name": "吕伯约",
+  "title": "广西都指挥使",
+  "province": "广西",
+  "level": "province",
+  "start": "1625-10",
+  "end": "1632-03",
+  "location": "广西"
+ },
+ {
+  "name": "于仲达",
+  "title": "桂林分守道",
+  "province": "广西",
+  "level": "province",
+  "start": "1624-03",
+  "end": "1630-07",
+  "location": "广西"
+ },
+ {
+  "name": "邓仲康",
+  "title": "苍梧兵备道",
+  "province": "广西",
+  "level": "province",
+  "start": "1625-05",
+  "end": "1630-12",
+  "location": "广西"
+ },
+ {
+  "name": "潘士季",
+  "title": "左江兵备道",
+  "province": "广西",
+  "level": "province",
+  "start": "1621-12",
+  "end": "1630-05",
+  "location": "广西"
+ },
+ {
+  "name": "袁幼平",
+  "title": "右江分巡道",
+  "province": "广西",
+  "level": "province",
+  "start": "1625-02",
+  "end": "1632-11",
+  "location": "广西"
+ },
+ {
+  "name": "潘公瑾",
+  "title": "广西提学道",
+  "province": "广西",
+  "level": "province",
+  "start": "1622-11",
+  "end": "1630-04",
+  "location": "广西"
+ },
+ {
+  "name": "廖士季",
+  "title": "桂林府知府",
+  "province": "广西",
+  "level": "province",
+  "start": "1622-09",
+  "end": "1629-01",
+  "location": "广西"
+ },
+ {
+  "name": "邹伯约",
+  "title": "柳州府知府",
+  "province": "广西",
+  "level": "province",
+  "start": "1625-06",
+  "end": "1632-05",
+  "location": "广西"
+ },
+ {
+  "name": "杨元让",
+  "title": "庆远府知府",
+  "province": "广西",
+  "level": "province",
+  "start": "1624-07",
+  "end": "1629-06",
+  "location": "广西"
+ },
+ {
+  "name": "余子明",
+  "title": "平乐府知府",
+  "province": "广西",
+  "level": "province",
+  "start": "1622-01",
+  "end": "1631-09",
+  "location": "广西"
+ },
+ {
+  "name": "徐德信",
+  "title": "梧州府知府",
+  "province": "广西",
+  "level": "province",
+  "start": "1626-12",
+  "end": "1630-04",
+  "location": "广西"
+ },
+ {
+  "name": "戴文则",
+  "title": "浔州府知府",
+  "province": "广西",
+  "level": "province",
+  "start": "1621-12",
+  "end": "1629-09",
+  "location": "广西"
+ },
+ {
+  "name": "钱元让",
+  "title": "南宁府知府",
+  "province": "广西",
+  "level": "province",
+  "start": "1626-03",
+  "end": "1633-12",
+  "location": "广西"
+ },
+ {
+  "name": "曾兴霸",
+  "title": "太平府知府",
+  "province": "广西",
+  "level": "province",
+  "start": "1623-06",
+  "end": "1629-01",
+  "location": "广西"
+ },
+ {
+  "name": "蔡懋德",
+  "title": "云南巡抚",
+  "province": "云南",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "云南"
+ },
+ {
+  "name": "廖公明",
+  "title": "云南布政使司左布政使",
+  "province": "云南",
+  "level": "province",
+  "start": "1624-09",
+  "end": "1630-06",
+  "location": "云南"
+ },
+ {
+  "name": "吕公谨",
+  "title": "云南布政使司右布政使",
+  "province": "云南",
+  "level": "province",
+  "start": "1622-04",
+  "end": "1629-12",
+  "location": "云南"
+ },
+ {
+  "name": "程文鸯",
+  "title": "云南按察使",
+  "province": "云南",
+  "level": "province",
+  "start": "1626-01",
+  "end": "1633-07",
+  "location": "云南"
+ },
+ {
+  "name": "沐启元",
+  "title": "镇守云南总兵官",
+  "province": "云南",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "云南"
+ },
+ {
+  "name": "段公谨",
+  "title": "云南都指挥使",
+  "province": "云南",
+  "level": "province",
+  "start": "1626-10",
+  "end": "1630-01",
+  "location": "云南"
+ },
+ {
+  "name": "金伯符",
+  "title": "云南分守道",
+  "province": "云南",
+  "level": "province",
+  "start": "1625-05",
+  "end": "1631-06",
+  "location": "云南"
+ },
+ {
+  "name": "阎幼常",
+  "title": "临元兵备道",
+  "province": "云南",
+  "level": "province",
+  "start": "1625-09",
+  "end": "1629-02",
+  "location": "云南"
+ },
+ {
+  "name": "谢景和",
+  "title": "金沧兵备道",
+  "province": "云南",
+  "level": "province",
+  "start": "1622-02",
+  "end": "1629-12",
+  "location": "云南"
+ },
+ {
+  "name": "顾仲谋",
+  "title": "洱海分巡道",
+  "province": "云南",
+  "level": "province",
+  "start": "1623-05",
+  "end": "1629-07",
+  "location": "云南"
+ },
+ {
+  "name": "李子龙",
+  "title": "云南提学道",
+  "province": "云南",
+  "level": "province",
+  "start": "1625-08",
+  "end": "1630-06",
+  "location": "云南"
+ },
+ {
+  "name": "杨公瑾",
+  "title": "云南府知府",
+  "province": "云南",
+  "level": "province",
+  "start": "1621-07",
+  "end": "1632-06",
+  "location": "云南"
+ },
+ {
+  "name": "陆景和",
+  "title": "大理府知府",
+  "province": "云南",
+  "level": "province",
+  "start": "1621-01",
+  "end": "1631-05",
+  "location": "云南"
+ },
+ {
+  "name": "贺子衡",
+  "title": "临安府知府",
+  "province": "云南",
+  "level": "province",
+  "start": "1625-04",
+  "end": "1630-12",
+  "location": "云南"
+ },
+ {
+  "name": "龙文长",
+  "title": "楚雄府知府",
+  "province": "云南",
+  "level": "province",
+  "start": "1626-03",
+  "end": "1632-04",
+  "location": "云南"
+ },
+ {
+  "name": "尹文鸯",
+  "title": "曲靖府知府",
+  "province": "云南",
+  "level": "province",
+  "start": "1624-08",
+  "end": "1631-05",
+  "location": "云南"
+ },
+ {
+  "name": "康子明",
+  "title": "澄江府知府",
+  "province": "云南",
+  "level": "province",
+  "start": "1624-10",
+  "end": "1632-08",
+  "location": "云南"
+ },
+ {
+  "name": "高子山",
+  "title": "蒙化府知府",
+  "province": "云南",
+  "level": "province",
+  "start": "1623-02",
+  "end": "1630-11",
+  "location": "云南"
+ },
+ {
+  "name": "王文虎",
+  "title": "景东府知府",
+  "province": "云南",
+  "level": "province",
+  "start": "1624-09",
+  "end": "1631-02",
+  "location": "云南"
+ },
+ {
+  "name": "张鹤鸣",
+  "title": "贵州巡抚",
+  "province": "贵州",
+  "level": "province",
+  "start": "1622-01",
+  "end": null,
+  "location": "贵州"
+ },
+ {
+  "name": "马本初",
+  "title": "贵州布政使司左布政使",
+  "province": "贵州",
+  "level": "province",
+  "start": "1622-11",
+  "end": "1632-08",
+  "location": "贵州"
+ },
+ {
+  "name": "秦元放",
+  "title": "贵州布政使司右布政使",
+  "province": "贵州",
+  "level": "province",
+  "start": "1622-05",
+  "end": "1631-04",
+  "location": "贵州"
+ },
+ {
+  "name": "许士季",
+  "title": "贵州按察使",
+  "province": "贵州",
+  "level": "province",
+  "start": "1625-12",
+  "end": "1631-11",
+  "location": "贵州"
+ },
+ {
+  "name": "邹孝直",
+  "title": "贵州总兵官",
+  "province": "贵州",
+  "level": "province",
+  "start": "1624-07",
+  "end": "1629-09",
+  "location": "贵州"
+ },
+ {
+  "name": "钟文则",
+  "title": "贵州都指挥使",
+  "province": "贵州",
+  "level": "province",
+  "start": "1622-09",
+  "end": "1629-12",
+  "location": "贵州"
+ },
+ {
+  "name": "易子实",
+  "title": "贵宁分守道",
+  "province": "贵州",
+  "level": "province",
+  "start": "1623-06",
+  "end": "1632-02",
+  "location": "贵州"
+ },
+ {
+  "name": "尹士元",
+  "title": "都清兵备道",
+  "province": "贵州",
+  "level": "province",
+  "start": "1621-06",
+  "end": "1632-05",
+  "location": "贵州"
+ },
+ {
+  "name": "苏公瑾",
+  "title": "思石兵备道",
+  "province": "贵州",
+  "level": "province",
+  "start": "1626-06",
+  "end": "1629-10",
+  "location": "贵州"
+ },
+ {
+  "name": "宋公达",
+  "title": "威清兵备道",
+  "province": "贵州",
+  "level": "province",
+  "start": "1625-10",
+  "end": "1633-07",
+  "location": "贵州"
+ },
+ {
+  "name": "邹妙才",
+  "title": "贵州提学道",
+  "province": "贵州",
+  "level": "province",
+  "start": "1622-12",
+  "end": "1631-12",
+  "location": "贵州"
+ },
+ {
+  "name": "程文则",
+  "title": "贵阳府知府",
+  "province": "贵州",
+  "level": "province",
+  "start": "1621-07",
+  "end": "1630-02",
+  "location": "贵州"
+ },
+ {
+  "name": "朱公明",
+  "title": "安顺府知府",
+  "province": "贵州",
+  "level": "province",
+  "start": "1624-06",
+  "end": "1632-04",
+  "location": "贵州"
+ },
+ {
+  "name": "石季常",
+  "title": "都匀府知府",
+  "province": "贵州",
+  "level": "province",
+  "start": "1623-08",
+  "end": "1630-07",
+  "location": "贵州"
+ },
+ {
+  "name": "李子敬",
+  "title": "平越府知府",
+  "province": "贵州",
+  "level": "province",
+  "start": "1622-11",
+  "end": "1629-08",
+  "location": "贵州"
+ },
+ {
+  "name": "钱伯约",
+  "title": "黎平府知府",
+  "province": "贵州",
+  "level": "province",
+  "start": "1623-08",
+  "end": "1629-02",
+  "location": "贵州"
+ },
+ {
+  "name": "龙子明",
+  "title": "思南府知府",
+  "province": "贵州",
+  "level": "province",
+  "start": "1625-09",
+  "end": "1629-12",
+  "location": "贵州"
+ },
+ {
+  "name": "徐德谋",
+  "title": "思州府知府",
+  "province": "贵州",
+  "level": "province",
+  "start": "1625-09",
+  "end": "1630-09",
+  "location": "贵州"
+ },
+ {
+  "name": "钱子衡",
+  "title": "铜仁府知府",
+  "province": "贵州",
+  "level": "province",
+  "start": "1625-06",
+  "end": "1632-09",
+  "location": "贵州"
+ },
+ {
+  "name": "程公达",
+  "title": "镇远府知府",
+  "province": "贵州",
+  "level": "province",
+  "start": "1623-07",
+  "end": "1632-06",
+  "location": "贵州"
+ },
+ {
+  "name": "龚伯安",
+  "title": "石阡府知府",
+  "province": "贵州",
+  "level": "province",
+  "start": "1621-12",
+  "end": "1630-10",
+  "location": "贵州"
+ }
+]

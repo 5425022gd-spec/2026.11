@@ -1,0 +1,75 @@
+{
+  "_comment": "修正数据。一个修正 = 名称 + 效果列表 + 介绍。效果各打各的系统：target 见 engine/modifier_registry.py 的 TARGETS；op 只有「乘法」「加法」两种。挂在哪（from）只决定它在哪个界面显示，不决定它影响谁。建筑（工程）是特殊修正，数据仍在 world/provinces.json 的 buff 里，不走本文件。",
+  "_formula": "值 = 基础值 × (1 + Σ乘法修正) + Σ加法修正",
+  "modifiers": [
+    {
+      "id": "dangzheng",
+      "name": "党争工具",
+      "intro": "吏部尚书和文选司郎中作为人事主管，往往是各党派争夺的焦点。",
+      "from": "吏部 · 行政纪律",
+      "tag": "党争人事",
+      "effects": [
+        { "target": "central_corruption", "op": "乘法", "value": 0.2 },
+        { "target": "local_corruption", "op": "乘法", "value": 0.02 }
+      ]
+    },
+    {
+      "id": "fengwen",
+      "name": "风闻言事",
+      "intro": "明末言官可以凭“风闻”弹劾任何官员，不需要证据。",
+      "from": "吏部 · 行政纪律",
+      "tag": "言官纠劾",
+      "effects": [
+        { "target": "central_corruption", "op": "乘法", "value": 0.1 }
+      ]
+    },
+    {
+      "id": "lilv_dead",
+      "name": "吏律实亡",
+      "intro": "所谓的法律规则已经瘫痪，政府完全依靠腐败和私人关系运行。",
+      "from": "吏部 · 行政纪律",
+      "tag": "律法废弛",
+      "effects": [
+        { "target": "central_corruption", "op": "乘法", "value": 0.15 },
+        { "target": "local_corruption", "op": "乘法", "value": 0.1 }
+      ]
+    },
+    {
+      "id": "jingcha_dead",
+      "name": "京察瘫痪",
+      "intro": "明末京察已经沦为中央各党互相清洗的工具。",
+      "from": "吏部 · 行政纪律",
+      "tag": "考课失效",
+      "effects": [
+        { "target": "local_corruption", "op": "乘法", "value": 0.05 },
+        { "target": "carrying_pct", "op": "乘法", "value": -0.1 }
+      ]
+    },
+    {
+      "id": "daming_code",
+      "name": "《大明律》",
+      "intro": "《大明律》作为“祖制”，其文字和条文在明末依然被奉为不可动摇的法典。然而，法律的尊严在于执行，而明末的司法机制已经无法按照律典设计的节奏运转。",
+      "from": "刑部 · 现行法律",
+      "tag": "根本祖制律典",
+      "category": "根本祖制律典",
+      "effect_desc": "全国各地区腐败程度+5%，中央腐败程度+15%",
+      "effects": [
+        { "target": "central_corruption", "op": "乘法", "value": 0.15 },
+        { "target": "local_corruption", "op": "乘法", "value": 0.05 }
+      ]
+    },
+    {
+      "id": "wenxing_ordinance",
+      "name": "《问刑条例》",
+      "intro": "明朝末年，律条僵化，条例繁多，针对流民、贪污、党争等新问题，刑部时常需要重新解释，甚至“发明”新条例。",
+      "from": "刑部 · 现行法律",
+      "tag": "司法通行条例",
+      "category": "司法通行条例",
+      "effect_desc": "全国各地区腐败程度+10%，中央腐败程度+5%",
+      "effects": [
+        { "target": "central_corruption", "op": "乘法", "value": 0.05 },
+        { "target": "local_corruption", "op": "乘法", "value": 0.1 }
+      ]
+    }
+  ]
+}

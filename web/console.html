@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>天启七年 · 集中控制台</title>
+<style>
+  body { background:#0d1117; color:#c9d1d9; font-family:"Cascadia Code","Courier New",monospace; margin:0; padding:12px; font-size:13px; }
+  h1 { font-size:16px; color:#58a6ff; margin:0 0 8px; letter-spacing:2px; }
+  .bar { position:sticky; top:0; background:#0d1117; padding-bottom:8px; border-bottom:1px solid #21262d; margin-bottom:8px; }
+  .bar .stat { color:#8b949e; font-size:12px; }
+  .bar .btn { background:#21262d; color:#58a6ff; border:1px solid #30363d; padding:3px 12px; cursor:pointer; font-family:inherit; }
+  .bar .btn:hover { background:#30363d; }
+  #log { white-space:pre-wrap; line-height:1.5; }
+  .e { border-left:3px solid #30363d; padding:2px 8px; margin:3px 0; }
+  .e .head { color:#8b949e; }
+  .e .title { color:#e6edf3; font-weight:600; }
+  .e .detail { color:#8b949e; font-size:12px; white-space:pre-wrap; }
+  .k-llm { border-color:#58a6ff; } .k-llm .head { color:#58a6ff; }
+  .k-llm-mock { border-color:#bc8cff; } .k-llm-mock .head { color:#bc8cff; }
+  .k-action { border-color:#3fb950; } .k-action .head { color:#3fb950; }
+  .k-event { border-color:#f0883e; } .k-event .head { color:#f0883e; }
+  .k-adv { border-color:#f2cc60; } .k-adv .head { color:#f2cc60; }
+  .k-mem { border-color:#ff7b72; } .k-mem .head { color:#ff7b72; }
+  .k-cmd { border-color:#d2a8ff; } .k-cmd .head { color:#d2a8ff; }
+  .k-map { border-color:#39c5cf; } .k-map .head { color:#39c5cf; }
+  .k-diag { border-color:#8b949e; } .k-diag .head { color:#8b949e; }
+</style>
+</head>
+<body>
+<div class="bar">
+  <h1>天启七年 · 集中控制台</h1>
+  <span class="stat" id="stat">连接中…</span>
+  <button class="btn" onclick="toggleAuto()" id="auto-btn">自动刷新：开</button>
+  <button class="btn" onclick="clearView()">清屏（仅视图）</button>
+  <a class="btn" href="/" style="text-decoration:none">← 返回游戏</a>
+</div>
+<div id="log"></div>
+<script>
+"use strict";
+const log = document.getElementById("log");
+const stat = document.getElementById("stat");
+let auto = true;
+let lastTs = "";
+
+const KIND_LABEL = { llm: "AI 请求", "llm-mock": "AI 请求(mock)", cmd: "玩家指令",
+  mem: "章奏", side: "次要事件", weather: "天候",
+  map: "地图取色", diag: "诊断" };
+
+function render(entries) {
+  const frag = document.createDocumentFragment();
+  entries.forEach(e => {
+    const d = document.createElement("div");
+    d.className = "e k-" + e.kind;
+    const head = document.createElement("div");
+    head.className = "head";
+    head.textContent = "[" + e.ts + "][" + (KIND_LABEL[e.kind] || e.kind) + "] ";
+    const t = document.createElement("span");
+    t.className = "title";
+    t.textContent = e.title;
+    head.appendChild(t);
+    d.appendChild(head);
+    if (e.detail) {
+      const det = document.createElement("div");
+      det.className = "detail";
+      det.textContent = e.detail;
+      d.appendChild(det);
+    }
+    frag.appendChild(d);
+  });
+  log.appendChild(frag);
+  log.scrollTop = log.scrollHeight;
+}
+
+function refresh() {
+  fetch("/api/logs").then(r => r.json()).then(d => {
+    const entries = d.entries || [];
+    stat.textContent = "共 " + entries.length + " 条（最多 500） · " + new Date().toLocaleTimeString();
+    if (lastTs === "") {
+      log.innerHTML = "";
+      render(entries);
+    } else {
+      const idx = entries.findIndex(e => e.ts === lastTs && e.title === lastTitle);
+      if (idx >= 0) render(entries.slice(idx + 1));
+      else { log.innerHTML = ""; render(entries); }
+    }
+    if (entries.length) {
+      lastTs = entries[entries.length - 1].ts;
+      lastTitle = entries[entries.length - 1].title;
+    }
+  }).catch(() => { stat.textContent = "连接失败，重试中…"; });
+}
+let lastTitle = "";
+function toggleAuto() {
+  auto = !auto;
+  document.getElementById("auto-btn").textContent = "自动刷新：" + (auto ? "开" : "关");
+}
+function clearView() { log.innerHTML = ""; lastTs = ""; }
+setInterval(() => { if (auto) refresh(); }, 1500);
+refresh();
+</script>
+</body>
+</html>

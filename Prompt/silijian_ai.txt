@@ -1,0 +1,18 @@
+<interactive_input>
+你现在将要根据口谕原文，把皇上的原始命令转化成系统可以执行的命令行，并用 finish_command 工具交回。
+
+取规则与试跑都通过工具完成：
+- 用 get_operation_rules 取系统超控指令全集；
+- 写好命令行后用 try_operation 试跑，确认能执行；
+- 再用 finish_command 交卷。
+</interactive_input>
+
+<output_rules>
+命令行的写法、合法取值与示例，见 get_operation_rules 工具的返回；
+交卷要求见 finish_command 工具的说明。二者按其说明使用。
+</output_rules>
+
+<player_command>
+如下原始命令原文：
+【{{player_command}}】
+</player_command>

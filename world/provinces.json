@@ -1,0 +1,2306 @@
+{
+ "start_date": {
+  "era": "天启七年",
+  "year": 1627,
+  "month": 8,
+  "day": 25,
+  "hour": 7
+ },
+ "start_treasury": 240.0,
+ "tech_points": 10.0,
+ "map_layout": [
+  [
+   "",
+   "",
+   "",
+   "suolun",
+   "",
+   "donghai",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "",
+   "",
+   "",
+   "nenkeerqin",
+   "",
+   "haixi",
+   "",
+   "kuwu",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "",
+   "",
+   "ordos",
+   "tumote",
+   "chahar",
+   "wuliangha",
+   "shengjing",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "",
+   "",
+   "",
+   "shanxi",
+   "",
+   "liaodong",
+   "",
+   "beizhili",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "",
+   "",
+   "shaanxi",
+   "",
+   "henan",
+   "",
+   "",
+   "shandong",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "",
+   "sichuan",
+   "",
+   "",
+   "",
+   "",
+   "nanzhili",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "",
+   "",
+   "",
+   "huguang",
+   "",
+   "jiangxi",
+   "",
+   "zhejiang",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "",
+   "",
+   "guizhou",
+   "",
+   "",
+   "fujian",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "yunnan",
+   "",
+   "guangxi",
+   "",
+   "guangdong",
+   "",
+   "",
+   "dongfan",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ ],
+ "provinces": [
+  {
+   "id": "beizhili",
+   "name": "北直隶",
+   "type": "capital",
+   "owner": "ming",
+   "neighbors": [
+    "shanxi",
+    "shandong",
+    "henan",
+    "liaodong"
+   ],
+   "local": {
+    "core": "核心",
+    "corruption": 85,
+    "corruption_note": "京师阉党、厂卫核心，卖官鬻爵严重，但中枢仍有形式监督。",
+    "infra": 80,
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 3,
+      "attitude": 65,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 3000
+     },
+     "士绅": {
+      "pop": 20,
+      "attitude": 65,
+      "output": 6.0,
+      "tax_rate": 0.055,
+      "support": 0
+     },
+     "商人": {
+      "pop": 30,
+      "attitude": 65,
+      "output": 12.0,
+      "tax_rate": 0.22,
+      "support": 0
+     },
+     "农民": {
+      "pop": 600,
+      "attitude": 65,
+      "output": 9.0,
+      "tax_rate": 0.33,
+      "support": 0
+     },
+     "百工": {
+      "pop": 80,
+      "attitude": 65,
+      "output": 6.4,
+      "tax_rate": 0.165,
+      "support": 0
+     },
+     "百役": {
+      "pop": 40,
+      "attitude": 65,
+      "output": 0.8,
+      "tax_rate": 0.11,
+      "support": 0
+     },
+     "流民": {
+      "pop": 27,
+      "attitude": 38,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 1500
+     }
+    },
+    "projects": [
+     {
+      "name": "紫禁城",
+      "buff": {
+       "desc": "宫殿，全国中央所在"
+      },
+      "scope": "本省",
+      "kind": "国家建筑",
+      "status": "运营中",
+      "cost": 595.7
+     },
+     {
+      "name": "德陵",
+      "buff": {
+       "desc": "天启帝陵，九月始建"
+      },
+      "scope": "本省",
+      "kind": "国家建筑",
+      "status": "未完工",
+      "cost": 200.0
+     },
+     {
+      "name": "庆陵",
+      "buff": {
+       "desc": "泰昌帝陵，天启六年六月完工"
+      },
+      "scope": "本省",
+      "kind": "国家建筑",
+      "status": "运营中",
+      "cost": 150.0
+     },
+     {
+      "name": "肃宁城改建",
+      "buff": {
+       "desc": "魏忠贤乡里，土城改砖城"
+      },
+      "scope": "本省",
+      "kind": "军事建筑",
+      "status": "运营中",
+      "cost": 12.0
+     },
+     {
+      "name": "居庸关长城",
+      "buff": {
+       "desc": "穿越界地的咽喉要道"
+      },
+      "scope": "本省",
+      "kind": "军事建筑",
+      "status": "未完工",
+      "cost": 60.0
+     },
+     {
+      "name": "昌镇右车营长城",
+      "buff": {
+       "desc": "昌镇车营驻地边墙，天启五年九月竣工"
+      },
+      "scope": "本省",
+      "kind": "军事建筑",
+      "status": "运营中",
+      "cost": 45.0
+     },
+     {
+      "name": "天津水田屯田",
+      "buff": {
+       "pct": {
+        "农民": 0.1
+       },
+       "desc": "天启初年开田三千亩，农民产能提高"
+      },
+      "scope": "本省",
+      "kind": "工程建筑",
+      "status": "运营中",
+      "cost": 8.0
+     }
+    ],
+    "weather": null,
+    "controller": "明",
+    "base_carrying": 1441.5
+   }
+  },
+  {
+   "id": "shandong",
+   "name": "山东",
+   "type": "province",
+   "owner": "ming",
+   "neighbors": [
+    "beizhili",
+    "henan",
+    "nanzhili"
+   ],
+   "local": {
+    "core": "核心",
+    "corruption": 78,
+    "corruption_note": "漕运盐政、辽饷转运，胥吏盘剥，孔府特权。",
+    "infra": 70,
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 6,
+      "attitude": 65,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 6000
+     },
+     "士绅": {
+      "pop": 35,
+      "attitude": 65,
+      "output": 10.5,
+      "tax_rate": 0.05,
+      "support": 0
+     },
+     "商人": {
+      "pop": 47,
+      "attitude": 65,
+      "output": 18.8,
+      "tax_rate": 0.2,
+      "support": 0
+     },
+     "农民": {
+      "pop": 1108,
+      "attitude": 65,
+      "output": 16.6,
+      "tax_rate": 0.3,
+      "support": 0
+     },
+     "百工": {
+      "pop": 105,
+      "attitude": 65,
+      "output": 8.4,
+      "tax_rate": 0.15,
+      "support": 0
+     },
+     "百役": {
+      "pop": 58,
+      "attitude": 65,
+      "output": 1.2,
+      "tax_rate": 0.1,
+      "support": 0
+     },
+     "流民": {
+      "pop": 41,
+      "attitude": 38,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 3000
+     }
+    },
+    "projects": [
+     {
+      "name": "莱芜铁矿",
+      "buff": {
+       "pct": {
+        "百工": 0.1
+       },
+       "desc": "铁矿，百工产能提高"
+      },
+      "scope": "本省",
+      "kind": "矿场",
+      "status": "运营中",
+      "cost": 15.0
+     }
+    ],
+    "weather": null,
+    "controller": "明",
+    "base_carrying": 2535.9
+   }
+  },
+  {
+   "id": "shanxi",
+   "name": "山西",
+   "type": "province",
+   "owner": "ming",
+   "neighbors": [
+    "beizhili",
+    "shaanxi",
+    "henan",
+    "tumote",
+    "chahar"
+   ],
+   "local": {
+    "core": "核心",
+    "corruption": 75,
+    "corruption_note": "宗藩、边镇军饷、盐引利益交织。",
+    "infra": 60,
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 1,
+      "attitude": 65,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 1000
+     },
+     "士绅": {
+      "pop": 6,
+      "attitude": 65,
+      "output": 1.8,
+      "tax_rate": 0.06,
+      "support": 0
+     },
+     "商人": {
+      "pop": 9,
+      "attitude": 65,
+      "output": 3.6,
+      "tax_rate": 0.24,
+      "support": 0
+     },
+     "农民": {
+      "pop": 232,
+      "attitude": 65,
+      "output": 3.5,
+      "tax_rate": 0.36,
+      "support": 0
+     },
+     "百工": {
+      "pop": 22,
+      "attitude": 65,
+      "output": 1.8,
+      "tax_rate": 0.18,
+      "support": 0
+     },
+     "百役": {
+      "pop": 15,
+      "attitude": 65,
+      "output": 0.3,
+      "tax_rate": 0.12,
+      "support": 0
+     },
+     "流民": {
+      "pop": 15,
+      "attitude": 38,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 3000
+     }
+    },
+    "projects": [
+     {
+      "name": "平型关砖石包砌",
+      "buff": {
+       "desc": "明内长城主要关口"
+      },
+      "scope": "本省",
+      "kind": "军事建筑",
+      "status": "运营中",
+      "cost": 20.0
+     },
+     {
+      "name": "太原烈石口开渠",
+      "buff": {
+       "pct": {
+        "宗室": 0.1,
+        "士绅": 0.1,
+        "商人": 0.1,
+        "农民": 0.1,
+        "百工": 0.1,
+        "百役": 0.1,
+        "流民": 0.1
+       },
+       "desc": "晋水出烈石口，宋人引以灌晋祠之田。明代续修渠堰，分水灌太原、晋祠一带，为山西水利旧业。"
+      },
+      "scope": "本省",
+      "kind": "工程建筑",
+      "status": "运营中",
+      "cost": 30.0
+     }
+    ],
+    "weather": null,
+    "controller": "明",
+    "base_carrying": 492.9
+   }
+  },
+  {
+   "id": "henan",
+   "name": "河南",
+   "type": "province",
+   "owner": "ming",
+   "neighbors": [
+    "beizhili",
+    "shandong",
+    "shanxi",
+    "shaanxi",
+    "nanzhili",
+    "huguang"
+   ],
+   "local": {
+    "core": "核心",
+    "corruption": 80,
+    "corruption_note": "藩王占田、河工贪腐、赋役不均。",
+    "infra": 65,
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 10,
+      "attitude": 65,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 10000
+     },
+     "士绅": {
+      "pop": 29,
+      "attitude": 65,
+      "output": 8.7,
+      "tax_rate": 0.055,
+      "support": 0
+     },
+     "商人": {
+      "pop": 42,
+      "attitude": 65,
+      "output": 16.8,
+      "tax_rate": 0.22,
+      "support": 0
+     },
+     "农民": {
+      "pop": 970,
+      "attitude": 65,
+      "output": 14.5,
+      "tax_rate": 0.33,
+      "support": 0
+     },
+     "百工": {
+      "pop": 90,
+      "attitude": 65,
+      "output": 7.2,
+      "tax_rate": 0.165,
+      "support": 0
+     },
+     "百役": {
+      "pop": 48,
+      "attitude": 65,
+      "output": 1.0,
+      "tax_rate": 0.11,
+      "support": 0
+     },
+     "流民": {
+      "pop": 61,
+      "attitude": 38,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 5000
+     }
+    },
+    "projects": [
+     {
+      "name": "开封府城",
+      "buff": {
+       "pct": {
+        "百工": 0.15,
+        "百役": 0.15,
+        "农民": 0.15
+       },
+       "desc": "城垣，百工、百役、农民产能提高"
+      },
+      "scope": "本省",
+      "kind": "国家建筑",
+      "status": "运营中",
+      "cost": 80.0
+     }
+    ],
+    "weather": null,
+    "controller": "明",
+    "base_carrying": 2436.9
+   }
+  },
+  {
+   "id": "shaanxi",
+   "name": "陕西",
+   "type": "province",
+   "owner": "ming",
+   "neighbors": [
+    "shanxi",
+    "henan",
+    "sichuan",
+    "huguang",
+    "tumote",
+    "ordos"
+   ],
+   "local": {
+    "core": "核心",
+    "corruption": 88,
+    "corruption_note": "大旱加派叠加，赈济侵吞，催科逼民，民变已起，吏治崩坏更明显。",
+    "infra": 45,
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 5,
+      "attitude": 65,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 5000
+     },
+     "士绅": {
+      "pop": 17,
+      "attitude": 65,
+      "output": 5.1,
+      "tax_rate": 0.06,
+      "support": 0
+     },
+     "商人": {
+      "pop": 17,
+      "attitude": 65,
+      "output": 6.8,
+      "tax_rate": 0.24,
+      "support": 0
+     },
+     "农民": {
+      "pop": 820,
+      "attitude": 65,
+      "output": 12.3,
+      "tax_rate": 0.36,
+      "support": 0
+     },
+     "百工": {
+      "pop": 70,
+      "attitude": 65,
+      "output": 5.6,
+      "tax_rate": 0.18,
+      "support": 0
+     },
+     "百役": {
+      "pop": 40,
+      "attitude": 65,
+      "output": 0.8,
+      "tax_rate": 0.12,
+      "support": 0
+     },
+     "流民": {
+      "pop": 131,
+      "attitude": 38,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 8000
+     }
+    },
+    "projects": [
+     {
+      "name": "延绥镇边墙",
+      "buff": {
+       "desc": "榆林九边防线"
+      },
+      "scope": "本省",
+      "kind": "军事建筑",
+      "status": "运营中",
+      "cost": 70.0
+     },
+     {
+      "name": "嘉峪关",
+      "buff": {
+       "desc": "天下第一雄关"
+      },
+      "scope": "本省",
+      "kind": "军事建筑",
+      "status": "运营中",
+      "cost": 25.0
+     },
+     {
+      "name": "悬臂长城",
+      "buff": {
+       "desc": "嘉峪关北侧防线"
+      },
+      "scope": "本省",
+      "kind": "军事建筑",
+      "status": "运营中",
+      "cost": 15.0
+     },
+     {
+      "name": "灵州黄河石堤",
+      "buff": {
+       "desc": "灵州临河，明代筑石堤护岸，宁夏屯田赖以不没。黄河汛涨，堤成则害减。",
+       "disaster": {
+        "yellow_flood": -0.2,
+        "yellow_flood_major": -0.2
+       },
+       "disaster_chance": {
+        "yellow_flood": -0.2
+       }
+      },
+      "scope": "全国",
+      "kind": "灾害建筑",
+      "status": "运营中",
+      "cost": 120.0
+     },
+     {
+      "name": "秦渠长堤",
+      "buff": {
+       "pct": {
+        "宗室": 0.05,
+        "士绅": 0.05,
+        "商人": 0.05,
+        "农民": 0.05,
+        "百工": 0.05,
+        "百役": 0.05,
+        "流民": 0.05
+       },
+       "desc": "宁夏黄河东岸古渠，相传始凿于秦，汉唐相继修浚。明代为宁夏卫屯田命脉，渠口岁修不辍。"
+      },
+      "scope": "本省",
+      "kind": "工程建筑",
+      "status": "运营中",
+      "cost": 35.0
+     },
+     {
+      "name": "汉渠芦洞",
+      "buff": {
+       "pct": {
+        "宗室": 0.05,
+        "士绅": 0.05,
+        "商人": 0.05,
+        "农民": 0.05,
+        "百工": 0.05,
+        "百役": 0.05,
+        "流民": 0.05
+       },
+       "desc": "汉渠又名汉伯渠，与秦渠并行于黄河东岸，传为汉代所开。渠尾芦洞泄水，明代屡加疏浚。"
+      },
+      "scope": "本省",
+      "kind": "工程建筑",
+      "status": "运营中",
+      "cost": 20.0
+     }
+    ],
+    "weather": null,
+    "controller": "明",
+    "base_carrying": 1676.5
+   }
+  },
+  {
+   "id": "nanzhili",
+   "name": "南直隶",
+   "type": "province",
+   "owner": "ming",
+   "neighbors": [
+    "shandong",
+    "henan",
+    "huguang",
+    "jiangxi",
+    "zhejiang"
+   ],
+   "local": {
+    "core": "核心",
+    "corruption": 82,
+    "corruption_note": "江南重赋、织造、盐漕利益巨大，官商勾结，士绅舆论略能制衡。",
+    "infra": 85,
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 18,
+      "attitude": 65,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 18000
+     },
+     "士绅": {
+      "pop": 115,
+      "attitude": 65,
+      "output": 34.5,
+      "tax_rate": 0.04,
+      "support": 0
+     },
+     "商人": {
+      "pop": 230,
+      "attitude": 65,
+      "output": 92.0,
+      "tax_rate": 0.16,
+      "support": 0
+     },
+     "农民": {
+      "pop": 3565,
+      "attitude": 65,
+      "output": 53.5,
+      "tax_rate": 0.24,
+      "support": 0
+     },
+     "百工": {
+      "pop": 414,
+      "attitude": 65,
+      "output": 33.1,
+      "tax_rate": 0.12,
+      "support": 0
+     },
+     "百役": {
+      "pop": 184,
+      "attitude": 65,
+      "output": 3.7,
+      "tax_rate": 0.08,
+      "support": 0
+     },
+     "流民": {
+      "pop": 74,
+      "attitude": 38,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 2000
+     }
+    },
+    "projects": [
+     {
+      "name": "通济新河",
+      "buff": {
+       "pct": {
+        "宗室": 0.2,
+        "士绅": 0.2,
+        "商人": 0.2,
+        "农民": 0.2,
+        "百工": 0.2,
+        "百役": 0.2,
+        "流民": 0.2
+       },
+       "desc": "万历年间为避黄河之险新开之河，自夏镇引水南行，漕舟由此免经黄患。"
+      },
+      "scope": "本省",
+      "kind": "工程建筑",
+      "status": "运营中",
+      "cost": 260.0
+     },
+     {
+      "name": "泇河运河",
+      "buff": {
+       "pct": {
+        "宗室": 0.2,
+        "士绅": 0.2,
+        "商人": 0.2,
+        "农民": 0.2,
+        "百工": 0.2,
+        "百役": 0.2,
+        "流民": 0.2
+       },
+       "desc": "万历二十年后开泇河以避黄河，自夏镇至邳州，漕运改由泇行，为明代运道一大变。"
+      },
+      "scope": "本省",
+      "kind": "工程建筑",
+      "status": "运营中",
+      "cost": 240.0
+     },
+     {
+      "name": "南旺分水枢纽",
+      "buff": {
+       "pct": {
+        "宗室": 0.01,
+        "士绅": 0.01,
+        "商人": 0.01,
+        "农民": 0.01,
+        "百工": 0.01,
+        "百役": 0.01,
+        "流民": 0.01
+       },
+       "desc": "永乐九年宋礼、白英主持，引汶水至南旺分水，四分南流、六分北流，以济运道水脊。"
+      },
+      "scope": "本省",
+      "kind": "工程建筑",
+      "status": "运营中",
+      "cost": 90.0
+     }
+    ],
+    "weather": null,
+    "controller": "明",
+    "base_carrying": 8596.0
+   }
+  },
+  {
+   "id": "sichuan",
+   "name": "四川",
+   "type": "province",
+   "owner": "ming",
+   "neighbors": [
+    "shaanxi",
+    "huguang",
+    "guizhou",
+    "yunnan"
+   ],
+   "local": {
+    "core": "核心",
+    "corruption": 78,
+    "corruption_note": "奢安之乱军需供应，将领冒饷，地方借战事摊派。",
+    "infra": 50,
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 2,
+      "attitude": 65,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 2000
+     },
+     "士绅": {
+      "pop": 8,
+      "attitude": 65,
+      "output": 2.4,
+      "tax_rate": 0.05,
+      "support": 0
+     },
+     "商人": {
+      "pop": 11,
+      "attitude": 65,
+      "output": 4.4,
+      "tax_rate": 0.2,
+      "support": 0
+     },
+     "农民": {
+      "pop": 236,
+      "attitude": 65,
+      "output": 3.5,
+      "tax_rate": 0.3,
+      "support": 0
+     },
+     "百工": {
+      "pop": 24,
+      "attitude": 65,
+      "output": 1.9,
+      "tax_rate": 0.15,
+      "support": 0
+     },
+     "百役": {
+      "pop": 13,
+      "attitude": 65,
+      "output": 0.3,
+      "tax_rate": 0.1,
+      "support": 0
+     },
+     "流民": {
+      "pop": 6,
+      "attitude": 38,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 1000
+     }
+    },
+    "projects": [
+     {
+      "name": "自流井盐井群",
+      "buff": {
+       "pct": {
+        "百工": 0.15
+       },
+       "desc": "盐井，百工产能提高"
+      },
+      "scope": "本省",
+      "kind": "矿场",
+      "status": "运营中",
+      "cost": 18.0
+     }
+    ],
+    "weather": null,
+    "controller": "明",
+    "base_carrying": 593.2
+   }
+  },
+  {
+   "id": "huguang",
+   "name": "湖广",
+   "type": "province",
+   "owner": "ming",
+   "neighbors": [
+    "henan",
+    "nanzhili",
+    "jiangxi",
+    "sichuan",
+    "guizhou",
+    "guangxi"
+   ],
+   "local": {
+    "core": "核心",
+    "corruption": 75,
+    "corruption_note": "藩王占田、辽饷加派，胥吏敲诈。",
+    "infra": 65,
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 11,
+      "attitude": 65,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 11000
+     },
+     "士绅": {
+      "pop": 30,
+      "attitude": 65,
+      "output": 9.0,
+      "tax_rate": 0.05,
+      "support": 0
+     },
+     "商人": {
+      "pop": 45,
+      "attitude": 65,
+      "output": 18.0,
+      "tax_rate": 0.2,
+      "support": 0
+     },
+     "农民": {
+      "pop": 937,
+      "attitude": 65,
+      "output": 14.1,
+      "tax_rate": 0.3,
+      "support": 0
+     },
+     "百工": {
+      "pop": 90,
+      "attitude": 65,
+      "output": 7.2,
+      "tax_rate": 0.15,
+      "support": 0
+     },
+     "百役": {
+      "pop": 45,
+      "attitude": 65,
+      "output": 0.9,
+      "tax_rate": 0.1,
+      "support": 0
+     },
+     "流民": {
+      "pop": 42,
+      "attitude": 38,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 4000
+     }
+    },
+    "projects": [
+     {
+      "name": "辰州银矿",
+      "buff": {
+       "silver": 10.0,
+       "desc": "银矿，每年产白银 10 万两"
+      },
+      "scope": "本省",
+      "kind": "矿场",
+      "status": "运营中",
+      "cost": 20.0
+     }
+    ],
+    "weather": null,
+    "controller": "明",
+    "base_carrying": 2477.0
+   }
+  },
+  {
+   "id": "jiangxi",
+   "name": "江西",
+   "type": "province",
+   "owner": "ming",
+   "neighbors": [
+    "nanzhili",
+    "huguang",
+    "zhejiang",
+    "fujian",
+    "guangdong"
+   ],
+   "local": {
+    "core": "核心",
+    "corruption": 70,
+    "corruption_note": "漕粮赋税重，官场贪腐，宗族士绅制衡稍强。",
+    "infra": 70,
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 7,
+      "attitude": 65,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 7000
+     },
+     "士绅": {
+      "pop": 35,
+      "attitude": 65,
+      "output": 10.5,
+      "tax_rate": 0.05,
+      "support": 0
+     },
+     "商人": {
+      "pop": 53,
+      "attitude": 65,
+      "output": 21.2,
+      "tax_rate": 0.2,
+      "support": 0
+     },
+     "农民": {
+      "pop": 1097,
+      "attitude": 65,
+      "output": 16.5,
+      "tax_rate": 0.3,
+      "support": 0
+     },
+     "百工": {
+      "pop": 128,
+      "attitude": 65,
+      "output": 10.2,
+      "tax_rate": 0.15,
+      "support": 0
+     },
+     "百役": {
+      "pop": 52,
+      "attitude": 65,
+      "output": 1.0,
+      "tax_rate": 0.1,
+      "support": 0
+     },
+     "流民": {
+      "pop": 28,
+      "attitude": 38,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 1500
+     }
+    },
+    "projects": [
+     {
+      "name": "广丰银山银矿",
+      "buff": {
+       "silver": 6.0,
+       "desc": "银矿，每年产白银 6 万两"
+      },
+      "scope": "本省",
+      "kind": "矿场",
+      "status": "运营中",
+      "cost": 14.0
+     },
+     {
+      "name": "德兴铜矿",
+      "buff": {
+       "flat": {
+        "百工": 25.0
+       },
+       "desc": "铜矿，百工产能增加 25 万"
+      },
+      "scope": "本省",
+      "kind": "矿场",
+      "status": "运营中",
+      "cost": 12.0
+     },
+     {
+      "name": "铅山铜矿",
+      "buff": {
+       "flat": {
+        "百工": 25.0
+       },
+       "desc": "铜矿，百工产能增加 25 万"
+      },
+      "scope": "本省",
+      "kind": "矿场",
+      "status": "运营中",
+      "cost": 10.0
+     }
+    ],
+    "weather": null,
+    "controller": "明",
+    "base_carrying": 2621.2
+   }
+  },
+  {
+   "id": "zhejiang",
+   "name": "浙江",
+   "type": "province",
+   "owner": "ming",
+   "neighbors": [
+    "nanzhili",
+    "jiangxi",
+    "fujian"
+   ],
+   "local": {
+    "core": "核心",
+    "corruption": 75,
+    "corruption_note": "织造太监、盐税重赋，但地方士绅制衡较强。",
+    "infra": 80,
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 5,
+      "attitude": 65,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 5000
+     },
+     "士绅": {
+      "pop": 35,
+      "attitude": 65,
+      "output": 10.5,
+      "tax_rate": 0.04,
+      "support": 0
+     },
+     "商人": {
+      "pop": 80,
+      "attitude": 65,
+      "output": 32.0,
+      "tax_rate": 0.16,
+      "support": 0
+     },
+     "农民": {
+      "pop": 1150,
+      "attitude": 65,
+      "output": 17.2,
+      "tax_rate": 0.24,
+      "support": 0
+     },
+     "百工": {
+      "pop": 140,
+      "attitude": 65,
+      "output": 11.2,
+      "tax_rate": 0.12,
+      "support": 0
+     },
+     "百役": {
+      "pop": 60,
+      "attitude": 65,
+      "output": 1.2,
+      "tax_rate": 0.08,
+      "support": 0
+     },
+     "流民": {
+      "pop": 30,
+      "attitude": 38,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 2000
+     }
+    },
+    "projects": [
+     {
+      "name": "海宁海塘",
+      "buff": {
+       "desc": "海宁当钱塘江北岸，潮汐冲啮。明代修筑石塘御潮护田，浙西田庐藉以安堵。",
+       "disaster": {
+        "flood_minor": -0.7,
+        "flood_major": -0.7
+       }
+      },
+      "scope": "本省",
+      "kind": "灾害建筑",
+      "status": "运营中",
+      "cost": 110.0
+     }
+    ],
+    "weather": null,
+    "controller": "明",
+    "base_carrying": 2731.0
+   }
+  },
+  {
+   "id": "fujian",
+   "name": "福建",
+   "type": "province",
+   "owner": "ming",
+   "neighbors": [
+    "zhejiang",
+    "jiangxi",
+    "guangdong"
+   ],
+   "local": {
+    "core": "核心",
+    "corruption": 68,
+    "corruption_note": "海贸走私、盐政收规，宗族强，官府控制弱。",
+    "infra": 55,
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 4,
+      "attitude": 65,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 4000
+     },
+     "士绅": {
+      "pop": 20,
+      "attitude": 65,
+      "output": 6.0,
+      "tax_rate": 0.05,
+      "support": 0
+     },
+     "商人": {
+      "pop": 53,
+      "attitude": 65,
+      "output": 21.2,
+      "tax_rate": 0.2,
+      "support": 0
+     },
+     "农民": {
+      "pop": 573,
+      "attitude": 65,
+      "output": 8.6,
+      "tax_rate": 0.3,
+      "support": 0
+     },
+     "百工": {
+      "pop": 80,
+      "attitude": 65,
+      "output": 6.4,
+      "tax_rate": 0.15,
+      "support": 0
+     },
+     "百役": {
+      "pop": 33,
+      "attitude": 65,
+      "output": 0.7,
+      "tax_rate": 0.1,
+      "support": 0
+     },
+     "流民": {
+      "pop": 37,
+      "attitude": 38,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 2000
+     }
+    },
+    "projects": [
+     {
+      "name": "尤溪银屏山银场",
+      "buff": {
+       "silver": 4.0,
+       "desc": "银矿，每年产白银 4 万两"
+      },
+      "scope": "本省",
+      "kind": "矿场",
+      "status": "运营中",
+      "cost": 9.0
+     }
+    ],
+    "weather": null,
+    "controller": "明",
+    "base_carrying": 1578.9
+   }
+  },
+  {
+   "id": "guangdong",
+   "name": "广东",
+   "type": "province",
+   "owner": "ming",
+   "neighbors": [
+    "fujian",
+    "jiangxi",
+    "guangxi"
+   ],
+   "local": {
+    "core": "核心",
+    "corruption": 72,
+    "corruption_note": "市舶、澳门贸易、盐税、珠池利益。",
+    "infra": 55,
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 6,
+      "attitude": 65,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 6000
+     },
+     "士绅": {
+      "pop": 21,
+      "attitude": 65,
+      "output": 6.3,
+      "tax_rate": 0.05,
+      "support": 0
+     },
+     "商人": {
+      "pop": 71,
+      "attitude": 65,
+      "output": 28.4,
+      "tax_rate": 0.2,
+      "support": 0
+     },
+     "农民": {
+      "pop": 714,
+      "attitude": 65,
+      "output": 10.7,
+      "tax_rate": 0.3,
+      "support": 0
+     },
+     "百工": {
+      "pop": 100,
+      "attitude": 65,
+      "output": 8.0,
+      "tax_rate": 0.15,
+      "support": 0
+     },
+     "百役": {
+      "pop": 43,
+      "attitude": 65,
+      "output": 0.9,
+      "tax_rate": 0.1,
+      "support": 0
+     },
+     "流民": {
+      "pop": 45,
+      "attitude": 38,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 2000
+     }
+    },
+    "projects": [
+     {
+      "name": "广州府城",
+      "buff": {
+       "pct": {
+        "百工": 0.15,
+        "百役": 0.15,
+        "农民": 0.15
+       },
+       "desc": "城垣，百工、百役、农民产能提高"
+      },
+      "scope": "本省",
+      "kind": "国家建筑",
+      "status": "运营中",
+      "cost": 90.0
+     }
+    ],
+    "weather": null,
+    "controller": "明",
+    "base_carrying": 1965.9
+   }
+  },
+  {
+   "id": "guangxi",
+   "name": "广西",
+   "type": "province",
+   "owner": "ming",
+   "neighbors": [
+    "guangdong",
+    "huguang",
+    "guizhou",
+    "yunnan"
+   ],
+   "local": {
+    "core": "宣称",
+    "corruption": 75,
+    "corruption_note": "土司与流官勾结，边疆吏治差。",
+    "infra": 35,
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 2,
+      "attitude": 65,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 2000
+     },
+     "士绅": {
+      "pop": 10,
+      "attitude": 65,
+      "output": 3.0,
+      "tax_rate": 0.05,
+      "support": 0
+     },
+     "商人": {
+      "pop": 13,
+      "attitude": 65,
+      "output": 5.2,
+      "tax_rate": 0.2,
+      "support": 0
+     },
+     "农民": {
+      "pop": 400,
+      "attitude": 65,
+      "output": 6.0,
+      "tax_rate": 0.3,
+      "support": 0
+     },
+     "百工": {
+      "pop": 33,
+      "attitude": 65,
+      "output": 2.6,
+      "tax_rate": 0.15,
+      "support": 0
+     },
+     "百役": {
+      "pop": 17,
+      "attitude": 65,
+      "output": 0.3,
+      "tax_rate": 0.1,
+      "support": 0
+     },
+     "流民": {
+      "pop": 25,
+      "attitude": 38,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 1000
+     }
+    },
+    "projects": [
+     {
+      "name": "桂林府城",
+      "buff": {
+       "desc": "岭南军政重镇"
+      },
+      "scope": "本省",
+      "kind": "国家建筑",
+      "status": "运营中",
+      "cost": 60.0
+     }
+    ],
+    "weather": null,
+    "controller": "明",
+    "base_carrying": 830.7
+   }
+  },
+  {
+   "id": "yunnan",
+   "name": "云南",
+   "type": "province",
+   "owner": "ming",
+   "neighbors": [
+    "sichuan",
+    "guizhou",
+    "guangxi"
+   ],
+   "local": {
+    "core": "宣称",
+    "corruption": 78,
+    "corruption_note": "沐氏勋贵、土司、矿税太监，偏远监督弱。",
+    "infra": 30,
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 3,
+      "attitude": 65,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 3000
+     },
+     "士绅": {
+      "pop": 8,
+      "attitude": 65,
+      "output": 2.4,
+      "tax_rate": 0.05,
+      "support": 0
+     },
+     "商人": {
+      "pop": 10,
+      "attitude": 65,
+      "output": 4.0,
+      "tax_rate": 0.2,
+      "support": 0
+     },
+     "农民": {
+      "pop": 312,
+      "attitude": 65,
+      "output": 4.7,
+      "tax_rate": 0.3,
+      "support": 0
+     },
+     "百工": {
+      "pop": 29,
+      "attitude": 65,
+      "output": 2.3,
+      "tax_rate": 0.15,
+      "support": 0
+     },
+     "百役": {
+      "pop": 13,
+      "attitude": 65,
+      "output": 0.3,
+      "tax_rate": 0.1,
+      "support": 0
+     },
+     "流民": {
+      "pop": 25,
+      "attitude": 38,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 1000
+     }
+    },
+    "projects": [
+     {
+      "name": "云南银矿群",
+      "buff": {
+       "silver": 28.0,
+       "desc": "银矿，每年产白银 28 万两"
+      },
+      "scope": "本省",
+      "kind": "矿场",
+      "status": "运营中",
+      "cost": 45.0
+     },
+     {
+      "name": "云南金矿群",
+      "buff": {
+       "gold": 4000.0,
+       "desc": "金矿，每年产黄金 4000 两"
+      },
+      "scope": "本省",
+      "kind": "矿场",
+      "status": "运营中",
+      "cost": 30.0
+     },
+     {
+      "name": "云南铜矿",
+      "buff": {
+       "flat": {
+        "百工": 20.0
+       },
+       "desc": "铜矿，百工产能增加 20 万"
+      },
+      "scope": "本省",
+      "kind": "矿场",
+      "status": "运营中",
+      "cost": 22.0
+     },
+     {
+      "name": "云南铁矿",
+      "buff": {
+       "flat": {
+        "百工": 30.0
+       },
+       "desc": "铁矿，百工产能增加 30 万"
+      },
+      "scope": "本省",
+      "kind": "矿场",
+      "status": "运营中",
+      "cost": 25.0
+     },
+     {
+      "name": "云南锡矿",
+      "buff": {
+       "flat": {
+        "百工": 10.0
+       },
+       "desc": "锡矿，百工产能增加 10 万"
+      },
+      "scope": "本省",
+      "kind": "矿场",
+      "status": "运营中",
+      "cost": 12.0
+     }
+    ],
+    "weather": null,
+    "controller": "明",
+    "base_carrying": 729.7
+   }
+  },
+  {
+   "id": "guizhou",
+   "name": "贵州",
+   "type": "province",
+   "owner": "ming",
+   "neighbors": [
+    "sichuan",
+    "huguang",
+    "guangxi",
+    "yunnan"
+   ],
+   "local": {
+    "core": "宣称",
+    "corruption": 82,
+    "corruption_note": "奢安之乱主战场，军费侵吞、土司盘剥，基层残破。",
+    "infra": 25,
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 2,
+      "attitude": 65,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 2000
+     },
+     "士绅": {
+      "pop": 6,
+      "attitude": 65,
+      "output": 1.8,
+      "tax_rate": 0.05,
+      "support": 0
+     },
+     "商人": {
+      "pop": 6,
+      "attitude": 65,
+      "output": 2.4,
+      "tax_rate": 0.2,
+      "support": 0
+     },
+     "农民": {
+      "pop": 230,
+      "attitude": 65,
+      "output": 3.4,
+      "tax_rate": 0.3,
+      "support": 0
+     },
+     "百工": {
+      "pop": 20,
+      "attitude": 65,
+      "output": 1.6,
+      "tax_rate": 0.15,
+      "support": 0
+     },
+     "百役": {
+      "pop": 10,
+      "attitude": 65,
+      "output": 0.2,
+      "tax_rate": 0.1,
+      "support": 0
+     },
+     "流民": {
+      "pop": 26,
+      "attitude": 38,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 1000
+     }
+    },
+    "projects": [
+     {
+      "name": "铜仁银矿",
+      "buff": {
+       "silver": 7.0,
+       "desc": "银矿，每年产白银 7 万两"
+      },
+      "scope": "本省",
+      "kind": "矿场",
+      "status": "运营中",
+      "cost": 16.0
+     }
+    ],
+    "weather": null,
+    "controller": "明",
+    "base_carrying": 525.0
+   }
+  },
+  {
+   "id": "liaodong",
+   "name": "辽东",
+   "type": "border",
+   "owner": "ming",
+   "neighbors": [
+    "beizhili",
+    "shengjing",
+    "haixi"
+   ],
+   "local": {
+    "core": "宣称",
+    "corruption": 90,
+    "corruption_note": "辽饷巨大，将领冒饷、镇守太监干预，边军缺饷逃亡。",
+    "infra": 35,
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 0,
+      "attitude": 65,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 0
+     },
+     "士绅": {
+      "pop": 2,
+      "attitude": 65,
+      "output": 0.6,
+      "tax_rate": 0.05,
+      "support": 0
+     },
+     "商人": {
+      "pop": 3,
+      "attitude": 65,
+      "output": 1.2,
+      "tax_rate": 0.2,
+      "support": 0
+     },
+     "农民": {
+      "pop": 55,
+      "attitude": 65,
+      "output": 0.8,
+      "tax_rate": 0.3,
+      "support": 0
+     },
+     "百工": {
+      "pop": 8,
+      "attitude": 65,
+      "output": 0.6,
+      "tax_rate": 0.15,
+      "support": 0
+     },
+     "百役": {
+      "pop": 4,
+      "attitude": 65,
+      "output": 0.1,
+      "tax_rate": 0.1,
+      "support": 0
+     },
+     "流民": {
+      "pop": 28,
+      "attitude": 38,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 4000
+     }
+    },
+    "projects": [
+     {
+      "name": "关宁锦防线",
+      "buff": {
+       "desc": "宁远、锦州、山海关连成一线防御"
+      },
+      "scope": "本省",
+      "kind": "军事建筑",
+      "status": "运营中",
+      "cost": 400.0
+     },
+     {
+      "name": "大凌河城修复",
+      "buff": {
+       "desc": "关外前出据点"
+      },
+      "scope": "本省",
+      "kind": "军事建筑",
+      "status": "未完工",
+      "cost": 55.0
+     }
+    ],
+    "weather": null,
+    "controller": "明",
+    "base_carrying": 136.8
+   }
+  },
+  {
+   "id": "dongfan",
+   "name": "东番",
+   "type": "border",
+   "owner": "ming",
+   "neighbors": [
+    "fujian",
+    "guangdong"
+   ],
+   "local": {
+    "core": "宣称",
+    "infra": 20,
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 0,
+      "attitude": 55,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 0
+     },
+     "士绅": {
+      "pop": 1,
+      "attitude": 55,
+      "output": 0.3,
+      "tax_rate": 0.05,
+      "support": 0
+     },
+     "商人": {
+      "pop": 3,
+      "attitude": 58,
+      "output": 1.2,
+      "tax_rate": 0.2,
+      "support": 0
+     },
+     "农民": {
+      "pop": 20,
+      "attitude": 55,
+      "output": 0.3,
+      "tax_rate": 0.3,
+      "support": 0
+     },
+     "百工": {
+      "pop": 2,
+      "attitude": 55,
+      "output": 0.2,
+      "tax_rate": 0.15,
+      "support": 0
+     },
+     "百役": {
+      "pop": 2,
+      "attitude": 55,
+      "output": 0.1,
+      "tax_rate": 0.1,
+      "support": 0
+     },
+     "流民": {
+      "pop": 2,
+      "attitude": 35,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 500
+     }
+    },
+    "projects": [],
+    "weather": null,
+    "corruption": 78,
+    "corruption_note": "海贸走私、盐政收规，官府控制弱。",
+    "controller": "明",
+    "base_carrying": 60.0
+   }
+  },
+  {
+   "id": "shengjing",
+   "name": "盛京",
+   "type": "enemy",
+   "owner": "houjin",
+   "neighbors": [
+    "liaodong",
+    "haixi",
+    "nenkeerqin",
+    "wuliangha"
+   ],
+   "local": {
+    "core": "宣称",
+    "infra": 45,
+    "corruption": 18,
+    "corruption_note": "新都初立，旗务与汉官并行，粮料支给多经各旗牛录，账目未一。",
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 0.6,
+      "attitude": 89,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 0
+     },
+     "士绅": {
+      "pop": 1.0,
+      "attitude": 77,
+      "output": 0.3,
+      "tax_rate": 0.05,
+      "support": 0
+     },
+     "商人": {
+      "pop": 3.0,
+      "attitude": 73,
+      "output": 1.2,
+      "tax_rate": 0.2,
+      "support": 0
+     },
+     "农民": {
+      "pop": 88.0,
+      "attitude": 58,
+      "output": 1.28,
+      "tax_rate": 0.3,
+      "support": 0
+     },
+     "百工": {
+      "pop": 8.0,
+      "attitude": 68,
+      "output": 0.6,
+      "tax_rate": 0.15,
+      "support": 0
+     },
+     "百役": {
+      "pop": 6.0,
+      "attitude": 51,
+      "output": 0.15,
+      "tax_rate": 0.1,
+      "support": 0
+     },
+     "流民": {
+      "pop": 18.0,
+      "attitude": 37,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 2574
+     }
+    },
+    "projects": [],
+    "weather": null,
+    "controller": "满清",
+    "base_carrying": 176.4
+   }
+  },
+  {
+   "id": "haixi",
+   "name": "海西",
+   "type": "enemy",
+   "owner": "houjin",
+   "neighbors": [
+    "shengjing",
+    "liaodong",
+    "suolun",
+    "wuliangha",
+    "nenkeerqin"
+   ],
+   "local": {
+    "core": "非核",
+    "infra": 30,
+    "corruption": 16,
+    "corruption_note": "海西诸部新附，牛录编丁未定，贡赋以貂皮、人参、马匹折纳。",
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 0.2,
+      "attitude": 85,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 0
+     },
+     "士绅": {
+      "pop": 0.3,
+      "attitude": 71,
+      "output": 0.09,
+      "tax_rate": 0.05,
+      "support": 0
+     },
+     "商人": {
+      "pop": 1.2,
+      "attitude": 67,
+      "output": 0.48,
+      "tax_rate": 0.2,
+      "support": 0
+     },
+     "农民": {
+      "pop": 42.0,
+      "attitude": 54,
+      "output": 0.61,
+      "tax_rate": 0.3,
+      "support": 0
+     },
+     "百工": {
+      "pop": 2.5,
+      "attitude": 60,
+      "output": 0.19,
+      "tax_rate": 0.15,
+      "support": 0
+     },
+     "百役": {
+      "pop": 4.0,
+      "attitude": 47,
+      "output": 0.1,
+      "tax_rate": 0.1,
+      "support": 0
+     },
+     "流民": {
+      "pop": 12.0,
+      "attitude": 34,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 1716
+     }
+    },
+    "projects": [],
+    "weather": null,
+    "controller": "满清",
+    "base_carrying": 76.2
+   }
+  },
+  {
+   "id": "nenkeerqin",
+   "name": "嫩科尔沁",
+   "type": "vassal",
+   "owner": "houjin",
+   "neighbors": [
+    "shengjing",
+    "haixi",
+    "chahar",
+    "suolun"
+   ],
+   "local": {
+    "core": "非核",
+    "infra": 15,
+    "corruption": 10,
+    "corruption_note": "蒙古游牧诸部，以盟誓相维，无郡县赋税之制。",
+    "army": {},
+    "classes": {
+     "宗室": {
+      "pop": 0.1,
+      "attitude": 81,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 0
+     },
+     "士绅": {
+      "pop": 0.1,
+      "attitude": 68,
+      "output": 0.03,
+      "tax_rate": 0.05,
+      "support": 0
+     },
+     "商人": {
+      "pop": 0.6,
+      "attitude": 65,
+      "output": 0.24,
+      "tax_rate": 0.2,
+      "support": 0
+     },
+     "农民": {
+      "pop": 12.0,
+      "attitude": 59,
+      "output": 0.17,
+      "tax_rate": 0.3,
+      "support": 0
+     },
+     "百工": {
+      "pop": 0.6,
+      "attitude": 59,
+      "output": 0.04,
+      "tax_rate": 0.15,
+      "support": 0
+     },
+     "百役": {
+      "pop": 1.2,
+      "attitude": 52,
+      "output": 0.03,
+      "tax_rate": 0.1,
+      "support": 0
+     },
+     "流民": {
+      "pop": 3.0,
+      "attitude": 40,
+      "output": 0.0,
+      "tax_rate": 0.0,
+      "support": 429
+     }
+    },
+    "projects": [],
+    "weather": null,
+    "controller": "满清",
+    "base_carrying": 25.2
+   }
+  },
+  {
+   "id": "suolun",
+   "name": "索伦",
+   "type": "enemy",
+   "owner": "other",
+   "neighbors": [
+    "haixi",
+    "nenkeerqin",
+    "chahar",
+    "donghai"
+   ],
+   "local": {
+    "core": "非核",
+    "corruption": 0,
+    "corruption_note": "",
+    "infra": 0,
+    "army": {},
+    "classes": {},
+    "projects": [],
+    "carrying": 0,
+    "weather": null,
+    "controller": "诸部"
+   }
+  },
+  {
+   "id": "donghai",
+   "name": "东海",
+   "type": "enemy",
+   "owner": "other",
+   "neighbors": [
+    "suolun",
+    "kuwu",
+    "wuliangha"
+   ],
+   "local": {
+    "core": "非核",
+    "corruption": 0,
+    "corruption_note": "",
+    "infra": 0,
+    "army": {},
+    "classes": {},
+    "projects": [],
+    "carrying": 0,
+    "weather": null,
+    "controller": "诸部"
+   }
+  },
+  {
+   "id": "kuwu",
+   "name": "苦兀",
+   "type": "enemy",
+   "owner": "other",
+   "neighbors": [
+    "donghai",
+    "wuliangha"
+   ],
+   "local": {
+    "core": "非核",
+    "corruption": 0,
+    "corruption_note": "",
+    "infra": 0,
+    "army": {},
+    "classes": {},
+    "projects": [],
+    "carrying": 0,
+    "weather": null,
+    "controller": "诸部"
+   }
+  },
+  {
+   "id": "wuliangha",
+   "name": "兀良哈",
+   "type": "enemy",
+   "owner": "other",
+   "neighbors": [
+    "shengjing",
+    "haixi",
+    "kuwu",
+    "donghai",
+    "chahar"
+   ],
+   "local": {
+    "core": "非核",
+    "corruption": 0,
+    "corruption_note": "",
+    "infra": 0,
+    "army": {},
+    "classes": {},
+    "projects": [],
+    "carrying": 0,
+    "weather": null,
+    "controller": "诸部"
+   }
+  },
+  {
+   "id": "chahar",
+   "name": "察哈尔",
+   "type": "vassal",
+   "owner": "mongol",
+   "neighbors": [
+    "nenkeerqin",
+    "suolun",
+    "wuliangha",
+    "tumote",
+    "shanxi"
+   ],
+   "local": {
+    "core": "非核",
+    "corruption": 0,
+    "corruption_note": "",
+    "infra": 0,
+    "army": {},
+    "classes": {},
+    "projects": [],
+    "carrying": 0,
+    "weather": null,
+    "controller": "蒙古诸部"
+   }
+  },
+  {
+   "id": "tumote",
+   "name": "土默特",
+   "type": "vassal",
+   "owner": "mongol",
+   "neighbors": [
+    "chahar",
+    "ordos",
+    "shanxi",
+    "shaanxi"
+   ],
+   "local": {
+    "core": "非核",
+    "corruption": 0,
+    "corruption_note": "",
+    "infra": 0,
+    "army": {},
+    "classes": {},
+    "projects": [],
+    "carrying": 0,
+    "weather": null,
+    "controller": "蒙古诸部"
+   }
+  },
+  {
+   "id": "ordos",
+   "name": "鄂尔多斯",
+   "type": "vassal",
+   "owner": "mongol",
+   "neighbors": [
+    "tumote",
+    "shaanxi"
+   ],
+   "local": {
+    "core": "非核",
+    "corruption": 0,
+    "corruption_note": "",
+    "infra": 0,
+    "army": {},
+    "classes": {},
+    "projects": [],
+    "carrying": 0,
+    "weather": null,
+    "controller": "蒙古诸部"
+   }
+  }
+ ]
+}

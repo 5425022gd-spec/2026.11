@@ -1,0 +1,1089 @@
+{
+  "units": [
+    {
+      "id": "mobile_baigan",
+      "name": "白杆兵",
+      "category": "mobile",
+      "station": "四川营防",
+      "commander": "秦良玉",
+      "count": 6500,
+      "elite": 88,
+      "corruption": 12,
+      "loyalty": 95,
+      "pay_rate": 0.75,
+      "extra_pay": 0.0,
+      "desc": "石砫宣抚使秦良玉所部白蜡杆长矛劲旅，曾血战浑河、援救榆关，行山险如平地，纪律严明，天下推为劲兵。",
+      "equipment": {
+        "armors": [
+          {
+            "era_model": "万历四十七年式白椴木叶札甲",
+            "count": 2800,
+            "desc": "川东轻型贴身札甲，利山地腾挪"
+          },
+          {
+            "era_model": "万历十三年布面铜钉甲",
+            "count": 2500,
+            "desc": "棉里嵌铁叶布面甲"
+          },
+          {
+            "era_model": "天启三年式藤牌锁子甲",
+            "count": 1200,
+            "desc": "皮里锁子甲与轻藤甲"
+          }
+        ],
+        "melee": [
+          {
+            "era_model": "万历二十年式白蜡杆长矛",
+            "count": 4800,
+            "quota": 4800,
+            "desc": "通长丈五，尾带铁环钩，攀山刺马无往不利"
+          },
+          {
+            "era_model": "嘉靖三十四年式戚家倭刀",
+            "count": 3200,
+            "desc": "双手长刀，利于劈斩"
+          },
+          {
+            "era_model": "万历二十五年式单刃解首短刀",
+            "count": 6500,
+            "desc": "近身防短兵刃"
+          }
+        ],
+        "ranged": [
+          {
+            "era_model": "永乐二十年式开元柘木硬弓",
+            "count": 3000,
+            "desc": "步射重弓，箭镞带破甲锥"
+          },
+          {
+            "era_model": "万历二十六年式鲁密铳",
+            "count": 1200,
+            "desc": "长管火绳枪，射程准度冠于诸铳"
+          },
+          {
+            "era_model": "万历四十年式自生火弩",
+            "count": 800,
+            "desc": "机发连弩，施淬药箭"
+          }
+        ],
+        "artillery": [
+          {
+            "era_model": "嘉靖二十三年造三十斤虎蹲炮",
+            "count": 36,
+            "weight": "36斤",
+            "desc": "山地轻型野战臼炮，配爪钉定地"
+          },
+          {
+            "era_model": "万历三年造四十五斤旋风小炮",
+            "count": 24,
+            "weight": "45斤",
+            "desc": "轻型驮载铜炮"
+          }
+        ],
+        "horses": [
+          {
+            "grade": "上等战马",
+            "count": 120,
+            "desc": "山地川马与滇马精选"
+          },
+          {
+            "grade": "中等战马",
+            "count": 380,
+            "desc": "将校乘骑与斥候哨马"
+          },
+          {
+            "grade": "下等驭马",
+            "count": 950,
+            "desc": "辎重驮运骡马"
+          }
+        ]
+      },
+      "arrears_wan": 0.0,
+      "target_location": "sichuan",
+      "status": "驻防",
+      "path": [
+        "yunnan",
+        "sichuan"
+      ],
+      "path_names": [
+        "云南",
+        "四川"
+      ],
+      "total_days": 2.6,
+      "remain_days": 0.0,
+      "total_distance_km": 650,
+      "current_location": "sichuan",
+      "mission": "决战",
+      "overall_stance": "进攻",
+      "engagement_risk": "高风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "依令行动",
+      "owner": "ming",
+      "province_id": "sichuan"
+    },
+    {
+      "id": "mobile_baqi",
+      "name": "满清八旗",
+      "category": "mobile",
+      "owner": "houjin",
+      "faction": "满清",
+      "station": "盛京营防",
+      "commander": "皇太极",
+      "count": 50000,
+      "elite": 92,
+      "corruption": 6,
+      "loyalty": 95,
+      "pay_rate": 1.0,
+      "extra_pay": 0.0,
+      "desc": "后金国汗亲统八旗劲旅：满洲甲骑居前，蒙古附军继之，归降汉军执火器与重步卒殿后。骑射剽悍，甲械自制自给，不仰明廷一钱。",
+      "equipment": {
+        "armors": [
+          {
+            "era_model": "后金镶黄旗锁子重甲",
+            "count": 15000,
+            "quota": 15000
+          },
+          {
+            "era_model": "归降汉军棉甲",
+            "count": 12000,
+            "quota": 12000
+          },
+          {
+            "era_model": "蒙古皮甲",
+            "count": 8000,
+            "quota": 8000
+          }
+        ],
+        "melee": [
+          {
+            "era_model": "后金顺刀与虎枪",
+            "count": 20000,
+            "quota": 20000
+          },
+          {
+            "era_model": "长柄挑刀",
+            "count": 12000,
+            "quota": 12000
+          }
+        ],
+        "ranged": [
+          {
+            "era_model": "满洲角弓",
+            "count": 25000,
+            "quota": 25000
+          },
+          {
+            "era_model": "归降汉军鸟铳",
+            "count": 6000,
+            "quota": 6000
+          }
+        ],
+        "artillery": [
+          {
+            "era_model": "辽东掳获佛郎机",
+            "count": 40,
+            "quota": 40
+          },
+          {
+            "era_model": "自制小炮",
+            "count": 20,
+            "quota": 20
+          }
+        ],
+        "horses": [
+          {
+            "grade": "蒙古马",
+            "count": 18000,
+            "quota": 18000
+          }
+        ]
+      },
+      "arrears_wan": 0.0,
+      "target_location": "shengjing",
+      "status": "驻防",
+      "path": [
+        "shengjing"
+      ],
+      "path_names": [
+        "盛京"
+      ],
+      "total_days": 0.0,
+      "remain_days": 0.0,
+      "total_distance_km": 0,
+      "current_location": "shengjing",
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "高撤退优先级",
+      "battle_order": "依令行动",
+      "province_id": "shengjing"
+    },
+    {
+      "id": "mobile_mongol_alliance",
+      "name": "蒙古盟军",
+      "category": "mobile",
+      "owner": "houjin",
+      "faction": "满清",
+      "station": "嫩科尔沁营防",
+      "commander": "奥巴",
+      "count": 2000,
+      "elite": 74,
+      "corruption": 10,
+      "loyalty": 78,
+      "pay_rate": 1.0,
+      "extra_pay": 0.0,
+      "desc": "嫩科尔沁诸台吉所部骑兵，应盟约随征：一人数马，长于奔袭抄掠，不耐久战攻城。",
+      "equipment": {
+        "armors": [
+          {
+            "era_model": "蒙古皮甲",
+            "count": 1800,
+            "quota": 1800
+          }
+        ],
+        "melee": [
+          {
+            "era_model": "蒙古弯刀与长矛",
+            "count": 2000,
+            "quota": 2000
+          }
+        ],
+        "ranged": [
+          {
+            "era_model": "蒙古角弓",
+            "count": 2000,
+            "quota": 2000
+          }
+        ],
+        "artillery": [],
+        "horses": [
+          {
+            "grade": "蒙古马",
+            "count": 4000,
+            "quota": 4000
+          }
+        ]
+      },
+      "arrears_wan": 0.0,
+      "target_location": "nenkeerqin",
+      "status": "驻防",
+      "path": [
+        "nenkeerqin"
+      ],
+      "path_names": [
+        "嫩科尔沁"
+      ],
+      "total_days": 0.0,
+      "remain_days": 0.0,
+      "total_distance_km": 0,
+      "current_location": "nenkeerqin",
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "高撤退优先级",
+      "battle_order": "依令行动",
+      "province_id": "nenkeerqin"
+    },
+    {
+      "id": "gar_beizhili",
+      "name": "北直隶镇军",
+      "category": "garrison",
+      "owner": "ming",
+      "province_id": "beizhili",
+      "current_location": "fujian",
+      "target_location": "fujian",
+      "status": "驻防",
+      "path": [
+        "beizhili",
+        "henan",
+        "huguang",
+        "jiangxi",
+        "fujian"
+      ],
+      "path_names": [
+        "北直隶",
+        "河南",
+        "湖广",
+        "江西",
+        "福建"
+      ],
+      "total_days": 7.4,
+      "remain_days": 0.0,
+      "total_distance_km": 1840,
+      "station": "福建卫所",
+      "commander": "北直隶都指挥使",
+      "count": 8000,
+      "elite": 55,
+      "corruption": 85,
+      "loyalty": 70,
+      "pay_rate": 0.8,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明北直隶卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。"
+    },
+    {
+      "id": "gar_shandong",
+      "name": "山东镇军",
+      "category": "garrison",
+      "owner": "ming",
+      "province_id": "shandong",
+      "current_location": "shandong",
+      "target_location": "shandong",
+      "status": "驻防",
+      "station": "山东都司卫所",
+      "commander": "山东都指挥使",
+      "count": 6000,
+      "elite": 55,
+      "corruption": 78,
+      "loyalty": 70,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明山东卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。",
+      "pay_rate": 0.7
+    },
+    {
+      "id": "gar_shanxi",
+      "name": "山西镇军",
+      "category": "garrison",
+      "owner": "ming",
+      "province_id": "shanxi",
+      "current_location": "shanxi",
+      "target_location": "shanxi",
+      "status": "驻防",
+      "station": "山西都司卫所",
+      "commander": "山西都指挥使",
+      "count": 8000,
+      "elite": 55,
+      "corruption": 75,
+      "loyalty": 70,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明山西卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。",
+      "pay_rate": 0.6
+    },
+    {
+      "id": "gar_henan",
+      "name": "河南镇军",
+      "category": "garrison",
+      "owner": "ming",
+      "province_id": "henan",
+      "current_location": "henan",
+      "target_location": "henan",
+      "status": "驻防",
+      "station": "河南都司卫所",
+      "commander": "河南都指挥使",
+      "count": 6000,
+      "elite": 55,
+      "corruption": 80,
+      "loyalty": 70,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明河南卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。",
+      "pay_rate": 0.65
+    },
+    {
+      "id": "gar_shaanxi",
+      "name": "陕西镇军",
+      "category": "garrison",
+      "owner": "ming",
+      "province_id": "shaanxi",
+      "current_location": "shaanxi",
+      "target_location": "shaanxi",
+      "status": "驻防",
+      "station": "陕西都司卫所",
+      "commander": "陕西都指挥使",
+      "count": 10000,
+      "elite": 55,
+      "corruption": 88,
+      "loyalty": 70,
+      "pay_rate": 0.4,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明陕西卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。"
+    },
+    {
+      "id": "gar_nanzhili",
+      "name": "南直隶镇军",
+      "category": "garrison",
+      "owner": "ming",
+      "province_id": "nanzhili",
+      "current_location": "nanzhili",
+      "target_location": "nanzhili",
+      "status": "驻防",
+      "station": "南直隶都司卫所",
+      "commander": "南直隶都指挥使",
+      "count": 10000,
+      "elite": 55,
+      "corruption": 82,
+      "loyalty": 70,
+      "pay_rate": 0.8,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明南直隶卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。"
+    },
+    {
+      "id": "gar_sichuan",
+      "name": "四川镇军",
+      "category": "garrison",
+      "owner": "ming",
+      "province_id": "sichuan",
+      "current_location": "sichuan",
+      "target_location": "sichuan",
+      "status": "驻防",
+      "station": "四川都司卫所",
+      "commander": "四川都指挥使",
+      "count": 5000,
+      "elite": 55,
+      "corruption": 78,
+      "loyalty": 70,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明四川卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。",
+      "pay_rate": 0.6
+    },
+    {
+      "id": "gar_huguang",
+      "name": "湖广镇军",
+      "category": "garrison",
+      "owner": "ming",
+      "province_id": "huguang",
+      "current_location": "huguang",
+      "target_location": "huguang",
+      "status": "驻防",
+      "station": "湖广都司卫所",
+      "commander": "湖广都指挥使",
+      "count": 8000,
+      "elite": 55,
+      "corruption": 75,
+      "loyalty": 70,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明湖广卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。",
+      "pay_rate": 0.6
+    },
+    {
+      "id": "gar_jiangxi",
+      "name": "江西镇军",
+      "category": "garrison",
+      "owner": "ming",
+      "province_id": "jiangxi",
+      "current_location": "jiangxi",
+      "target_location": "jiangxi",
+      "status": "驻防",
+      "station": "江西都司卫所",
+      "commander": "江西都指挥使",
+      "count": 5000,
+      "elite": 55,
+      "corruption": 70,
+      "loyalty": 70,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明江西卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。",
+      "pay_rate": 0.65
+    },
+    {
+      "id": "gar_zhejiang",
+      "name": "浙江镇军",
+      "category": "garrison",
+      "owner": "ming",
+      "province_id": "zhejiang",
+      "current_location": "zhejiang",
+      "target_location": "zhejiang",
+      "status": "驻防",
+      "station": "浙江都司卫所",
+      "commander": "浙江都指挥使",
+      "count": 7000,
+      "elite": 55,
+      "corruption": 75,
+      "loyalty": 70,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明浙江卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。",
+      "pay_rate": 0.7
+    },
+    {
+      "id": "gar_fujian",
+      "name": "福建镇军",
+      "category": "garrison",
+      "owner": "ming",
+      "province_id": "fujian",
+      "current_location": "fujian",
+      "target_location": "fujian",
+      "status": "驻防",
+      "station": "福建都司卫所",
+      "commander": "福建都指挥使",
+      "count": 6000,
+      "elite": 55,
+      "corruption": 68,
+      "loyalty": 70,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明福建卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。",
+      "pay_rate": 0.55
+    },
+    {
+      "id": "gar_guangdong",
+      "name": "广东镇军",
+      "category": "garrison",
+      "owner": "ming",
+      "province_id": "guangdong",
+      "current_location": "guangdong",
+      "target_location": "guangdong",
+      "status": "驻防",
+      "station": "广东都司卫所",
+      "commander": "广东都指挥使",
+      "count": 8000,
+      "elite": 55,
+      "corruption": 72,
+      "loyalty": 70,
+      "pay_rate": 0.2,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明广东卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。"
+    },
+    {
+      "id": "gar_guangxi",
+      "name": "广西镇军",
+      "category": "garrison",
+      "owner": "ming",
+      "province_id": "guangxi",
+      "current_location": "guangxi",
+      "target_location": "guangxi",
+      "status": "驻防",
+      "station": "广西都司卫所",
+      "commander": "广西都指挥使",
+      "count": 4000,
+      "elite": 55,
+      "corruption": 75,
+      "loyalty": 70,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明广西卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。",
+      "pay_rate": 0.5
+    },
+    {
+      "id": "gar_yunnan",
+      "name": "云南镇军",
+      "category": "garrison",
+      "owner": "ming",
+      "province_id": "yunnan",
+      "current_location": "yunnan",
+      "target_location": "yunnan",
+      "status": "驻防",
+      "station": "云南都司卫所",
+      "commander": "云南都指挥使",
+      "count": 6000,
+      "elite": 55,
+      "corruption": 78,
+      "loyalty": 70,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明云南卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。",
+      "pay_rate": 0.45
+    },
+    {
+      "id": "gar_guizhou",
+      "name": "贵州镇军",
+      "category": "garrison",
+      "owner": "ming",
+      "province_id": "guizhou",
+      "current_location": "guizhou",
+      "target_location": "guizhou",
+      "status": "驻防",
+      "station": "贵州都司卫所",
+      "commander": "贵州都指挥使",
+      "count": 5000,
+      "elite": 55,
+      "corruption": 82,
+      "loyalty": 70,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明贵州卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。",
+      "pay_rate": 0.4
+    },
+    {
+      "id": "gar_liaodong",
+      "name": "辽东镇军",
+      "category": "garrison",
+      "owner": "ming",
+      "province_id": "liaodong",
+      "current_location": "liaodong",
+      "target_location": "liaodong",
+      "status": "驻防",
+      "station": "辽东都司卫所",
+      "commander": "辽东都指挥使",
+      "count": 15000,
+      "elite": 55,
+      "corruption": 90,
+      "loyalty": 70,
+      "pay_rate": 0.2,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明辽东卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。"
+    },
+    {
+      "id": "gar_dongfan",
+      "name": "东番镇军",
+      "category": "garrison",
+      "owner": "ming",
+      "province_id": "dongfan",
+      "current_location": "dongfan",
+      "target_location": "dongfan",
+      "status": "驻防",
+      "station": "东番都司卫所",
+      "commander": "东番都指挥使",
+      "count": 3000,
+      "elite": 55,
+      "corruption": 78,
+      "loyalty": 70,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明东番卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。",
+      "pay_rate": 0.4
+    },
+    {
+      "id": "gar_shengjing",
+      "name": "盛京地区部落兵",
+      "category": "garrison",
+      "owner": "houjin",
+      "province_id": "shengjing",
+      "current_location": "shengjing",
+      "target_location": "shengjing",
+      "status": "驻防",
+      "station": "盛京都司卫所",
+      "commander": "盛京都指挥使",
+      "count": 20000,
+      "elite": 55,
+      "corruption": 18,
+      "loyalty": 70,
+      "pay_rate": 1.0,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明盛京卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。"
+    },
+    {
+      "id": "gar_haixi",
+      "name": "海西地区部落兵",
+      "category": "garrison",
+      "owner": "houjin",
+      "province_id": "haixi",
+      "current_location": "haixi",
+      "target_location": "haixi",
+      "status": "驻防",
+      "station": "海西都司卫所",
+      "commander": "海西都指挥使",
+      "count": 12000,
+      "elite": 55,
+      "corruption": 16,
+      "loyalty": 70,
+      "pay_rate": 1.0,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明海西卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。"
+    },
+    {
+      "id": "gar_nenkeerqin",
+      "name": "嫩科尔沁地区蒙古牛录",
+      "category": "garrison",
+      "owner": "houjin",
+      "province_id": "nenkeerqin",
+      "current_location": "nenkeerqin",
+      "target_location": "nenkeerqin",
+      "status": "驻防",
+      "station": "嫩科尔沁都司卫所",
+      "commander": "嫩科尔沁都指挥使",
+      "count": 3000,
+      "elite": 55,
+      "corruption": 10,
+      "loyalty": 70,
+      "pay_rate": 1.0,
+      "arrears_wan": 0.0,
+      "extra_pay": 0.0,
+      "mission": "守备",
+      "overall_stance": "防御",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "低撤退优先级",
+      "battle_order": "守备卫所",
+      "desc": "大明嫩科尔沁卫所承宣布政使司下辖镇守卫所军。负责本地城隘盘查、剿捕盗贼与协防。"
+    },
+    {
+      "id": "enemy_sheyin",
+      "name": "奢寅部叛军",
+      "category": "mobile",
+      "faction": "永宁奢氏",
+      "province_id": "sichuan",
+      "current_location": "sichuan",
+      "station": "永宁蔺州",
+      "commander": "奢崇明",
+      "count": 18000,
+      "elite": 75,
+      "corruption": 30,
+      "loyalty": 80,
+      "overall_stance": "防御",
+      "mission": "守备",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "高撤退优先级",
+      "battle_order": "据险固守",
+      "desc": "永宁宣抚使奢崇明父子所部彝族土司兵，割据川南，据山险为巢穴，毒箭藤牌，善设伏隘口。",
+      "equipment": {
+        "armors": [
+          {
+            "era_model": "浸油生牛皮重皮甲",
+            "count": 6000
+          },
+          {
+            "era_model": "西南老藤篾甲",
+            "count": 12000
+          }
+        ],
+        "melee": [
+          {
+            "era_model": "川南土司阔刃苗刀",
+            "count": 12000
+          },
+          {
+            "era_model": "铁尖斑竹长标枪",
+            "count": 6000
+          }
+        ],
+        "ranged": [
+          {
+            "era_model": "山林短梢药箭竹弓",
+            "count": 10000
+          },
+          {
+            "era_model": "山寨自制单眼鸟枪",
+            "count": 2000
+          }
+        ],
+        "artillery": [
+          {
+            "era_model": "自制土铸劈山炮",
+            "count": 15
+          }
+        ],
+        "horses": [
+          {
+            "grade": "山地矮种川马",
+            "count": 1500
+          },
+          {
+            "grade": "下等驮运骡子",
+            "count": 3500
+          }
+        ]
+      },
+      "status": "驻防",
+      "owner": "叛军",
+      "target_location": "sichuan"
+    },
+    {
+      "id": "enemy_anwei",
+      "name": "安位部叛军",
+      "category": "mobile",
+      "faction": "水西安氏",
+      "province_id": "sichuan",
+      "current_location": "sichuan",
+      "station": "水西大方",
+      "commander": "安邦彦",
+      "count": 22000,
+      "elite": 78,
+      "corruption": 28,
+      "loyalty": 85,
+      "overall_stance": "防御",
+      "mission": "守备",
+      "engagement_risk": "中风险交战",
+      "retreat_priority": "高撤退优先级",
+      "battle_order": "扼守隘口",
+      "desc": "水西土司安邦彦所部水西彝军，联合奢崇明叛乱，席卷川黔边界，擅长穿林越涧、夜袭营垒。",
+      "equipment": {
+        "armors": [
+          {
+            "era_model": "水西冷锻鱼鳞铁甲",
+            "count": 8000
+          },
+          {
+            "era_model": "坚韧桐油细藤甲",
+            "count": 14000
+          }
+        ],
+        "melee": [
+          {
+            "era_model": "水西双刃长铩与扎刀",
+            "count": 14000
+          },
+          {
+            "era_model": "精铁钩镰枪",
+            "count": 8000
+          }
+        ],
+        "ranged": [
+          {
+            "era_model": "西南桑木药弩",
+            "count": 12000
+          },
+          {
+            "era_model": "缴获官军三眼铳",
+            "count": 2500
+          }
+        ],
+        "artillery": [
+          {
+            "era_model": "山崖石擂与飞石铳",
+            "count": 20
+          }
+        ],
+        "horses": [
+          {
+            "grade": "西南健步滇马",
+            "count": 2200
+          },
+          {
+            "grade": "驮运马匹",
+            "count": 4000
+          }
+        ]
+      },
+      "status": "驻防",
+      "owner": "叛军",
+      "target_location": "sichuan"
+    },
+    {
+      "id": "enemy_wanger",
+      "name": "王二部起义军",
+      "category": "mobile",
+      "faction": "陕北起义军",
+      "province_id": "shaanxi",
+      "current_location": "shaanxi",
+      "station": "陕西白水",
+      "commander": "王二",
+      "count": 15000,
+      "elite": 65,
+      "corruption": 20,
+      "loyalty": 88,
+      "overall_stance": "进攻",
+      "mission": "巡逻",
+      "engagement_risk": "低风险交战",
+      "retreat_priority": "高撤退优先级",
+      "battle_order": "攻打府县破衙开仓",
+      "desc": "陕西澄城、白水起义农民军，由王二首倡起事，聚饥民万余，呼啸山谷，破衙开仓，陕北震动。",
+      "equipment": {
+        "armors": [
+          {
+            "era_model": "缴获卫所旧布面铁甲",
+            "count": 2000
+          },
+          {
+            "era_model": "杂拼皮里棉袄护胸",
+            "count": 8000
+          }
+        ],
+        "melee": [
+          {
+            "era_model": "白蜡杆铁扎长枪与大刀",
+            "count": 9000
+          },
+          {
+            "era_model": "农具改制长铁叉与锄头",
+            "count": 6000
+          }
+        ],
+        "ranged": [
+          {
+            "era_model": "民间柘木猎弓",
+            "count": 4000
+          },
+          {
+            "era_model": "起获卫所鸟嘴铳与神枪",
+            "count": 1500
+          }
+        ],
+        "artillery": [
+          {
+            "era_model": "缴获县城守城虎蹲炮",
+            "count": 6
+          }
+        ],
+        "horses": [
+          {
+            "grade": "陕甘走马与骡马",
+            "count": 1200
+          },
+          {
+            "grade": "民间驮骡",
+            "count": 2000
+          }
+        ]
+      },
+      "status": "驻防",
+      "owner": "叛军",
+      "target_location": "shaanxi"
+    },
+    {
+      "id": "enemy_zhengyanfu",
+      "name": "郑彦夫部起义军",
+      "category": "mobile",
+      "faction": "陕南起义军",
+      "province_id": "shaanxi",
+      "current_location": "shaanxi",
+      "station": "陕南商洛山",
+      "commander": "郑彦夫",
+      "count": 12000,
+      "elite": 62,
+      "corruption": 22,
+      "loyalty": 82,
+      "overall_stance": "进攻",
+      "mission": "巡逻",
+      "engagement_risk": "低风险交战",
+      "retreat_priority": "高撤退优先级",
+      "battle_order": "出山劫掠呼应白水",
+      "desc": "陕西商洛、汉中一带起义饥民游勇，依凭秦岭商洛山势险峻，出没无常，屡挫官军围剿。",
+      "equipment": {
+        "armors": [
+          {
+            "era_model": "粗皮护甲与厚棉里甲",
+            "count": 3000
+          },
+          {
+            "era_model": "藤牌手牌",
+            "count": 5000
+          }
+        ],
+        "melee": [
+          {
+            "era_model": "双手长柄朴刀与腰刀",
+            "count": 8000
+          },
+          {
+            "era_model": "竹木削尖梭镖",
+            "count": 4000
+          }
+        ],
+        "ranged": [
+          {
+            "era_model": "山林药弩与猎弓",
+            "count": 3500
+          },
+          {
+            "era_model": "简易火铳",
+            "count": 800
+          }
+        ],
+        "artillery": [
+          {
+            "era_model": "山寨土石炮",
+            "count": 4
+          }
+        ],
+        "horses": [
+          {
+            "grade": "山地骑乘健马",
+            "count": 600
+          },
+          {
+            "grade": "驮运牲口",
+            "count": 1500
+          }
+        ]
+      },
+      "status": "驻防",
+      "owner": "叛军",
+      "target_location": "shaanxi"
+    }
+  ]
+}

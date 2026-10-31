@@ -1,0 +1,3634 @@
+{
+  "trees": [
+    {
+      "id": "theory",
+      "name": "理论科学"
+    },
+    {
+      "id": "applied",
+      "name": "科学技术"
+    }
+  ],
+  "techs": [
+    {
+      "id": "chudeng_shuxue",
+      "name": "初等数学",
+      "tree": "theory",
+      "x": 5340,
+      "y": 342,
+      "prereqs": [],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "数学"
+    },
+    {
+      "id": "kexue_fangfa",
+      "name": "科学方法",
+      "tree": "theory",
+      "x": 5536,
+      "y": 342,
+      "prereqs": [],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "科学"
+    },
+    {
+      "id": "zhongdeng_shuxue",
+      "name": "中等数学",
+      "tree": "theory",
+      "x": 5340,
+      "y": 544,
+      "prereqs": [
+        "chudeng_shuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "数学"
+    },
+    {
+      "id": "gaodeng_shuxue",
+      "name": "高等数学",
+      "tree": "theory",
+      "x": 4936,
+      "y": 741,
+      "prereqs": [
+        "zhongdeng_shuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "数学"
+    },
+    {
+      "id": "xianxing_daishu",
+      "name": "线性代数",
+      "tree": "theory",
+      "x": 3745,
+      "y": 741,
+      "prereqs": [
+        "zhongdeng_shuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "数学"
+    },
+    {
+      "id": "gailv_tongji",
+      "name": "概率论与数理统计",
+      "tree": "theory",
+      "x": 4736,
+      "y": 941,
+      "prereqs": [
+        "gaodeng_shuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "数学"
+    },
+    {
+      "id": "changweifen_fangcheng",
+      "name": "常微分方程",
+      "tree": "theory",
+      "x": 5127,
+      "y": 941,
+      "prereqs": [
+        "gaodeng_shuxue",
+        "xianxing_daishu"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "数学"
+    },
+    {
+      "id": "fubian_hanshu",
+      "name": "复变函数",
+      "tree": "theory",
+      "x": 4936,
+      "y": 941,
+      "prereqs": [
+        "gaodeng_shuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "数学"
+    },
+    {
+      "id": "shuxue_wuli_fangfa",
+      "name": "数学物理方法",
+      "tree": "theory",
+      "x": 5127,
+      "y": 1142,
+      "prereqs": [
+        "changweifen_fangcheng",
+        "fubian_hanshu"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "数学"
+    },
+    {
+      "id": "pianweifen_fangcheng",
+      "name": "偏微分方程",
+      "tree": "theory",
+      "x": 5127,
+      "y": 1342,
+      "prereqs": [
+        "shuxue_wuli_fangfa"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "数学"
+    },
+    {
+      "id": "weifen_jihe",
+      "name": "微分几何",
+      "tree": "theory",
+      "x": 4340,
+      "y": 941,
+      "prereqs": [
+        "gaodeng_shuxue",
+        "xianxing_daishu"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "数学"
+    },
+    {
+      "id": "chouxiang_daishu",
+      "name": "抽象代数",
+      "tree": "theory",
+      "x": 4143,
+      "y": 941,
+      "prereqs": [
+        "xianxing_daishu"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "数学"
+    },
+    {
+      "id": "shibian_hanshu",
+      "name": "实变函数",
+      "tree": "theory",
+      "x": 4530,
+      "y": 941,
+      "prereqs": [
+        "gaodeng_shuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "数学"
+    },
+    {
+      "id": "fanhan_fenxi",
+      "name": "泛函分析",
+      "tree": "theory",
+      "x": 4340,
+      "y": 1142,
+      "prereqs": [
+        "shibian_hanshu",
+        "xianxing_daishu"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "数学"
+    },
+    {
+      "id": "tuopuxue",
+      "name": "拓扑学",
+      "tree": "theory",
+      "x": 4143,
+      "y": 1142,
+      "prereqs": [
+        "chouxiang_daishu",
+        "shibian_hanshu"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "数学"
+    },
+    {
+      "id": "zhongdeng_wuli",
+      "name": "中等物理",
+      "tree": "theory",
+      "x": 5536,
+      "y": 741,
+      "prereqs": [
+        "kexue_fangfa",
+        "zhongdeng_shuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "物理"
+    },
+    {
+      "id": "daxue_wuli",
+      "name": "大学物理",
+      "tree": "theory",
+      "x": 5536,
+      "y": 941,
+      "prereqs": [
+        "zhongdeng_wuli"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "物理"
+    },
+    {
+      "id": "lixue",
+      "name": "力学",
+      "tree": "theory",
+      "x": 5536,
+      "y": 1142,
+      "prereqs": [
+        "daxue_wuli"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "物理"
+    },
+    {
+      "id": "rexue",
+      "name": "热学",
+      "tree": "theory",
+      "x": 5340,
+      "y": 1142,
+      "prereqs": [
+        "daxue_wuli"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "物理"
+    },
+    {
+      "id": "diancixue",
+      "name": "电磁学",
+      "tree": "theory",
+      "x": 5741,
+      "y": 1142,
+      "prereqs": [
+        "daxue_wuli"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "物理"
+    },
+    {
+      "id": "guangxue",
+      "name": "光学",
+      "tree": "theory",
+      "x": 5741,
+      "y": 1342,
+      "prereqs": [
+        "diancixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "物理"
+    },
+    {
+      "id": "yuanzi_wuli",
+      "name": "原子物理",
+      "tree": "theory",
+      "x": 5741,
+      "y": 1540,
+      "prereqs": [
+        "guangxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "物理"
+    },
+    {
+      "id": "lilun_lixue",
+      "name": "理论力学",
+      "tree": "theory",
+      "x": 5536,
+      "y": 1342,
+      "prereqs": [
+        "lixue",
+        "changweifen_fangcheng"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "物理"
+    },
+    {
+      "id": "diandong_lixue",
+      "name": "电动力学",
+      "tree": "theory",
+      "x": 5931,
+      "y": 1342,
+      "prereqs": [
+        "diancixue",
+        "shuxue_wuli_fangfa"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "物理"
+    },
+    {
+      "id": "relixue_tongji_wuli",
+      "name": "热力学与统计物理",
+      "tree": "theory",
+      "x": 5340,
+      "y": 1540,
+      "prereqs": [
+        "rexue",
+        "gailv_tongji"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "物理"
+    },
+    {
+      "id": "liangzi_lixue",
+      "name": "量子力学",
+      "tree": "theory",
+      "x": 5741,
+      "y": 1739,
+      "prereqs": [
+        "yuanzi_wuli",
+        "shuxue_wuli_fangfa"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "物理"
+    },
+    {
+      "id": "guti_wuli",
+      "name": "固体物理",
+      "tree": "theory",
+      "x": 5741,
+      "y": 1941,
+      "prereqs": [
+        "liangzi_lixue",
+        "relixue_tongji_wuli"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "物理"
+    },
+    {
+      "id": "liangzi_changlun",
+      "name": "量子场论",
+      "tree": "theory",
+      "x": 5931,
+      "y": 1941,
+      "prereqs": [
+        "liangzi_lixue",
+        "diandong_lixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "物理"
+    },
+    {
+      "id": "guangyi_xiangduilun",
+      "name": "广义相对论",
+      "tree": "theory",
+      "x": 5536,
+      "y": 1540,
+      "prereqs": [
+        "lilun_lixue",
+        "weifen_jihe",
+        "diandong_lixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "物理"
+    },
+    {
+      "id": "tianti_wuli",
+      "name": "天体物理",
+      "tree": "theory",
+      "x": 5536,
+      "y": 1941,
+      "prereqs": [
+        "guangyi_xiangduilun"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "物理"
+    },
+    {
+      "id": "zhongdeng_huaxue",
+      "name": "中等化学",
+      "tree": "theory",
+      "x": 6347,
+      "y": 741,
+      "prereqs": [
+        "kexue_fangfa",
+        "zhongdeng_shuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "化学"
+    },
+    {
+      "id": "wuji_huaxue",
+      "name": "无机化学",
+      "tree": "theory",
+      "x": 6347,
+      "y": 941,
+      "prereqs": [
+        "zhongdeng_huaxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "化学"
+    },
+    {
+      "id": "youji_huaxue",
+      "name": "有机化学",
+      "tree": "theory",
+      "x": 6347,
+      "y": 1142,
+      "prereqs": [
+        "wuji_huaxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "化学"
+    },
+    {
+      "id": "fenxi_huaxue",
+      "name": "分析化学",
+      "tree": "theory",
+      "x": 6538,
+      "y": 1142,
+      "prereqs": [
+        "wuji_huaxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "化学"
+    },
+    {
+      "id": "wuli_huaxue",
+      "name": "物理化学",
+      "tree": "theory",
+      "x": 6145,
+      "y": 1142,
+      "prereqs": [
+        "wuji_huaxue",
+        "gaodeng_shuxue",
+        "daxue_wuli"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "化学"
+    },
+    {
+      "id": "jiegou_huaxue",
+      "name": "结构化学",
+      "tree": "theory",
+      "x": 6145,
+      "y": 1342,
+      "prereqs": [
+        "wuli_huaxue",
+        "liangzi_lixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "化学"
+    },
+    {
+      "id": "liangzi_huaxue",
+      "name": "量子化学",
+      "tree": "theory",
+      "x": 6145,
+      "y": 1540,
+      "prereqs": [
+        "jiegou_huaxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "化学"
+    },
+    {
+      "id": "cailiao_huaxue",
+      "name": "材料化学",
+      "tree": "theory",
+      "x": 5931,
+      "y": 2147,
+      "prereqs": [
+        "wuli_huaxue",
+        "guti_wuli"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "化学"
+    },
+    {
+      "id": "zhongdeng_shengwu",
+      "name": "中等生物",
+      "tree": "theory",
+      "x": 6938,
+      "y": 741,
+      "prereqs": [
+        "zhongdeng_huaxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "生物"
+    },
+    {
+      "id": "putong_shengwuxue",
+      "name": "普通生物学",
+      "tree": "theory",
+      "x": 6938,
+      "y": 1142,
+      "prereqs": [
+        "zhongdeng_shengwu"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "生物"
+    },
+    {
+      "id": "shengwu_huaxue",
+      "name": "生物化学",
+      "tree": "theory",
+      "x": 6538,
+      "y": 1342,
+      "prereqs": [
+        "putong_shengwuxue",
+        "youji_huaxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "生物"
+    },
+    {
+      "id": "yichuanxue",
+      "name": "遗传学",
+      "tree": "theory",
+      "x": 6938,
+      "y": 1540,
+      "prereqs": [
+        "shengwu_huaxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "生物"
+    },
+    {
+      "id": "xibao_shengwuxue",
+      "name": "细胞生物学",
+      "tree": "theory",
+      "x": 6538,
+      "y": 1540,
+      "prereqs": [
+        "shengwu_huaxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "生物"
+    },
+    {
+      "id": "shenglixue",
+      "name": "生理学",
+      "tree": "theory",
+      "x": 7137,
+      "y": 1739,
+      "prereqs": [
+        "shengwu_huaxue",
+        "zuzhixue_yu_peitaixue",
+        "putong_shengwuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "shengtaixue",
+      "name": "生态学",
+      "tree": "theory",
+      "x": 7137,
+      "y": 1342,
+      "prereqs": [
+        "putong_shengwuxue",
+        "ziran_dilixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "生物"
+    },
+    {
+      "id": "jinhua_shengwuxue",
+      "name": "进化生物学",
+      "tree": "theory",
+      "x": 7332,
+      "y": 1540,
+      "prereqs": [
+        "yichuanxue",
+        "shengtaixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "生物"
+    },
+    {
+      "id": "shenjing_kexue",
+      "name": "神经科学",
+      "tree": "theory",
+      "x": 6738,
+      "y": 2147,
+      "prereqs": [
+        "shenglixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "生物"
+    },
+    {
+      "id": "gongcheng_zhitu",
+      "name": "工程制图",
+      "tree": "theory",
+      "x": 4530,
+      "y": 1540,
+      "prereqs": [
+        "gaodeng_shuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工学"
+    },
+    {
+      "id": "cailiao_lixue",
+      "name": "材料力学",
+      "tree": "theory",
+      "x": 4736,
+      "y": 1540,
+      "prereqs": [
+        "lilun_lixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工学"
+    },
+    {
+      "id": "liuti_lixue",
+      "name": "流体力学",
+      "tree": "theory",
+      "x": 4936,
+      "y": 1540,
+      "prereqs": [
+        "lilun_lixue",
+        "pianweifen_fangcheng"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工学"
+    },
+    {
+      "id": "chuanrexue",
+      "name": "传热学",
+      "tree": "theory",
+      "x": 5127,
+      "y": 1739,
+      "prereqs": [
+        "relixue_tongji_wuli",
+        "liuti_lixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工学"
+    },
+    {
+      "id": "jixie_yuanli",
+      "name": "机械原理",
+      "tree": "theory",
+      "x": 4530,
+      "y": 1739,
+      "prereqs": [
+        "cailiao_lixue",
+        "gongcheng_zhitu"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工学"
+    },
+    {
+      "id": "jixie_sheji",
+      "name": "机械设计",
+      "tree": "theory",
+      "x": 4530,
+      "y": 1941,
+      "prereqs": [
+        "jixie_yuanli"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工学"
+    },
+    {
+      "id": "jiegou_lixue",
+      "name": "结构力学",
+      "tree": "theory",
+      "x": 4736,
+      "y": 1739,
+      "prereqs": [
+        "cailiao_lixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工学"
+    },
+    {
+      "id": "hunningtu_jiegou",
+      "name": "混凝土结构",
+      "tree": "theory",
+      "x": 4736,
+      "y": 1941,
+      "prereqs": [
+        "jiegou_lixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工学"
+    },
+    {
+      "id": "tu_lixue",
+      "name": "土力学",
+      "tree": "theory",
+      "x": 4936,
+      "y": 1739,
+      "prereqs": [
+        "cailiao_lixue",
+        "liuti_lixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工学"
+    },
+    {
+      "id": "huagong_yuanli",
+      "name": "化工原理",
+      "tree": "theory",
+      "x": 5931,
+      "y": 1739,
+      "prereqs": [
+        "liuti_lixue",
+        "relixue_tongji_wuli",
+        "wuli_huaxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工学"
+    },
+    {
+      "id": "cailiao_kexue_jichu",
+      "name": "材料科学基础",
+      "tree": "theory",
+      "x": 5536,
+      "y": 2147,
+      "prereqs": [
+        "guti_wuli",
+        "wuli_huaxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工学"
+    },
+    {
+      "id": "ranshaoxue",
+      "name": "燃烧学",
+      "tree": "theory",
+      "x": 5340,
+      "y": 1739,
+      "prereqs": [
+        "wuji_huaxue",
+        "liuti_lixue",
+        "relixue_tongji_wuli"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工学"
+    },
+    {
+      "id": "huanjing_gongcheng",
+      "name": "环境工程",
+      "tree": "theory",
+      "x": 7538,
+      "y": 1739,
+      "prereqs": [
+        "huanjing_kexue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工学"
+    },
+    {
+      "id": "zhongdeng_dili",
+      "name": "中等地理",
+      "tree": "theory",
+      "x": 7745,
+      "y": 741,
+      "prereqs": [
+        "kexue_fangfa"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "yixue_weishengwuxue",
+      "name": "医学微生物学",
+      "tree": "theory",
+      "x": 6538,
+      "y": 1739,
+      "prereqs": [
+        "xibao_shengwuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "yixue_mianyixue",
+      "name": "医学免疫学",
+      "tree": "theory",
+      "x": 6938,
+      "y": 1739,
+      "prereqs": [
+        "yichuanxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "xitong_jiepouxue",
+      "name": "系统解剖学",
+      "tree": "theory",
+      "x": 6738,
+      "y": 1540,
+      "prereqs": [
+        "shengwu_huaxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "zuzhixue_yu_peitaixue",
+      "name": "组织学与胚胎学",
+      "tree": "theory",
+      "x": 6738,
+      "y": 1739,
+      "prereqs": [
+        "xitong_jiepouxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "binglixue",
+      "name": "病理学",
+      "tree": "theory",
+      "x": 6538,
+      "y": 1941,
+      "prereqs": [
+        "shenglixue",
+        "yixue_weishengwuxue",
+        "yixue_mianyixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "bingli_shenglixue",
+      "name": "病理生理学",
+      "tree": "theory",
+      "x": 6538,
+      "y": 2147,
+      "prereqs": [
+        "binglixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "yaolixue",
+      "name": "药理学",
+      "tree": "theory",
+      "x": 6538,
+      "y": 2341,
+      "prereqs": [
+        "bingli_shenglixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "yixue_tongjixue",
+      "name": "医学统计学",
+      "tree": "theory",
+      "x": 7332,
+      "y": 2944,
+      "prereqs": [
+        "yufang_yixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "liuxingbingxue",
+      "name": "流行病学",
+      "tree": "theory",
+      "x": 7538,
+      "y": 2944,
+      "prereqs": [
+        "yufang_yixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "yufang_yixue",
+      "name": "预防医学",
+      "tree": "theory",
+      "x": 7332,
+      "y": 2744,
+      "prereqs": [
+        "zhenduanxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "zhenduanxue",
+      "name": "诊断学",
+      "tree": "theory",
+      "x": 6538,
+      "y": 2542,
+      "prereqs": [
+        "yaolixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "neikexue",
+      "name": "内科学",
+      "tree": "theory",
+      "x": 6538,
+      "y": 2744,
+      "prereqs": [
+        "zhenduanxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "waikexue",
+      "name": "外科学",
+      "tree": "theory",
+      "x": 5741,
+      "y": 2744,
+      "prereqs": [
+        "zhenduanxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "fuchankexue",
+      "name": "妇产科学",
+      "tree": "theory",
+      "x": 6145,
+      "y": 2744,
+      "prereqs": [
+        "zhenduanxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "erkexue",
+      "name": "儿科学",
+      "tree": "theory",
+      "x": 5931,
+      "y": 2744,
+      "prereqs": [
+        "zhenduanxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "shenjingbingxue",
+      "name": "神经病学",
+      "tree": "theory",
+      "x": 6347,
+      "y": 2744,
+      "prereqs": [
+        "zhenduanxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "jingshenbingxue",
+      "name": "精神病学",
+      "tree": "theory",
+      "x": 6738,
+      "y": 2744,
+      "prereqs": [
+        "zhenduanxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "gukexue",
+      "name": "骨科学",
+      "tree": "theory",
+      "x": 5536,
+      "y": 2944,
+      "prereqs": [
+        "waikexue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "mazuixue",
+      "name": "麻醉学",
+      "tree": "theory",
+      "x": 5741,
+      "y": 2944,
+      "prereqs": [
+        "waikexue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "yixue_yingxiangxue",
+      "name": "医学影像学",
+      "tree": "theory",
+      "x": 6938,
+      "y": 2744,
+      "prereqs": [
+        "zhenduanxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "jianyan_yixue",
+      "name": "检验医学",
+      "tree": "theory",
+      "x": 7137,
+      "y": 2744,
+      "prereqs": [
+        "zhenduanxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "xinxueguanbingxue",
+      "name": "心血管病学",
+      "tree": "theory",
+      "x": 5931,
+      "y": 2944,
+      "prereqs": [
+        "neikexue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "huxibingxue",
+      "name": "呼吸病学",
+      "tree": "theory",
+      "x": 7137,
+      "y": 2944,
+      "prereqs": [
+        "neikexue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "xiaohuabingxue",
+      "name": "消化病学",
+      "tree": "theory",
+      "x": 6145,
+      "y": 2944,
+      "prereqs": [
+        "neikexue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "neifenmixue",
+      "name": "内分泌学",
+      "tree": "theory",
+      "x": 6347,
+      "y": 2944,
+      "prereqs": [
+        "neikexue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "shenzangbingxue",
+      "name": "肾脏病学",
+      "tree": "theory",
+      "x": 6538,
+      "y": 2944,
+      "prereqs": [
+        "neikexue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "xueyebingxue",
+      "name": "血液病学",
+      "tree": "theory",
+      "x": 6738,
+      "y": 2944,
+      "prereqs": [
+        "neikexue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "ganranbingxue",
+      "name": "感染病学",
+      "tree": "theory",
+      "x": 6938,
+      "y": 2944,
+      "prereqs": [
+        "neikexue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "zhongzheng_yixue",
+      "name": "重症医学",
+      "tree": "theory",
+      "x": 5741,
+      "y": 3141,
+      "prereqs": [
+        "mazuixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "linchuang_yaolixue",
+      "name": "临床药理学",
+      "tree": "theory",
+      "x": 6738,
+      "y": 2542,
+      "prereqs": [
+        "yaolixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "医学"
+    },
+    {
+      "id": "yaowu_huaxue",
+      "name": "药物化学",
+      "tree": "theory",
+      "x": 6347,
+      "y": 1342,
+      "prereqs": [
+        "youji_huaxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "化学"
+    },
+    {
+      "id": "yaojixue",
+      "name": "药剂学",
+      "tree": "theory",
+      "x": 6347,
+      "y": 1540,
+      "prereqs": [
+        "yaowu_huaxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "化学"
+    },
+    {
+      "id": "putong_dizhixue",
+      "name": "普通地质学",
+      "tree": "theory",
+      "x": 8145,
+      "y": 941,
+      "prereqs": [
+        "zhongdeng_huaxue",
+        "zhongdeng_wuli"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "jiejingxue",
+      "name": "结晶学",
+      "tree": "theory",
+      "x": 8145,
+      "y": 1142,
+      "prereqs": [
+        "wuji_huaxue",
+        "daxue_wuli",
+        "putong_dizhixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "kuangwuxue",
+      "name": "矿物学",
+      "tree": "theory",
+      "x": 8145,
+      "y": 1342,
+      "prereqs": [
+        "jiejingxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "yanshixue",
+      "name": "岩石学",
+      "tree": "theory",
+      "x": 8145,
+      "y": 1540,
+      "prereqs": [
+        "kuangwuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "kuangchuangxue",
+      "name": "矿床学",
+      "tree": "theory",
+      "x": 8145,
+      "y": 1739,
+      "prereqs": [
+        "yanshixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "diqiu_huaxue",
+      "name": "地球化学",
+      "tree": "theory",
+      "x": 8341,
+      "y": 1540,
+      "prereqs": [
+        "kuangwuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "chenjixue",
+      "name": "沉积学",
+      "tree": "theory",
+      "x": 8341,
+      "y": 1739,
+      "prereqs": [
+        "kuangwuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "turang_dilixue",
+      "name": "土壤地理学",
+      "tree": "theory",
+      "x": 7935,
+      "y": 1540,
+      "prereqs": [
+        "kuangwuxue",
+        "ziran_dilixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "dimaxue",
+      "name": "地貌学",
+      "tree": "theory",
+      "x": 7935,
+      "y": 1739,
+      "prereqs": [
+        "yanshixue",
+        "ziran_dilixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "disiji_dizhixue",
+      "name": "第四纪地质学",
+      "tree": "theory",
+      "x": 8145,
+      "y": 1941,
+      "prereqs": [
+        "chenjixue",
+        "dimaxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "ziran_dilixue",
+      "name": "自然地理学",
+      "tree": "theory",
+      "x": 7538,
+      "y": 941,
+      "prereqs": [
+        "zhongdeng_dili"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "renwen_dilixue",
+      "name": "人文地理学",
+      "tree": "theory",
+      "x": 8745,
+      "y": 941,
+      "prereqs": [
+        "zhongdeng_dili"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "qixiang_qihouxue",
+      "name": "气象与气候学",
+      "tree": "theory",
+      "x": 7538,
+      "y": 1142,
+      "prereqs": [
+        "daxue_wuli",
+        "gaodeng_shuxue",
+        "ziran_dilixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "shuiwenxue",
+      "name": "水文学",
+      "tree": "theory",
+      "x": 7745,
+      "y": 1142,
+      "prereqs": [
+        "daxue_wuli",
+        "gaodeng_shuxue",
+        "ziran_dilixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "haiyang_dilixue",
+      "name": "海洋地理学",
+      "tree": "theory",
+      "x": 7745,
+      "y": 1342,
+      "prereqs": [
+        "putong_dizhixue",
+        "shuiwenxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "zaihaixue",
+      "name": "灾害学",
+      "tree": "theory",
+      "x": 7538,
+      "y": 1342,
+      "prereqs": [
+        "putong_dizhixue",
+        "shuiwenxue",
+        "qixiang_qihouxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "jingji_dilixue",
+      "name": "经济地理学",
+      "tree": "theory",
+      "x": 8937,
+      "y": 1142,
+      "prereqs": [
+        "renwen_dilixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "chengshi_dilixue",
+      "name": "城市地理学",
+      "tree": "theory",
+      "x": 8937,
+      "y": 1342,
+      "prereqs": [
+        "jingji_dilixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "renkou_dilixue",
+      "name": "人口地理学",
+      "tree": "theory",
+      "x": 8551,
+      "y": 1142,
+      "prereqs": [
+        "renwen_dilixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "wenhua_dilixue",
+      "name": "文化地理学",
+      "tree": "theory",
+      "x": 8745,
+      "y": 1142,
+      "prereqs": [
+        "renwen_dilixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "quyu_jingjixue",
+      "name": "区域经济学",
+      "tree": "theory",
+      "x": 8745,
+      "y": 1342,
+      "prereqs": [
+        "jingji_dilixue",
+        "weiguan_jingjixue",
+        "hongguan_jingjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "chengxiang_guihua",
+      "name": "城乡规划",
+      "tree": "theory",
+      "x": 8937,
+      "y": 1540,
+      "prereqs": [
+        "chengshi_dilixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "huanjing_kexue",
+      "name": "环境科学",
+      "tree": "theory",
+      "x": 7538,
+      "y": 1540,
+      "prereqs": [
+        "shengtaixue",
+        "wuji_huaxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "ziyuan_dilixue",
+      "name": "资源地理学",
+      "tree": "theory",
+      "x": 8341,
+      "y": 1142,
+      "prereqs": [
+        "ziran_dilixue",
+        "renwen_dilixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "地理"
+    },
+    {
+      "id": "jingjixue_yuanli",
+      "name": "经济学原理",
+      "tree": "theory",
+      "x": 2933,
+      "y": 741,
+      "prereqs": [
+        "zhongdeng_shuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "guanlixue_yuanli",
+      "name": "管理学原理",
+      "tree": "theory",
+      "x": 1336,
+      "y": 1142,
+      "prereqs": [
+        "zhongdeng_shuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "管理学"
+    },
+    {
+      "id": "kuaijixue",
+      "name": "会计学",
+      "tree": "theory",
+      "x": 3938,
+      "y": 1342,
+      "prereqs": [
+        "zhongdeng_shuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "youhua_fangfa",
+      "name": "最优化方法",
+      "tree": "theory",
+      "x": 1931,
+      "y": 1142,
+      "prereqs": [
+        "gaodeng_shuxue",
+        "xianxing_daishu"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "数学"
+    },
+    {
+      "id": "tongjixue",
+      "name": "统计学",
+      "tree": "theory",
+      "x": 3938,
+      "y": 1142,
+      "prereqs": [
+        "gailv_tongji"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "数学"
+    },
+    {
+      "id": "yunchouxue",
+      "name": "运筹学",
+      "tree": "theory",
+      "x": 1741,
+      "y": 1342,
+      "prereqs": [
+        "youhua_fangfa"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "数学"
+    },
+    {
+      "id": "weiguan_jingjixue",
+      "name": "微观经济学",
+      "tree": "theory",
+      "x": 2737,
+      "y": 1142,
+      "prereqs": [
+        "jingjixue_yuanli",
+        "gaodeng_shuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "hongguan_jingjixue",
+      "name": "宏观经济学",
+      "tree": "theory",
+      "x": 3137,
+      "y": 1142,
+      "prereqs": [
+        "jingjixue_yuanli",
+        "gaodeng_shuxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "zuzhi_xingweixue",
+      "name": "组织行为学",
+      "tree": "theory",
+      "x": 1139,
+      "y": 1342,
+      "prereqs": [
+        "guanlixue_yuanli"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "管理学"
+    },
+    {
+      "id": "shichang_yingxiao",
+      "name": "市场营销",
+      "tree": "theory",
+      "x": 1336,
+      "y": 1342,
+      "prereqs": [
+        "guanlixue_yuanli",
+        "weiguan_jingjixue",
+        "tongjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "管理学"
+    },
+    {
+      "id": "caiwu_guanli",
+      "name": "财务管理",
+      "tree": "theory",
+      "x": 3938,
+      "y": 1540,
+      "prereqs": [
+        "kuaijixue",
+        "jingjixue_yuanli",
+        "tongjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "管理学"
+    },
+    {
+      "id": "renli_ziyuanguanli",
+      "name": "人力资源管理",
+      "tree": "theory",
+      "x": 1139,
+      "y": 1540,
+      "prereqs": [
+        "zuzhi_xingweixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "管理学"
+    },
+    {
+      "id": "yunying_guanli",
+      "name": "运营管理",
+      "tree": "theory",
+      "x": 1537,
+      "y": 1540,
+      "prereqs": [
+        "guanlixue_yuanli",
+        "yunchouxue",
+        "tongjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "管理学"
+    },
+    {
+      "id": "zhanlue_guanli",
+      "name": "战略管理",
+      "tree": "theory",
+      "x": 1336,
+      "y": 1941,
+      "prereqs": [
+        "shichang_yingxiao",
+        "renli_ziyuanguanli",
+        "yunying_guanli"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "管理学"
+    },
+    {
+      "id": "gongyinglian_guanli",
+      "name": "供应链管理",
+      "tree": "theory",
+      "x": 1537,
+      "y": 1739,
+      "prereqs": [
+        "yunying_guanli",
+        "shichang_yingxiao"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "管理学"
+    },
+    {
+      "id": "shuli_jingjixue",
+      "name": "数理经济学",
+      "tree": "theory",
+      "x": 2127,
+      "y": 1540,
+      "prereqs": [
+        "weiguan_jingjixue",
+        "hongguan_jingjixue",
+        "youhua_fangfa"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "boyilun",
+      "name": "博弈论",
+      "tree": "theory",
+      "x": 1931,
+      "y": 1342,
+      "prereqs": [
+        "weiguan_jingjixue",
+        "youhua_fangfa"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "jiliang_jingjixue",
+      "name": "计量经济学",
+      "tree": "theory",
+      "x": 2333,
+      "y": 1540,
+      "prereqs": [
+        "weiguan_jingjixue",
+        "hongguan_jingjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "huobi_yinhangxue",
+      "name": "货币银行学",
+      "tree": "theory",
+      "x": 3137,
+      "y": 1342,
+      "prereqs": [
+        "hongguan_jingjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "jinrongxue",
+      "name": "金融学",
+      "tree": "theory",
+      "x": 2737,
+      "y": 1540,
+      "prereqs": [
+        "huobi_yinhangxue",
+        "weiguan_jingjixue",
+        "tongjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "gongsi_jinrong",
+      "name": "公司金融",
+      "tree": "theory",
+      "x": 2933,
+      "y": 1540,
+      "prereqs": [
+        "kuaijixue",
+        "jinrongxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "touzixue",
+      "name": "投资学",
+      "tree": "theory",
+      "x": 2737,
+      "y": 1739,
+      "prereqs": [
+        "jinrongxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "guoji_jingjixue",
+      "name": "国际经济学",
+      "tree": "theory",
+      "x": 3328,
+      "y": 1342,
+      "prereqs": [
+        "weiguan_jingjixue",
+        "hongguan_jingjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "guoji_jinrong",
+      "name": "国际金融",
+      "tree": "theory",
+      "x": 3137,
+      "y": 1540,
+      "prereqs": [
+        "guoji_jingjixue",
+        "huobi_yinhangxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "caizhengxue",
+      "name": "财政学",
+      "tree": "theory",
+      "x": 3535,
+      "y": 1342,
+      "prereqs": [
+        "weiguan_jingjixue",
+        "hongguan_jingjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "shuishouxue",
+      "name": "税收学",
+      "tree": "theory",
+      "x": 3535,
+      "y": 1540,
+      "prereqs": [
+        "caizhengxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "guoji_maoyi",
+      "name": "国际贸易",
+      "tree": "theory",
+      "x": 3328,
+      "y": 1540,
+      "prereqs": [
+        "guoji_jingjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "chanye_jingjixue",
+      "name": "产业经济学",
+      "tree": "theory",
+      "x": 2127,
+      "y": 1342,
+      "prereqs": [
+        "weiguan_jingjixue",
+        "hongguan_jingjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "chengshi_jingjixue",
+      "name": "城市经济学",
+      "tree": "theory",
+      "x": 8745,
+      "y": 1540,
+      "prereqs": [
+        "quyu_jingjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "laodong_jingjixue",
+      "name": "劳动经济学",
+      "tree": "theory",
+      "x": 2541,
+      "y": 1342,
+      "prereqs": [
+        "weiguan_jingjixue",
+        "hongguan_jingjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "fazhan_jingjixue",
+      "name": "发展经济学",
+      "tree": "theory",
+      "x": 2737,
+      "y": 1342,
+      "prereqs": [
+        "weiguan_jingjixue",
+        "hongguan_jingjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "huanjing_jingjixue",
+      "name": "环境经济学",
+      "tree": "theory",
+      "x": 3745,
+      "y": 1342,
+      "prereqs": [
+        "weiguan_jingjixue",
+        "hongguan_jingjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "ziyuan_jingjixue",
+      "name": "资源经济学",
+      "tree": "theory",
+      "x": 3745,
+      "y": 1540,
+      "prereqs": [
+        "huanjing_jingjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "nongye_jingjixue",
+      "name": "农业经济学",
+      "tree": "theory",
+      "x": 2333,
+      "y": 1342,
+      "prereqs": [
+        "weiguan_jingjixue",
+        "hongguan_jingjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "jiaoyu_jingjixue",
+      "name": "教育经济学",
+      "tree": "theory",
+      "x": 2933,
+      "y": 1342,
+      "prereqs": [
+        "weiguan_jingjixue",
+        "hongguan_jingjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "zhidu_jingjixue",
+      "name": "制度经济学",
+      "tree": "theory",
+      "x": 2541,
+      "y": 1540,
+      "prereqs": [
+        "weiguan_jingjixue",
+        "hongguan_jingjixue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "jingji_zhengce",
+      "name": "经济政策",
+      "tree": "theory",
+      "x": 3535,
+      "y": 1739,
+      "prereqs": [
+        "shuishouxue"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "经济学"
+    },
+    {
+      "id": "ind_01",
+      "name": "炼钢基础",
+      "tree": "applied",
+      "x": 1271,
+      "y": 103,
+      "prereqs": [],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_02",
+      "name": "高炉",
+      "tree": "applied",
+      "x": 1071,
+      "y": 300,
+      "prereqs": [
+        "ind_01"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_03",
+      "name": "焦炭高炉",
+      "tree": "applied",
+      "x": 1071,
+      "y": 502,
+      "prereqs": [
+        "ind_02"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_04",
+      "name": "高铝砖",
+      "tree": "applied",
+      "x": 1071,
+      "y": 700,
+      "prereqs": [
+        "ind_03"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_05",
+      "name": "大型高炉",
+      "tree": "applied",
+      "x": 1071,
+      "y": 900,
+      "prereqs": [
+        "ind_04"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_06",
+      "name": "鼓风",
+      "tree": "applied",
+      "x": 1071,
+      "y": 1100,
+      "prereqs": [],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_07",
+      "name": "自然动力鼓风",
+      "tree": "applied",
+      "x": 1271,
+      "y": 1100,
+      "prereqs": [
+        "ind_06"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_08",
+      "name": "蒸汽鼓风",
+      "tree": "applied",
+      "x": 1071,
+      "y": 1302,
+      "prereqs": [
+        "ind_06"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_09",
+      "name": "热风鼓风",
+      "tree": "applied",
+      "x": 1071,
+      "y": 1500,
+      "prereqs": [
+        "ind_08"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_10",
+      "name": "渗碳法",
+      "tree": "applied",
+      "x": 1271,
+      "y": 300,
+      "prereqs": [
+        "ind_01"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_11",
+      "name": "石墨坩埚",
+      "tree": "applied",
+      "x": 1271,
+      "y": 502,
+      "prereqs": [
+        "ind_10"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_12",
+      "name": "坩埚钢",
+      "tree": "applied",
+      "x": 1271,
+      "y": 700,
+      "prereqs": [
+        "ind_11"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_13",
+      "name": "先进锅炉",
+      "tree": "applied",
+      "x": 1480,
+      "y": 300,
+      "prereqs": [
+        "ind_01"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_14",
+      "name": "硅砖",
+      "tree": "applied",
+      "x": 1480,
+      "y": 502,
+      "prereqs": [
+        "ind_13"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_15",
+      "name": "贝塞麦转炉钢",
+      "tree": "applied",
+      "x": 1480,
+      "y": 700,
+      "prereqs": [
+        "ind_14"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_16",
+      "name": "机械结构基础",
+      "tree": "applied",
+      "x": 3078,
+      "y": 103,
+      "prereqs": [],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_17",
+      "name": "精密黄铜加工",
+      "tree": "applied",
+      "x": 2267,
+      "y": 300,
+      "prereqs": [
+        "ind_16"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_18",
+      "name": "钟表车床",
+      "tree": "applied",
+      "x": 2267,
+      "y": 502,
+      "prereqs": [
+        "ind_17"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_19",
+      "name": "精密工具制造",
+      "tree": "applied",
+      "x": 2267,
+      "y": 700,
+      "prereqs": [
+        "ind_12",
+        "ind_18"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_20",
+      "name": "航海钟",
+      "tree": "applied",
+      "x": 2066,
+      "y": 700,
+      "prereqs": [
+        "ind_18"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_21",
+      "name": "重型机械基础",
+      "tree": "applied",
+      "x": 2663,
+      "y": 300,
+      "prereqs": [
+        "ind_16"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_22",
+      "name": "威尔金森镗床",
+      "tree": "applied",
+      "x": 2663,
+      "y": 700,
+      "prereqs": [
+        "ind_21"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_23",
+      "name": "莫兹利机床",
+      "tree": "applied",
+      "x": 2476,
+      "y": 900,
+      "prereqs": [
+        "ind_22",
+        "ind_19"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_24",
+      "name": "采矿机械",
+      "tree": "applied",
+      "x": 2267,
+      "y": 900,
+      "prereqs": [
+        "ind_23"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_25",
+      "name": "蒸汽采矿机械",
+      "tree": "applied",
+      "x": 2066,
+      "y": 1100,
+      "prereqs": [
+        "ind_24",
+        "ind_33"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_26",
+      "name": "惠特尼铣床",
+      "tree": "applied",
+      "x": 2267,
+      "y": 1100,
+      "prereqs": [
+        "ind_23"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_27",
+      "name": "罗伯茨刨床",
+      "tree": "applied",
+      "x": 2663,
+      "y": 1100,
+      "prereqs": [
+        "ind_23"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_28",
+      "name": "互换零件",
+      "tree": "applied",
+      "x": 2476,
+      "y": 1302,
+      "prereqs": [
+        "ind_26",
+        "ind_27"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_29",
+      "name": "试制纽科门机",
+      "tree": "applied",
+      "x": 2868,
+      "y": 502,
+      "prereqs": [
+        "ind_16",
+        "ind_18"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_30",
+      "name": "纽科门机",
+      "tree": "applied",
+      "x": 2868,
+      "y": 700,
+      "prereqs": [
+        "ind_29"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_31",
+      "name": "试制蒸汽机",
+      "tree": "applied",
+      "x": 3078,
+      "y": 900,
+      "prereqs": [
+        "ind_16",
+        "ind_18"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_32",
+      "name": "基础蒸汽机",
+      "tree": "applied",
+      "x": 3078,
+      "y": 1100,
+      "prereqs": [
+        "ind_31",
+        "ind_22"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_33",
+      "name": "改进蒸汽机",
+      "tree": "applied",
+      "x": 3078,
+      "y": 1302,
+      "prereqs": [
+        "ind_32",
+        "ind_23"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_34",
+      "name": "试制蒸汽机车",
+      "tree": "applied",
+      "x": 3078,
+      "y": 1500,
+      "prereqs": [
+        "ind_33"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_35",
+      "name": "蒸汽机车",
+      "tree": "applied",
+      "x": 3078,
+      "y": 1699,
+      "prereqs": [
+        "ind_34",
+        "ind_28"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_36",
+      "name": "熟铁轨",
+      "tree": "applied",
+      "x": 2868,
+      "y": 1500,
+      "prereqs": [
+        "ind_34",
+        "ind_02"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_37",
+      "name": "铸铁轨",
+      "tree": "applied",
+      "x": 2868,
+      "y": 1699,
+      "prereqs": [
+        "ind_36",
+        "ind_13"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_38",
+      "name": "钢轨",
+      "tree": "applied",
+      "x": 2868,
+      "y": 1903,
+      "prereqs": [
+        "ind_37",
+        "ind_15"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_39",
+      "name": "明轮蒸汽船",
+      "tree": "applied",
+      "x": 3299,
+      "y": 1699,
+      "prereqs": [
+        "ind_34"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_40",
+      "name": "先进蒸汽机",
+      "tree": "applied",
+      "x": 3479,
+      "y": 1302,
+      "prereqs": [
+        "ind_28"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_41",
+      "name": "蒸汽船",
+      "tree": "applied",
+      "x": 3479,
+      "y": 1500,
+      "prereqs": [
+        "ind_40"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_42",
+      "name": "自然动力机械",
+      "tree": "applied",
+      "x": 3299,
+      "y": 300,
+      "prereqs": [
+        "ind_16"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_43",
+      "name": "哈格里夫珍妮机",
+      "tree": "applied",
+      "x": 3479,
+      "y": 300,
+      "prereqs": [
+        "ind_16"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_44",
+      "name": "凯伊飞梭",
+      "tree": "applied",
+      "x": 3479,
+      "y": 502,
+      "prereqs": [
+        "ind_43",
+        "ind_17"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_45",
+      "name": "阿克莱特水力纺纱机",
+      "tree": "applied",
+      "x": 3299,
+      "y": 502,
+      "prereqs": [
+        "ind_42"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_46",
+      "name": "克朗普顿骡机",
+      "tree": "applied",
+      "x": 3299,
+      "y": 700,
+      "prereqs": [
+        "ind_45",
+        "ind_44",
+        "ind_18"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_47",
+      "name": "卡莱特动力织机",
+      "tree": "applied",
+      "x": 3299,
+      "y": 900,
+      "prereqs": [
+        "ind_46",
+        "ind_19"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_48",
+      "name": "蒸汽织机",
+      "tree": "applied",
+      "x": 3299,
+      "y": 1100,
+      "prereqs": [
+        "ind_47",
+        "ind_33",
+        "ind_23"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_49",
+      "name": "地理测绘基础",
+      "tree": "applied",
+      "x": 5668,
+      "y": 103,
+      "prereqs": [],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_50",
+      "name": "地质勘探",
+      "tree": "applied",
+      "x": 4865,
+      "y": 300,
+      "prereqs": [
+        "ind_49"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_51",
+      "name": "大规模石灰石开采",
+      "tree": "applied",
+      "x": 4085,
+      "y": 502,
+      "prereqs": [
+        "ind_50"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_52",
+      "name": "波特兰水泥",
+      "tree": "applied",
+      "x": 3873,
+      "y": 700,
+      "prereqs": [
+        "ind_51"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_53",
+      "name": "水力磨盘",
+      "tree": "applied",
+      "x": 3670,
+      "y": 900,
+      "prereqs": [
+        "ind_52"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_54",
+      "name": "蒸汽磨盘",
+      "tree": "applied",
+      "x": 3670,
+      "y": 1100,
+      "prereqs": [
+        "ind_53",
+        "ind_33"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_55",
+      "name": "钢筋混凝土",
+      "tree": "applied",
+      "x": 3873,
+      "y": 900,
+      "prereqs": [
+        "ind_52"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_56",
+      "name": "先进纸张制造",
+      "tree": "applied",
+      "x": 4085,
+      "y": 700,
+      "prereqs": [
+        "ind_51"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_57",
+      "name": "勒布朗制碱法",
+      "tree": "applied",
+      "x": 4267,
+      "y": 700,
+      "prereqs": [
+        "ind_51"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_58",
+      "name": "肥皂制造",
+      "tree": "applied",
+      "x": 4267,
+      "y": 900,
+      "prereqs": [
+        "ind_57"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_59",
+      "name": "玻璃制造",
+      "tree": "applied",
+      "x": 4473,
+      "y": 900,
+      "prereqs": [
+        "ind_57"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_60",
+      "name": "实验室玻璃仪器",
+      "tree": "applied",
+      "x": 4473,
+      "y": 1100,
+      "prereqs": [
+        "ind_19"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_61",
+      "name": "光学玻璃制造",
+      "tree": "applied",
+      "x": 4473,
+      "y": 1302,
+      "prereqs": [
+        "ind_60"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_62",
+      "name": "六分仪",
+      "tree": "applied",
+      "x": 4267,
+      "y": 1500,
+      "prereqs": [
+        "ind_60"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_63",
+      "name": "显微镜",
+      "tree": "applied",
+      "x": 4473,
+      "y": 1500,
+      "prereqs": [
+        "ind_60"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_64",
+      "name": "望远镜",
+      "tree": "applied",
+      "x": 4676,
+      "y": 1500,
+      "prereqs": [
+        "ind_60"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_65",
+      "name": "商品玻璃",
+      "tree": "applied",
+      "x": 4676,
+      "y": 1100,
+      "prereqs": [
+        "ind_59"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_66",
+      "name": "高级商品玻璃",
+      "tree": "applied",
+      "x": 4676,
+      "y": 1302,
+      "prereqs": [
+        "ind_65"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_67",
+      "name": "铅室法治硫酸",
+      "tree": "applied",
+      "x": 4865,
+      "y": 502,
+      "prereqs": [
+        "ind_50"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_68",
+      "name": "水蒸汽改进",
+      "tree": "applied",
+      "x": 4865,
+      "y": 700,
+      "prereqs": [
+        "ind_67"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_69",
+      "name": "盖吕萨克塔",
+      "tree": "applied",
+      "x": 4865,
+      "y": 900,
+      "prereqs": [
+        "ind_68"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_70",
+      "name": "格劳夫塔",
+      "tree": "applied",
+      "x": 4865,
+      "y": 1100,
+      "prereqs": [
+        "ind_69"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_71",
+      "name": "过磷酸化肥",
+      "tree": "applied",
+      "x": 5078,
+      "y": 700,
+      "prereqs": [
+        "ind_67"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_72",
+      "name": "大规模煤炭开采",
+      "tree": "applied",
+      "x": 5271,
+      "y": 502,
+      "prereqs": [
+        "ind_50"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_73",
+      "name": "蜂巢焦炉",
+      "tree": "applied",
+      "x": 5271,
+      "y": 700,
+      "prereqs": [
+        "ind_72"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_74",
+      "name": "长堆焦炉",
+      "tree": "applied",
+      "x": 5271,
+      "y": 900,
+      "prereqs": [
+        "ind_73"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_75",
+      "name": "氨制造",
+      "tree": "applied",
+      "x": 5078,
+      "y": 1100,
+      "prereqs": [
+        "ind_74"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_76",
+      "name": "先进焦炉",
+      "tree": "applied",
+      "x": 5271,
+      "y": 1100,
+      "prereqs": [
+        "ind_74"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_77",
+      "name": "煤气",
+      "tree": "applied",
+      "x": 5078,
+      "y": 1302,
+      "prereqs": [
+        "ind_76"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_78",
+      "name": "煤焦油",
+      "tree": "applied",
+      "x": 5271,
+      "y": 1302,
+      "prereqs": [
+        "ind_76"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_79",
+      "name": "煤灯",
+      "tree": "applied",
+      "x": 5271,
+      "y": 1500,
+      "prereqs": [
+        "ind_78"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_80",
+      "name": "钾盐矿",
+      "tree": "applied",
+      "x": 5467,
+      "y": 502,
+      "prereqs": [
+        "ind_50"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_81",
+      "name": "钾盐化肥",
+      "tree": "applied",
+      "x": 5467,
+      "y": 700,
+      "prereqs": [
+        "ind_80"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_82",
+      "name": "软锰矿",
+      "tree": "applied",
+      "x": 5668,
+      "y": 502,
+      "prereqs": [
+        "ind_50"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_83",
+      "name": "实验室氯气生产",
+      "tree": "applied",
+      "x": 5668,
+      "y": 700,
+      "prereqs": [
+        "ind_82"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_84",
+      "name": "武器化氯气",
+      "tree": "applied",
+      "x": 5668,
+      "y": 900,
+      "prereqs": [
+        "ind_83"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_85",
+      "name": "精确地图",
+      "tree": "applied",
+      "x": 5668,
+      "y": 300,
+      "prereqs": [
+        "ind_49"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_86",
+      "name": "土地勘探",
+      "tree": "applied",
+      "x": 5876,
+      "y": 502,
+      "prereqs": [
+        "ind_85"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_87",
+      "name": "先进给排水工程",
+      "tree": "applied",
+      "x": 5876,
+      "y": 700,
+      "prereqs": [
+        "ind_86"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_88",
+      "name": "农业给排水",
+      "tree": "applied",
+      "x": 5876,
+      "y": 900,
+      "prereqs": [
+        "ind_87"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_89",
+      "name": "城市给排水",
+      "tree": "applied",
+      "x": 6074,
+      "y": 900,
+      "prereqs": [
+        "ind_87"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_90",
+      "name": "酸土改良",
+      "tree": "applied",
+      "x": 5876,
+      "y": 1100,
+      "prereqs": [
+        "ind_51",
+        "ind_88"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_91",
+      "name": "碱土改良",
+      "tree": "applied",
+      "x": 6074,
+      "y": 1100,
+      "prereqs": [
+        "ind_67",
+        "ind_88"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_92",
+      "name": "法式硝石种植",
+      "tree": "applied",
+      "x": 6282,
+      "y": 502,
+      "prereqs": [
+        "ind_85"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_93",
+      "name": "先进硝酸精炼",
+      "tree": "applied",
+      "x": 6282,
+      "y": 700,
+      "prereqs": [
+        "ind_92"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_94",
+      "name": "原料精制工艺",
+      "tree": "applied",
+      "x": 6489,
+      "y": 700,
+      "prereqs": [
+        "ind_92"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_95",
+      "name": "优质黑火药",
+      "tree": "applied",
+      "x": 6282,
+      "y": 900,
+      "prereqs": [
+        "ind_94",
+        "ind_93"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_96",
+      "name": "火药重结晶技术",
+      "tree": "applied",
+      "x": 6282,
+      "y": 1100,
+      "prereqs": [
+        "ind_95"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_97",
+      "name": "火药造粒技术",
+      "tree": "applied",
+      "x": 6489,
+      "y": 1100,
+      "prereqs": [
+        "ind_95"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    },
+    {
+      "id": "ind_98",
+      "name": "先进黑火药",
+      "tree": "applied",
+      "x": 6282,
+      "y": 1302,
+      "prereqs": [
+        "ind_97",
+        "ind_96"
+      ],
+      "intro": "",
+      "effect": "",
+      "cost": 1,
+      "line": "工业"
+    }
+  ]
+}

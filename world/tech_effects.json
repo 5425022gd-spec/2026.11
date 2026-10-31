@@ -1,0 +1,860 @@
+{
+  "_comment": "科技解锁后的数值效果（第一版草稿，数值由玩家后续调）。",
+  "effects": {
+    "chudeng_shuxue": [
+      {"target": "capacity", "value": 0.005, "desc": "全国各阶级产能提高"}
+    ],
+    "zhongdeng_shuxue": [
+      {"target": "capacity", "value": 0.00562, "desc": "全国各阶级产能提高"}
+    ],
+    "gaodeng_shuxue": [
+      {"target": "capacity", "value": 0.00625, "desc": "全国各阶级产能提高"}
+    ],
+    "xianxing_daishu": [
+      {"target": "capacity", "value": 0.00688, "desc": "全国各阶级产能提高"}
+    ],
+    "gailv_tongji": [
+      {"target": "capacity", "value": 0.0075, "desc": "全国各阶级产能提高"}
+    ],
+    "changweifen_fangcheng": [
+      {"target": "capacity", "value": 0.00813, "desc": "全国各阶级产能提高"}
+    ],
+    "fubian_hanshu": [
+      {"target": "capacity", "value": 0.00875, "desc": "全国各阶级产能提高"}
+    ],
+    "weifen_jihe": [
+      {"target": "capacity", "value": 0.00937, "desc": "全国各阶级产能提高"}
+    ],
+    "chouxiang_daishu": [
+      {"target": "capacity", "value": 0.010, "desc": "全国各阶级产能提高"}
+    ],
+    "shibian_hanshu": [
+      {"target": "capacity", "value": 0.01062, "desc": "全国各阶级产能提高"}
+    ],
+    "youhua_fangfa": [
+      {"target": "capacity", "value": 0.01125, "desc": "全国各阶级产能提高"}
+    ],
+    "shuxue_wuli_fangfa": [
+      {"target": "capacity", "value": 0.01188, "desc": "全国各阶级产能提高"}
+    ],
+    "fanhan_fenxi": [
+      {"target": "capacity", "value": 0.0125, "desc": "全国各阶级产能提高"}
+    ],
+    "tuopuxue": [
+      {"target": "capacity", "value": 0.01312, "desc": "全国各阶级产能提高"}
+    ],
+    "tongjixue": [
+      {"target": "capacity", "value": 0.01375, "desc": "全国各阶级产能提高"}
+    ],
+    "yunchouxue": [
+      {"target": "capacity", "value": 0.01437, "desc": "全国各阶级产能提高"}
+    ],
+    "pianweifen_fangcheng": [
+      {"target": "capacity", "value": 0.015, "desc": "全国各阶级产能提高"}
+    ],
+    "kexue_fangfa": [
+      {"target": "capacity", "value": 0.005, "desc": "全国各阶级产能提高"}
+    ],
+    "zhongdeng_wuli": [
+      {"target": "capacity", "value": 0.005, "desc": "全国各阶级产能提高"}
+    ],
+    "daxue_wuli": [
+      {"target": "capacity", "value": 0.00571, "desc": "全国各阶级产能提高"}
+    ],
+    "lixue": [
+      {"target": "capacity", "value": 0.00643, "desc": "全国各阶级产能提高"}
+    ],
+    "rexue": [
+      {"target": "capacity", "value": 0.00714, "desc": "全国各阶级产能提高"}
+    ],
+    "diancixue": [
+      {"target": "capacity", "value": 0.00786, "desc": "全国各阶级产能提高"}
+    ],
+    "guangxue": [
+      {"target": "capacity", "value": 0.00857, "desc": "全国各阶级产能提高"}
+    ],
+    "lilun_lixue": [
+      {"target": "capacity", "value": 0.00929, "desc": "全国各阶级产能提高"}
+    ],
+    "diandong_lixue": [
+      {"target": "capacity", "value": 0.010, "desc": "全国各阶级产能提高"}
+    ],
+    "relixue_tongji_wuli": [
+      {"target": "capacity", "value": 0.01071, "desc": "全国各阶级产能提高"}
+    ],
+    "yuanzi_wuli": [
+      {"target": "capacity", "value": 0.01143, "desc": "全国各阶级产能提高"}
+    ],
+    "guangyi_xiangduilun": [
+      {"target": "capacity", "value": 0.01214, "desc": "全国各阶级产能提高"}
+    ],
+    "liangzi_lixue": [
+      {"target": "capacity", "value": 0.01286, "desc": "全国各阶级产能提高"}
+    ],
+    "tianti_wuli": [
+      {"target": "capacity", "value": 0.01357, "desc": "全国各阶级产能提高"}
+    ],
+    "guti_wuli": [
+      {"target": "capacity", "value": 0.01429, "desc": "全国各阶级产能提高"}
+    ],
+    "liangzi_changlun": [
+      {"target": "capacity", "value": 0.015, "desc": "全国各阶级产能提高"}
+    ],
+    "zhongdeng_huaxue": [
+      {"target": "capacity", "value": 0.005, "desc": "全国各阶级产能提高"}
+    ],
+    "wuji_huaxue": [
+      {"target": "capacity", "value": 0.00611, "desc": "全国各阶级产能提高"}
+    ],
+    "youji_huaxue": [
+      {"target": "capacity", "value": 0.00722, "desc": "全国各阶级产能提高"}
+    ],
+    "fenxi_huaxue": [
+      {"target": "capacity", "value": 0.00833, "desc": "全国各阶级产能提高"}
+    ],
+    "wuli_huaxue": [
+      {"target": "capacity", "value": 0.00944, "desc": "全国各阶级产能提高"}
+    ],
+    "yaowu_huaxue": [
+      {"target": "capacity", "value": 0.01056, "desc": "全国各阶级产能提高"}
+    ],
+    "yaojixue": [
+      {"target": "capacity", "value": 0.01167, "desc": "全国各阶级产能提高"}
+    ],
+    "jiegou_huaxue": [
+      {"target": "capacity", "value": 0.01278, "desc": "全国各阶级产能提高"}
+    ],
+    "liangzi_huaxue": [
+      {"target": "capacity", "value": 0.01389, "desc": "全国各阶级产能提高"}
+    ],
+    "cailiao_huaxue": [
+      {"target": "capacity", "value": 0.015, "desc": "全国各阶级产能提高"}
+    ],
+    "zhongdeng_shengwu": [
+      {"target": "population_death", "value": -0.00005, "desc": "全国人口死亡率降低"}
+    ],
+    "putong_shengwuxue": [
+      {"target": "population_death", "value": -0.00007, "desc": "全国人口死亡率降低"}
+    ],
+    "shengwu_huaxue": [
+      {"target": "population_death", "value": -0.00009, "desc": "全国人口死亡率降低"}
+    ],
+    "shengtaixue": [
+      {"target": "population_death", "value": -0.00011, "desc": "全国人口死亡率降低"}
+    ],
+    "yichuanxue": [
+      {"target": "population_death", "value": -0.00014, "desc": "全国人口死亡率降低"}
+    ],
+    "xibao_shengwuxue": [
+      {"target": "population_death", "value": -0.00016, "desc": "全国人口死亡率降低"}
+    ],
+    "jinhua_shengwuxue": [
+      {"target": "population_death", "value": -0.00018, "desc": "全国人口死亡率降低"}
+    ],
+    "shenjing_kexue": [
+      {"target": "population_death", "value": -0.0002, "desc": "全国人口死亡率降低"}
+    ],
+    "xitong_jiepouxue": [
+      {"target": "population_death", "value": -0.0001, "desc": "全国人口死亡率降低"}
+    ],
+    "yixue_weishengwuxue": [
+      {"target": "population_death", "value": -0.00011, "desc": "全国人口死亡率降低"}
+    ],
+    "yixue_mianyixue": [
+      {"target": "population_death", "value": -0.00011, "desc": "全国人口死亡率降低"}
+    ],
+    "zuzhixue_yu_peitaixue": [
+      {"target": "population_death", "value": -0.00012, "desc": "全国人口死亡率降低"}
+    ],
+    "shenglixue": [
+      {"target": "population_death", "value": -0.00013, "desc": "全国人口死亡率降低"}
+    ],
+    "binglixue": [
+      {"target": "population_death", "value": -0.00013, "desc": "全国人口死亡率降低"}
+    ],
+    "bingli_shenglixue": [
+      {"target": "population_death", "value": -0.00014, "desc": "全国人口死亡率降低"}
+    ],
+    "yaolixue": [
+      {"target": "population_death", "value": -0.00015, "desc": "全国人口死亡率降低"}
+    ],
+    "zhenduanxue": [
+      {"target": "population_death", "value": -0.00015, "desc": "全国人口死亡率降低"}
+    ],
+    "linchuang_yaolixue": [
+      {"target": "population_death", "value": -0.00016, "desc": "全国人口死亡率降低"}
+    ],
+    "yufang_yixue": [
+      {"target": "population_death", "value": -0.00017, "desc": "全国人口死亡率降低"}
+    ],
+    "neikexue": [
+      {"target": "population_death", "value": -0.00017, "desc": "全国人口死亡率降低"}
+    ],
+    "waikexue": [
+      {"target": "population_death", "value": -0.00018, "desc": "全国人口死亡率降低"}
+    ],
+    "fuchankexue": [
+      {"target": "population_death", "value": -0.00019, "desc": "全国人口死亡率降低"}
+    ],
+    "erkexue": [
+      {"target": "population_death", "value": -0.00019, "desc": "全国人口死亡率降低"}
+    ],
+    "shenjingbingxue": [
+      {"target": "population_death", "value": -0.0002, "desc": "全国人口死亡率降低"}
+    ],
+    "jingshenbingxue": [
+      {"target": "population_death", "value": -0.00021, "desc": "全国人口死亡率降低"}
+    ],
+    "yixue_yingxiangxue": [
+      {"target": "population_death", "value": -0.00021, "desc": "全国人口死亡率降低"}
+    ],
+    "jianyan_yixue": [
+      {"target": "population_death", "value": -0.00022, "desc": "全国人口死亡率降低"}
+    ],
+    "yixue_tongjixue": [
+      {"target": "population_death", "value": -0.00023, "desc": "全国人口死亡率降低"}
+    ],
+    "liuxingbingxue": [
+      {"target": "population_death", "value": -0.00023, "desc": "全国人口死亡率降低"}
+    ],
+    "gukexue": [
+      {"target": "population_death", "value": -0.00024, "desc": "全国人口死亡率降低"}
+    ],
+    "mazuixue": [
+      {"target": "population_death", "value": -0.00025, "desc": "全国人口死亡率降低"}
+    ],
+    "xinxueguanbingxue": [
+      {"target": "population_death", "value": -0.00025, "desc": "全国人口死亡率降低"}
+    ],
+    "huxibingxue": [
+      {"target": "population_death", "value": -0.00026, "desc": "全国人口死亡率降低"}
+    ],
+    "xiaohuabingxue": [
+      {"target": "population_death", "value": -0.00027, "desc": "全国人口死亡率降低"}
+    ],
+    "neifenmixue": [
+      {"target": "population_death", "value": -0.00027, "desc": "全国人口死亡率降低"}
+    ],
+    "shenzangbingxue": [
+      {"target": "population_death", "value": -0.00028, "desc": "全国人口死亡率降低"}
+    ],
+    "xueyebingxue": [
+      {"target": "population_death", "value": -0.00029, "desc": "全国人口死亡率降低"}
+    ],
+    "ganranbingxue": [
+      {"target": "population_death", "value": -0.00029, "desc": "全国人口死亡率降低"}
+    ],
+    "zhongzheng_yixue": [
+      {"target": "population_death", "value": -0.0003, "desc": "全国人口死亡率降低"}
+    ],
+    "gongcheng_zhitu": [
+      {"target": "capacity", "value": 0.010, "desc": "全国各阶级产能提高"}
+    ],
+    "cailiao_lixue": [
+      {"target": "capacity", "value": 0.01083, "desc": "全国各阶级产能提高"}
+    ],
+    "liuti_lixue": [
+      {"target": "capacity", "value": 0.01167, "desc": "全国各阶级产能提高"}
+    ],
+    "chuanrexue": [
+      {"target": "capacity", "value": 0.0125, "desc": "全国各阶级产能提高"}
+    ],
+    "jixie_yuanli": [
+      {"target": "capacity", "value": 0.01333, "desc": "全国各阶级产能提高"}
+    ],
+    "jiegou_lixue": [
+      {"target": "capacity", "value": 0.01417, "desc": "全国各阶级产能提高"}
+    ],
+    "tu_lixue": [
+      {"target": "capacity", "value": 0.015, "desc": "全国各阶级产能提高"}
+    ],
+    "huagong_yuanli": [
+      {"target": "capacity", "value": 0.01583, "desc": "全国各阶级产能提高"}
+    ],
+    "ranshaoxue": [
+      {"target": "capacity", "value": 0.01667, "desc": "全国各阶级产能提高"}
+    ],
+    "huanjing_gongcheng": [
+      {"target": "capacity", "value": 0.0175, "desc": "全国各阶级产能提高"}
+    ],
+    "jixie_sheji": [
+      {"target": "capacity", "value": 0.01833, "desc": "全国各阶级产能提高"}
+    ],
+    "hunningtu_jiegou": [
+      {"target": "capacity", "value": 0.01917, "desc": "全国各阶级产能提高"}
+    ],
+    "cailiao_kexue_jichu": [
+      {"target": "capacity", "value": 0.020, "desc": "全国各阶级产能提高"}
+    ],
+    "zhongdeng_dili": [
+      {"target": "carrying_pct", "value": 0.005, "desc": "全国承载力提高"}
+    ],
+    "ziran_dilixue": [
+      {"target": "carrying_pct", "value": 0.00542, "desc": "全国承载力提高"}
+    ],
+    "renwen_dilixue": [
+      {"target": "carrying_pct", "value": 0.00583, "desc": "全国承载力提高"}
+    ],
+    "putong_dizhixue": [
+      {"target": "carrying_pct", "value": 0.00625, "desc": "全国承载力提高"}
+    ],
+    "jingji_dilixue": [
+      {"target": "carrying_pct", "value": 0.00667, "desc": "全国承载力提高"}
+    ],
+    "renkou_dilixue": [
+      {"target": "carrying_pct", "value": 0.00708, "desc": "全国承载力提高"}
+    ],
+    "wenhua_dilixue": [
+      {"target": "carrying_pct", "value": 0.0075, "desc": "全国承载力提高"}
+    ],
+    "ziyuan_dilixue": [
+      {"target": "carrying_pct", "value": 0.00792, "desc": "全国承载力提高"}
+    ],
+    "jiejingxue": [
+      {"target": "carrying_pct", "value": 0.00833, "desc": "全国承载力提高"}
+    ],
+    "qixiang_qihouxue": [
+      {"target": "carrying_pct", "value": 0.00875, "desc": "全国承载力提高"}
+    ],
+    "shuiwenxue": [
+      {"target": "carrying_pct", "value": 0.00917, "desc": "全国承载力提高"}
+    ],
+    "chengshi_dilixue": [
+      {"target": "carrying_pct", "value": 0.00958, "desc": "全国承载力提高"}
+    ],
+    "quyu_jingjixue": [
+      {"target": "carrying_pct", "value": 0.010, "desc": "全国承载力提高"}
+    ],
+    "kuangwuxue": [
+      {"target": "carrying_pct", "value": 0.01042, "desc": "全国承载力提高"}
+    ],
+    "haiyang_dilixue": [
+      {"target": "carrying_pct", "value": 0.01083, "desc": "全国承载力提高"}
+    ],
+    "zaihaixue": [
+      {"target": "carrying_pct", "value": 0.01125, "desc": "全国承载力提高"}
+    ],
+    "chengxiang_guihua": [
+      {"target": "carrying_pct", "value": 0.01167, "desc": "全国承载力提高"}
+    ],
+    "yanshixue": [
+      {"target": "carrying_pct", "value": 0.01208, "desc": "全国承载力提高"}
+    ],
+    "diqiu_huaxue": [
+      {"target": "carrying_pct", "value": 0.0125, "desc": "全国承载力提高"}
+    ],
+    "chenjixue": [
+      {"target": "carrying_pct", "value": 0.01292, "desc": "全国承载力提高"}
+    ],
+    "turang_dilixue": [
+      {"target": "carrying_pct", "value": 0.01333, "desc": "全国承载力提高"}
+    ],
+    "huanjing_kexue": [
+      {"target": "carrying_pct", "value": 0.01375, "desc": "全国承载力提高"}
+    ],
+    "kuangchuangxue": [
+      {"target": "carrying_pct", "value": 0.01417, "desc": "全国承载力提高"}
+    ],
+    "dimaxue": [
+      {"target": "carrying_pct", "value": 0.01458, "desc": "全国承载力提高"}
+    ],
+    "disiji_dizhixue": [
+      {"target": "carrying_pct", "value": 0.015, "desc": "全国承载力提高"}
+    ],
+    "jingjixue_yuanli": [
+      {"target": "financial_rate", "value": 0.005, "desc": "金融替代率提高"}
+    ],
+    "kuaijixue": [
+      {"target": "financial_rate", "value": 0.0052, "desc": "金融替代率提高"}
+    ],
+    "weiguan_jingjixue": [
+      {"target": "financial_rate", "value": 0.0054, "desc": "金融替代率提高"}
+    ],
+    "hongguan_jingjixue": [
+      {"target": "financial_rate", "value": 0.0056, "desc": "金融替代率提高"}
+    ],
+    "shuli_jingjixue": [
+      {"target": "financial_rate", "value": 0.0058, "desc": "金融替代率提高"}
+    ],
+    "boyilun": [
+      {"target": "financial_rate", "value": 0.006, "desc": "金融替代率提高"}
+    ],
+    "jiliang_jingjixue": [
+      {"target": "financial_rate", "value": 0.0062, "desc": "金融替代率提高"}
+    ],
+    "huobi_yinhangxue": [
+      {"target": "financial_rate", "value": 0.0064, "desc": "金融替代率提高"}
+    ],
+    "guoji_jingjixue": [
+      {"target": "financial_rate", "value": 0.0066, "desc": "金融替代率提高"}
+    ],
+    "caizhengxue": [
+      {"target": "financial_rate", "value": 0.0068, "desc": "金融替代率提高"}
+    ],
+    "chanye_jingjixue": [
+      {"target": "financial_rate", "value": 0.007, "desc": "金融替代率提高"}
+    ],
+    "laodong_jingjixue": [
+      {"target": "financial_rate", "value": 0.0072, "desc": "金融替代率提高"}
+    ],
+    "fazhan_jingjixue": [
+      {"target": "financial_rate", "value": 0.0074, "desc": "金融替代率提高"}
+    ],
+    "huanjing_jingjixue": [
+      {"target": "financial_rate", "value": 0.0076, "desc": "金融替代率提高"}
+    ],
+    "nongye_jingjixue": [
+      {"target": "financial_rate", "value": 0.0078, "desc": "金融替代率提高"}
+    ],
+    "jiaoyu_jingjixue": [
+      {"target": "financial_rate", "value": 0.008, "desc": "金融替代率提高"},
+      {"target": "edu_growth", "value": 0.005, "desc": "全国教育人口年增提高"}
+    ],
+    "zhidu_jingjixue": [
+      {"target": "financial_rate", "value": 0.0082, "desc": "金融替代率提高"}
+    ],
+    "jinrongxue": [
+      {"target": "financial_rate", "value": 0.0084, "desc": "金融替代率提高"}
+    ],
+    "guoji_jinrong": [
+      {"target": "financial_rate", "value": 0.0086, "desc": "金融替代率提高"}
+    ],
+    "shuishouxue": [
+      {"target": "financial_rate", "value": 0.0088, "desc": "金融替代率提高"}
+    ],
+    "guoji_maoyi": [
+      {"target": "financial_rate", "value": 0.009, "desc": "金融替代率提高"}
+    ],
+    "chengshi_jingjixue": [
+      {"target": "financial_rate", "value": 0.0092, "desc": "金融替代率提高"}
+    ],
+    "ziyuan_jingjixue": [
+      {"target": "financial_rate", "value": 0.0094, "desc": "金融替代率提高"}
+    ],
+    "gongsi_jinrong": [
+      {"target": "financial_rate", "value": 0.0096, "desc": "金融替代率提高"}
+    ],
+    "touzixue": [
+      {"target": "financial_rate", "value": 0.0098, "desc": "金融替代率提高"}
+    ],
+    "jingji_zhengce": [
+      {"target": "financial_rate", "value": 0.010, "desc": "金融替代率提高"}
+    ],
+    "guanlixue_yuanli": [
+      {"target": "central_corruption", "value": -0.002, "desc": "中央腐败程度降低"}
+    ],
+    "zuzhi_xingweixue": [
+      {"target": "central_corruption", "value": -0.00243, "desc": "中央腐败程度降低"}
+    ],
+    "renli_ziyuanguanli": [
+      {"target": "central_corruption", "value": -0.00286, "desc": "中央腐败程度降低"}
+    ],
+    "shichang_yingxiao": [
+      {"target": "central_corruption", "value": -0.00329, "desc": "中央腐败程度降低"}
+    ],
+    "caiwu_guanli": [
+      {"target": "central_corruption", "value": -0.00371, "desc": "中央腐败程度降低"}
+    ],
+    "yunying_guanli": [
+      {"target": "central_corruption", "value": -0.00414, "desc": "中央腐败程度降低"}
+    ],
+    "zhanlue_guanli": [
+      {"target": "central_corruption", "value": -0.00457, "desc": "中央腐败程度降低"}
+    ],
+    "gongyinglian_guanli": [
+      {"target": "central_corruption", "value": -0.005, "desc": "中央腐败程度降低"}
+    ],
+    "ind_01": [
+      {"target": "capacity", "value": 0.005, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.002, "desc": "金融替代率提高"}
+    ],
+    "ind_06": [
+      {"target": "capacity", "value": 0.0051, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00204, "desc": "金融替代率提高"}
+    ],
+    "ind_16": [
+      {"target": "capacity", "value": 0.00521, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00208, "desc": "金融替代率提高"}
+    ],
+    "ind_49": [
+      {"target": "capacity", "value": 0.00531, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00212, "desc": "金融替代率提高"}
+    ],
+    "ind_02": [
+      {"target": "capacity", "value": 0.00541, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00216, "desc": "金融替代率提高"}
+    ],
+    "ind_07": [
+      {"target": "capacity", "value": 0.00552, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00221, "desc": "金融替代率提高"}
+    ],
+    "ind_08": [
+      {"target": "capacity", "value": 0.00562, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00225, "desc": "金融替代率提高"}
+    ],
+    "ind_10": [
+      {"target": "capacity", "value": 0.00572, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00229, "desc": "金融替代率提高"}
+    ],
+    "ind_13": [
+      {"target": "capacity", "value": 0.00582, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00233, "desc": "金融替代率提高"}
+    ],
+    "ind_17": [
+      {"target": "capacity", "value": 0.00593, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00237, "desc": "金融替代率提高"}
+    ],
+    "ind_21": [
+      {"target": "capacity", "value": 0.00603, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00241, "desc": "金融替代率提高"}
+    ],
+    "ind_42": [
+      {"target": "capacity", "value": 0.00613, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00245, "desc": "金融替代率提高"}
+    ],
+    "ind_43": [
+      {"target": "capacity", "value": 0.00624, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00249, "desc": "金融替代率提高"}
+    ],
+    "ind_50": [
+      {"target": "capacity", "value": 0.00634, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00254, "desc": "金融替代率提高"}
+    ],
+    "ind_85": [
+      {"target": "capacity", "value": 0.00644, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00258, "desc": "金融替代率提高"}
+    ],
+    "ind_03": [
+      {"target": "capacity", "value": 0.00655, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00262, "desc": "金融替代率提高"}
+    ],
+    "ind_09": [
+      {"target": "capacity", "value": 0.00665, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00266, "desc": "金融替代率提高"}
+    ],
+    "ind_11": [
+      {"target": "capacity", "value": 0.00675, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.0027, "desc": "金融替代率提高"}
+    ],
+    "ind_14": [
+      {"target": "capacity", "value": 0.00686, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00274, "desc": "金融替代率提高"}
+    ],
+    "ind_18": [
+      {"target": "capacity", "value": 0.00696, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00278, "desc": "金融替代率提高"}
+    ],
+    "ind_22": [
+      {"target": "capacity", "value": 0.00706, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00282, "desc": "金融替代率提高"}
+    ],
+    "ind_44": [
+      {"target": "capacity", "value": 0.00716, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00287, "desc": "金融替代率提高"}
+    ],
+    "ind_45": [
+      {"target": "capacity", "value": 0.00727, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00291, "desc": "金融替代率提高"}
+    ],
+    "ind_51": [
+      {"target": "capacity", "value": 0.00737, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00295, "desc": "金融替代率提高"}
+    ],
+    "ind_67": [
+      {"target": "capacity", "value": 0.00747, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00299, "desc": "金融替代率提高"}
+    ],
+    "ind_72": [
+      {"target": "capacity", "value": 0.00758, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00303, "desc": "金融替代率提高"}
+    ],
+    "ind_80": [
+      {"target": "capacity", "value": 0.00768, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00307, "desc": "金融替代率提高"}
+    ],
+    "ind_82": [
+      {"target": "capacity", "value": 0.00778, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00311, "desc": "金融替代率提高"}
+    ],
+    "ind_86": [
+      {"target": "capacity", "value": 0.00789, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00315, "desc": "金融替代率提高"}
+    ],
+    "ind_92": [
+      {"target": "capacity", "value": 0.00799, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.0032, "desc": "金融替代率提高"}
+    ],
+    "ind_04": [
+      {"target": "capacity", "value": 0.00809, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00324, "desc": "金融替代率提高"}
+    ],
+    "ind_12": [
+      {"target": "capacity", "value": 0.0082, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00328, "desc": "金融替代率提高"}
+    ],
+    "ind_15": [
+      {"target": "capacity", "value": 0.0083, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00332, "desc": "金融替代率提高"}
+    ],
+    "ind_20": [
+      {"target": "capacity", "value": 0.0084, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00336, "desc": "金融替代率提高"}
+    ],
+    "ind_29": [
+      {"target": "capacity", "value": 0.00851, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.0034, "desc": "金融替代率提高"}
+    ],
+    "ind_31": [
+      {"target": "capacity", "value": 0.00861, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00344, "desc": "金融替代率提高"}
+    ],
+    "ind_46": [
+      {"target": "capacity", "value": 0.00871, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00348, "desc": "金融替代率提高"}
+    ],
+    "ind_52": [
+      {"target": "capacity", "value": 0.00881, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00353, "desc": "金融替代率提高"}
+    ],
+    "ind_56": [
+      {"target": "capacity", "value": 0.00892, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00357, "desc": "金融替代率提高"}
+    ],
+    "ind_57": [
+      {"target": "capacity", "value": 0.00902, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00361, "desc": "金融替代率提高"}
+    ],
+    "ind_68": [
+      {"target": "capacity", "value": 0.00912, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00365, "desc": "金融替代率提高"}
+    ],
+    "ind_71": [
+      {"target": "capacity", "value": 0.00923, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00369, "desc": "金融替代率提高"}
+    ],
+    "ind_73": [
+      {"target": "capacity", "value": 0.00933, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00373, "desc": "金融替代率提高"}
+    ],
+    "ind_81": [
+      {"target": "capacity", "value": 0.00943, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00377, "desc": "金融替代率提高"}
+    ],
+    "ind_83": [
+      {"target": "capacity", "value": 0.00954, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00381, "desc": "金融替代率提高"}
+    ],
+    "ind_87": [
+      {"target": "capacity", "value": 0.00964, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00386, "desc": "金融替代率提高"}
+    ],
+    "ind_93": [
+      {"target": "capacity", "value": 0.00974, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.0039, "desc": "金融替代率提高"}
+    ],
+    "ind_94": [
+      {"target": "capacity", "value": 0.00985, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00394, "desc": "金融替代率提高"}
+    ],
+    "ind_05": [
+      {"target": "capacity", "value": 0.00995, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00398, "desc": "金融替代率提高"}
+    ],
+    "ind_19": [
+      {"target": "capacity", "value": 0.01005, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00402, "desc": "金融替代率提高"}
+    ],
+    "ind_30": [
+      {"target": "capacity", "value": 0.01015, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00406, "desc": "金融替代率提高"}
+    ],
+    "ind_32": [
+      {"target": "capacity", "value": 0.01026, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.0041, "desc": "金融替代率提高"}
+    ],
+    "ind_53": [
+      {"target": "capacity", "value": 0.01036, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00414, "desc": "金融替代率提高"}
+    ],
+    "ind_55": [
+      {"target": "capacity", "value": 0.01046, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00419, "desc": "金融替代率提高"}
+    ],
+    "ind_58": [
+      {"target": "capacity", "value": 0.01057, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00423, "desc": "金融替代率提高"}
+    ],
+    "ind_59": [
+      {"target": "capacity", "value": 0.01067, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00427, "desc": "金融替代率提高"}
+    ],
+    "ind_69": [
+      {"target": "capacity", "value": 0.01077, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00431, "desc": "金融替代率提高"}
+    ],
+    "ind_74": [
+      {"target": "capacity", "value": 0.01088, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00435, "desc": "金融替代率提高"}
+    ],
+    "ind_84": [
+      {"target": "capacity", "value": 0.01098, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00439, "desc": "金融替代率提高"}
+    ],
+    "ind_88": [
+      {"target": "capacity", "value": 0.01108, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00443, "desc": "金融替代率提高"}
+    ],
+    "ind_89": [
+      {"target": "capacity", "value": 0.01119, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00447, "desc": "金融替代率提高"}
+    ],
+    "ind_95": [
+      {"target": "capacity", "value": 0.01129, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00452, "desc": "金融替代率提高"}
+    ],
+    "ind_23": [
+      {"target": "capacity", "value": 0.01139, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00456, "desc": "金融替代率提高"}
+    ],
+    "ind_47": [
+      {"target": "capacity", "value": 0.01149, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.0046, "desc": "金融替代率提高"}
+    ],
+    "ind_60": [
+      {"target": "capacity", "value": 0.0116, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00464, "desc": "金融替代率提高"}
+    ],
+    "ind_65": [
+      {"target": "capacity", "value": 0.0117, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00468, "desc": "金融替代率提高"}
+    ],
+    "ind_70": [
+      {"target": "capacity", "value": 0.0118, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00472, "desc": "金融替代率提高"}
+    ],
+    "ind_75": [
+      {"target": "capacity", "value": 0.01191, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00476, "desc": "金融替代率提高"}
+    ],
+    "ind_76": [
+      {"target": "capacity", "value": 0.01201, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.0048, "desc": "金融替代率提高"}
+    ],
+    "ind_90": [
+      {"target": "capacity", "value": 0.01211, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00485, "desc": "金融替代率提高"}
+    ],
+    "ind_91": [
+      {"target": "capacity", "value": 0.01222, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00489, "desc": "金融替代率提高"}
+    ],
+    "ind_96": [
+      {"target": "capacity", "value": 0.01232, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00493, "desc": "金融替代率提高"}
+    ],
+    "ind_97": [
+      {"target": "capacity", "value": 0.01242, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00497, "desc": "金融替代率提高"}
+    ],
+    "ind_24": [
+      {"target": "capacity", "value": 0.01253, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00501, "desc": "金融替代率提高"}
+    ],
+    "ind_26": [
+      {"target": "capacity", "value": 0.01263, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00505, "desc": "金融替代率提高"}
+    ],
+    "ind_27": [
+      {"target": "capacity", "value": 0.01273, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00509, "desc": "金融替代率提高"}
+    ],
+    "ind_33": [
+      {"target": "capacity", "value": 0.01284, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00513, "desc": "金融替代率提高"}
+    ],
+    "ind_61": [
+      {"target": "capacity", "value": 0.01294, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00518, "desc": "金融替代率提高"}
+    ],
+    "ind_62": [
+      {"target": "capacity", "value": 0.01304, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00522, "desc": "金融替代率提高"}
+    ],
+    "ind_63": [
+      {"target": "capacity", "value": 0.01314, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00526, "desc": "金融替代率提高"}
+    ],
+    "ind_64": [
+      {"target": "capacity", "value": 0.01325, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.0053, "desc": "金融替代率提高"}
+    ],
+    "ind_66": [
+      {"target": "capacity", "value": 0.01335, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00534, "desc": "金融替代率提高"}
+    ],
+    "ind_77": [
+      {"target": "capacity", "value": 0.01345, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00538, "desc": "金融替代率提高"}
+    ],
+    "ind_78": [
+      {"target": "capacity", "value": 0.01356, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00542, "desc": "金融替代率提高"}
+    ],
+    "ind_98": [
+      {"target": "capacity", "value": 0.01366, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00546, "desc": "金融替代率提高"}
+    ],
+    "ind_25": [
+      {"target": "capacity", "value": 0.01376, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00551, "desc": "金融替代率提高"}
+    ],
+    "ind_28": [
+      {"target": "capacity", "value": 0.01387, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00555, "desc": "金融替代率提高"}
+    ],
+    "ind_34": [
+      {"target": "capacity", "value": 0.01397, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00559, "desc": "金融替代率提高"}
+    ],
+    "ind_48": [
+      {"target": "capacity", "value": 0.01407, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00563, "desc": "金融替代率提高"}
+    ],
+    "ind_54": [
+      {"target": "capacity", "value": 0.01418, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00567, "desc": "金融替代率提高"}
+    ],
+    "ind_79": [
+      {"target": "capacity", "value": 0.01428, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00571, "desc": "金融替代率提高"}
+    ],
+    "ind_35": [
+      {"target": "capacity", "value": 0.01438, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00575, "desc": "金融替代率提高"}
+    ],
+    "ind_36": [
+      {"target": "capacity", "value": 0.01448, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00579, "desc": "金融替代率提高"}
+    ],
+    "ind_39": [
+      {"target": "capacity", "value": 0.01459, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00584, "desc": "金融替代率提高"}
+    ],
+    "ind_40": [
+      {"target": "capacity", "value": 0.01469, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00588, "desc": "金融替代率提高"}
+    ],
+    "ind_37": [
+      {"target": "capacity", "value": 0.01479, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00592, "desc": "金融替代率提高"}
+    ],
+    "ind_41": [
+      {"target": "capacity", "value": 0.0149, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.00596, "desc": "金融替代率提高"}
+    ],
+    "ind_38": [
+      {"target": "capacity", "value": 0.015, "desc": "全国各阶级产能提高"},
+      {"target": "financial_rate", "value": 0.006, "desc": "金融替代率提高"}
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="760" viewBox="0 0 420 760">
+  <rect x="3" y="3" width="414" height="754" fill="none" stroke="#ffffff" stroke-width="3"
+        stroke-dasharray="10 7" opacity="0.85"/>
+  <rect x="12" y="12" width="396" height="736" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.35"/>
+  <text x="210" y="300" text-anchor="middle" fill="#ffffff" font-size="34"
+        font-family="Noto Serif SC, STSong, SimSun, serif" opacity="0.92">李国𣚴</text>
+  <text x="210" y="352" text-anchor="middle" fill="#ffffff" font-size="22"
+        font-family="Noto Serif SC, STSong, SimSun, serif" opacity="0.66">惧　惶恐</text>
+  <text x="210" y="430" text-anchor="middle" fill="#ffffff" font-size="72" opacity="0.85">😨</text>
+  <text x="210" y="720" text-anchor="middle" fill="#ffffff" font-size="15"
+        font-family="Noto Serif SC, STSong, SimSun, serif" opacity="0.45">立绘占位 · 补同名 .png 即自动替换</text>
+</svg>

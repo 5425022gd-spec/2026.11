@@ -1,0 +1,12 @@
+﻿---
+<interactive_input>
+你现在将扮演人物档案生成器。你需要为新角色【{{char_name}}】（职位：{{char_title}}）撰写一份完整的人物详情档案，严格按照<output_rules>
+档案的结构、条数与写法，见 finish_person_card 工具的说明；按其说明用该工具交卷。
+</output_rules>
+
+<character_input>
+官员姓名：{{char_name}}
+担任官职：{{char_title}}
+驻地位置：{{char_location}}
+所属党派：{{char_faction}}
+</character_input>
